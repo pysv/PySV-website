@@ -1,0 +1,86 @@
+{
+  "types": [
+    {
+      "name": "board",
+      "members": [
+        {
+              "name": "Dr.-Ing. Mike Müller",
+              "role":"1. Vorsitzender",
+              "imgage": "/static/board/mike_mueller.png",
+              "twitter":"",
+              "linkedin":"",
+              "xing":""
+        },
+        {
+          "name": "Alexander Hendorf",
+          "role":"2. Vorsitzender",
+          "imgage": "/static/board/hendorf.png",
+          "twitter":"",
+          "linkedin":"",
+          "xing":""
+        },
+        {
+          "name": "Dr. Tereza Iofciu",
+          "role":"1. stellvertretender Vorsitzender",
+          "imgage": "/static/board/tereza.png",
+          "twitter":"",
+          "linkedin":"",
+          "xing":""
+        },
+        {
+          "name": "Prof. Dr. Martin Christen",
+          "role":"2. stellvertretender Vorsitzender",
+          "imgage": "/static/board/martin_christen.png",
+          "twitter":"",
+          "linkedin":"",
+          "xing":""
+        },
+        {
+          "name": "Yu Yan Cheung",
+          "role":" Vorstandsmitglied",
+          "imgage": "/static/board/yenny_cheung.png",
+          "twitter":"",
+          "linkedin":"",
+          "xing":""
+        },
+        {
+          "name": "Dr. Klaus Bremer",
+          "role":" Vorstandsmitglied",
+          "imgage": "/static/board/klaus_bremer.png",
+          "twitter":"",
+          "linkedin":"",
+          "xing":""
+        },
+        {
+          "name": "Katharine Jarmul ",
+          "role":" Vorstandsmitglied",
+          "imgage": "/static/board/katharine_jarmul.png",
+          "twitter":"",
+          "linkedin":"",
+          "xing":""
+        },
+        {
+          "name": "Christian Theune",
+          "role":" Vorstandsmitglied",
+          "imgage": "/static/board/christian_theune.png",
+          "twitter":"",
+          "linkedin":"",
+          "xing":""
+        }
+      ]
+    },
+  {
+    "name": "special",
+    "members": [
+      {
+            "name": "Anna Müller",
+            "role":" (Besonderer Vertreter)",
+            "imgage": "/static/board/anna_mueller.png",
+            "twitter":"",
+            "linkedin":"",
+            "xing":""
+      }
+    ]
+  }
+  ]
+}

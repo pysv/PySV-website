@@ -1,0 +1,14 @@
+{
+  "types": [
+    {
+      "name": "company",
+      "members": [
+        {
+          "name": "Python Academy",
+          "link": "https://www.python-academy.com",
+          "logo": "/static/media/members/logo_pythonacademy.png"
+        }
+      ]
+    }
+  ]
+}
