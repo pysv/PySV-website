@@ -2,6 +2,7 @@
 name = PySV-website
 locale = de_DE
 
+
 [alternatives.de]
 name = German
 primary = yes
@@ -11,3 +12,6 @@ locale = de_DE
 name = English
 url_prefix = /en/
 locale = en_US
+
+[packages]
+lektor-tags = 0.4.0

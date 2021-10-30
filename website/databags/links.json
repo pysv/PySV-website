@@ -4,12 +4,16 @@
       "name": "About",
       "submenu": [
         {
-          "name": "Verein",
-          "path": "/about"
-        },
-        {
           "name": "Board",
           "path": "/board"
+        },
+        {
+          "name": "Documents",
+          "path": "/documents"
+        },
+        {
+          "name": "Membership",
+          "path": "/membership"
         }
       ]
     },
