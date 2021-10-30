@@ -1,11 +1,10 @@
+_model: membership
+---
 title: Mitgliedschaft
 ---
 body:
- 
- ### [Python Academy](https://www.python-academy.com)
- ![Python Academy](/static/media/members/logo_pythonacademy.gif)
-
 
 #### Mitglied werden
 
 Der [Mitgliedschaft Formular](https://python-verband.org/verband/dokumente/antragsformular-pysv_v2016-1.pdf) ist noch zum download verfügbar.
+

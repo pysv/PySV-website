@@ -30,11 +30,6 @@
       "id": "blog"
     },
     {
-      "name": "Projects",
-      "path": "/projects",
-      "id": "projects"
-    },
-    {
       "name": "Events",
       "path": "/events",
       "id": "events"
