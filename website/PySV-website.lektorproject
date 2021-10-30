@@ -1,2 +1,13 @@
 [project]
 name = PySV-website
+locale = de_DE
+
+[alternatives.de]
+name = German
+primary = yes
+locale = de_DE
+
+[alternatives.en]
+name = English
+url_prefix = /en/
+locale = en_US
