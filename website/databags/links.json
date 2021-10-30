@@ -2,10 +2,17 @@
   "mainnav": [
     {
       "name": "About",
+      "id": "about_main",
       "submenu": [
         {
+          "name": "Verein",
+          "path": "/about",
+          "id": "about"
+        },
+        {
           "name": "Board",
-          "path": "/board"
+          "path": "/board",
+          "id": "board"
         },
         {
           "name": "Documents",
@@ -19,23 +26,28 @@
     },
     {
       "name": "Community",
-      "path": "/community"
+      "path": "/community",
+      "id": "community"
     },
     {
       "name": "Blog",
-      "path": "/blog"
+      "path": "/blog",
+      "id": "blog"
     },
     {
       "name": "Projects",
-      "path": "/projects"
+      "path": "/projects",
+      "id": "projects"
     },
     {
       "name": "Events",
-      "path": "/events"
+      "path": "/events",
+      "id": "events"
     },
     {
       "name": "Grants",
-      "path": "/grants"
+      "path": "/grants",
+      "id": "grants"
     }
   ],
   "legal": {
