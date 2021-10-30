@@ -3,30 +3,37 @@
 <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
 <title>{% block title %}Welcome{% endblock %} — PySV-website</title>
 <body>
-  <header>
+<header>
     <h1>PySV-website</h1>
     <nav>
-      <ul class="nav navbar-nav">
-        <li{% if this._path == '/' %} class="active"{% endif
-          %}></li>
-        {% for href, title in [
-          ['/about', 'About'],
-          ['/community', 'Community'],
-          ['/blog', 'Blog'],
-          ['/projects', 'Projects'],
-          ['/events', 'Events'],
-          ['/grants', 'Grants'],
-        ] %}
-          <li{% if this.is_child_of(href) %} class="active"{% endif
-            %}><a href="{{ href|url }}">{{ title }}</a></li>
-        {% endfor %}
-      </ul>
+        <ul class="nav navbar-nav">
+
+            {% for item in bag('links')['mainnav'] %}
+
+            {% if "submenu" not in item %}
+            <li><a href="{{ item.path|url }}">{{ item.name }}</a></li>
+
+            {% else %}
+            <li><a href="#">{{ item.name }}</a>
+            <ul class="sub-menu">
+                {% for sub_item in item.submenu %}
+                <li>
+                    <a href="{{ sub_item.path|url }}"><span>{{ sub_item.name }}</span></a>
+                </li>
+                {% endfor %}
+            </ul>
+            </li>
+
+            {% endif %}
+
+            {% endfor %}
+        </ul>
     </nav>
-  </header>
-  <div class="page">
+</header>
+<div class="page">
     {% block body %}{% endblock %}
-  </div>
-  <footer>
+</div>
+<footer>
     &copy; Copyright 2021 by Python Software Verband.
-  </footer>
+</footer>
 </body>

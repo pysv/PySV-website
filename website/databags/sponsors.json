@@ -1,0 +1,44 @@
+{
+  "types": [
+    {
+      "name": "Diamond sponsors",
+      "sponsors": [
+      ]
+    },
+    {
+      "name": "Platinum sponsors",
+      "sponsors": [
+      ]
+    },
+    {
+      "name": "Gold sponsors",
+      "sponsors": [
+        {
+          "name": "Königsweg",
+          "description": "Königsweg supports corporate and public clients in achieving better transformation results. Leveraging a broad network of subject matter experts, Königsweg consultants connect different business divisions and turn them into an integrated unit through future-proof technology.",
+          "logo": "/static/media/sponsors/konigsweg.png"
+        },
+        {
+          "name": "Rosen",
+          "description": "ROSEN is a leading privately owned company that was established in 1981. Over the last 37 years, ROSEN has grown rapidly and is today a worldwide technology group that operates in more than 120 countries with over 3100 employees.",
+          "logo": "/static/media/sponsors/rosen.png"
+        }
+      ]
+    },
+    {
+      "name": "Silver sponsors",
+      "sponsors": [
+      ]
+    },
+    {
+      "name": "Community sponsors",
+      "sponsors": [
+      ]
+    },
+    {
+      "name": "Financial Aid Sponsors",
+      "sponsors": [
+      ]
+    }
+  ]
+}

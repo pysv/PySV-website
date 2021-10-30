@@ -1,0 +1,42 @@
+{
+  "mainnav": [
+    {
+      "name": "About",
+      "submenu": [
+        {
+          "name": "Verein",
+          "path": "/about"
+        },
+        {
+          "name": "Board",
+          "path": "/board"
+        }
+      ]
+    },
+    {
+      "name": "Community",
+      "path": "/community"
+    },
+    {
+      "name": "Blog",
+      "path": "/blog"
+    },
+    {
+      "name": "Projects",
+      "path": "/projects"
+    },
+    {
+      "name": "Events",
+      "path": "/events"
+    },
+    {
+      "name": "Grants",
+      "path": "/grants"
+    }
+  ],
+  "legal": {
+    "/impressum/": "Impressum",
+    "/privacy-policy/": "Terms & Privacy Policy",
+    "/code-of-conduct/": "Code of Conduct"
+  }
+}
