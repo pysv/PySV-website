@@ -2,6 +2,8 @@
 name = PySV-website
 locale = de_DE
 
+avatar = default.svg
+
 
 [alternatives.de]
 name = German

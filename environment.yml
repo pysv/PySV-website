@@ -1,4 +1,4 @@
-name: pysv-website
+name: pysv_website
 channels:
   - defaults
   - conda-forge
@@ -9,3 +9,5 @@ dependencies:
   - certifi
   - openssl
   - pip=21
+  - pip:
+    - python-avatars=1.3

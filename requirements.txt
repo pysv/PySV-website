@@ -1,1 +1,2 @@
-Lektor==3.2.2
+Lektor==3.2
+python-avatars==1.3
