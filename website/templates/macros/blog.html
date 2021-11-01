@@ -1,20 +1,66 @@
-{% macro render_blog_post(post, from_index=false) %}
-  <div class="blog-post">
-  {% if from_index %}
-    <h2><a href="{{ post|url }}">{{ post.title }}</a></h2>
-  {% else %}
-    <h2>{{ post.title }}</h2>
-  {% endif %}
-  <p class="meta">
-    written by
-    {% if post.twitter_handle %}
-      <a href="https://twitter.com/{{ post.twitter_handle
-        }}">{{ post.author or post.twitter_handle }}</a>
-    {% else %}
-      {{ post.author }}
-    {% endif %}
-    on {{ post.pub_date }}
-  </p>
-  {{ post.body }}
-  </div>
+{% macro render_blog_preview(subpage) %}
+
+    {% set subpage_img = subpage.path + "/preview.jpg" %}
+
+    <div class="col-md-5">
+        <img class="rounded-3 zoomed" src="{{ subpage_img }}" alt="Card image">
+    </div>
+
+    <div class="col-md-7 mt-3 mt-md-0">
+
+        {% set tag_list = subpage.tags.split(',') if subpage.tags else [] %}
+        {% for tag in tag_list %}
+            <a href="#" class="badge bg-info mb-2"><i class="fas fa-circle me-2 small fw-bold"></i>{{ tag.strip() }}</a>
+        {% endfor %}
+
+        <h3><a href="{{ subpage.path|url }}" class="btn-link stretched-link text-reset">{{ subpage.title }}</a></h3>
+        <p>{{ subpage.teaser }}</p>
+
+        <!-- Card info -->
+        <ul class="nav nav-divider align-items-center d-none d-sm-inline-block">
+            <li class="nav-item">
+                <div class="nav-link">
+                    <div class="d-flex align-items-center position-relative">
+                        <div class="avatar avatar-xs">
+
+                            {% set avatar = subpage.avatar or site.config.PROJECT.avatar %}
+                            <img class="avatar-img rounded-circle" src="/static/media/avatars/{{ avatar }}" alt="avatar">
+
+                        </div>
+                        <span class="ms-3">by <a href="#" class="stretched-link text-reset btn-link">{{ subpage.author }}</a></span>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item">{{ subpage.pub_date|dateformat }}</li>
+        </ul>
+    </div>
+
+{% endmacro %}
+
+
+{% macro blog_rightbar() %}
+
+    <!-- REPLACE with useful stuff -->
+    <div class="col-lg-3 mt-5 mt-lg-0">
+        <div data-sticky="" data-margin-top="80" data-sticky-for="767" style="">
+            <!-- Contribute widget START -->
+            <div>
+                <h4 class="mb-3">Engaging stuff: Contribute!</h4>
+                <p>How...</p>
+            </div>
+            <!-- Contribute widget END -->
+
+            <div class="row">
+                <!-- Other Stuff widget START -->
+                <div class="col-12 col-sm-6 col-lg-12">
+                    <h4 class="mt-4 mb-3">Other Stuff</h4>
+                    <!-- Recent post item -->
+
+                </div>
+                <!-- Other Stuff widget END -->
+
+            </div>
+        </div>
+    </div>
+
 {% endmacro %}

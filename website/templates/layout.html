@@ -19,7 +19,7 @@
 
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{{ '/assets/images/favicon.ico'|asseturl}} ">
+    <link rel="shortcut icon" href="{{ '/assets/images/favicon.ico'|asseturl }}">
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -29,10 +29,10 @@
     <!-- Plugins CSS -->
     <link rel="stylesheet" type="text/css" href="{{ '/assets/vendor/font-awesome/css/all.min.css'|url }}">
     <link rel="stylesheet" type="text/css" href="{{ '/assets/vendor/bootstrap-icons/bootstrap-icons.css'|url }}">
-    <link rel="stylesheet" type="text/css" href="{{ '/assets/vendor/tiny-slider/tiny-slider.css'|url  }}">
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/vendor/tiny-slider/tiny-slider.css'|url }}">
 
     <!-- Theme CSS-->
-    <link id="style-switch" rel="stylesheet" type="text/css" href="{{'/assets/css/style.css'|url }}">
+    <link id="style-switch" rel="stylesheet" type="text/css" href="{{ '/assets/css/style.css'|url }}">
 
 </head>
 
@@ -95,8 +95,8 @@
         <div class="container">
             <!-- Logo START -->
             <a class="navbar-brand" href="/">
-                <img class="navbar-brand-item light-mode-item" src="{{'assets/images/logo.png'|asseturl}}" alt="logo">
-                <img class="navbar-brand-item dark-mode-item" src="{{'assets/images/logo.png'|asseturl}}" alt="logo">
+                <img class="navbar-brand-item light-mode-item" src="{{ 'assets/images/logo.png'|asseturl }}" alt="logo">
+                <img class="navbar-brand-item dark-mode-item" src="{{ 'assets/images/logo.png'|asseturl }}" alt="logo">
             </a>
             <!-- Logo END -->
 
@@ -113,80 +113,40 @@
                 <ul class="navbar-nav navbar-nav-scroll mx-auto">
 
                     {% for item in bag('links')['mainnav'] %}
-                    {% if "submenu" not in item %}
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{item.path|url}}">{{item.name}}</a>
-                    </li>
-
-                    {% else %}
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="{{item.id}}" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ item.name }}</a>
-                        <ul class="dropdown-menu" aria-labelledby="{{item.id}}">
-                            {% for sub_item in item.submenu %}
-                            <li>
-                                <a class="dropdown-item" href="{{sub_item.path|url}}">{{sub_item.name}}</a>
+                        {% if "submenu" not in item %}
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ item.path|url }}">{{ item.name }}</a>
                             </li>
-                            {% endfor %}
-                        </ul>
-                    </li>
-                    {% endif %}
+
+                        {% else %}
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="{{ item.id }}" data-bs-toggle="dropdown"
+                                   aria-haspopup="true" aria-expanded="false">{{ item.name }}</a>
+                                <ul class="dropdown-menu" aria-labelledby="{{ item.id }}">
+                                    {% for sub_item in item.submenu %}
+                                        <li>
+                                            <a class="dropdown-item" href="{{ sub_item.path|url }}">{{ sub_item.name }}</a>
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            </li>
+                        {% endif %}
                     {% endfor %}
                 </ul>
             </div>
 
             <!-- Main navbar END -->
-
-            <!-- Nav right START -->
-            <div class="nav flex-nowrap align-items-center">
-               
-                <!-- Nav Search -->
-                <div class="nav-item dropdown dropdown-toggle-icon-none nav-search">
-                    <a class="nav-link dropdown-toggle" role="button" href="#" id="navSearch" data-bs-toggle="dropdown"
-                       aria-expanded="false">
-                        <i class="bi bi-search fs-4"> </i>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-end shadow rounded p-2" aria-labelledby="navSearch">
-                        <form class="input-group">
-                            <input class="form-control border-success" type="search" placeholder="Search"
-                                   aria-label="Search">
-                            <button class="btn btn-success m-0" type="submit">Search</button>
-                        </form>
-                    </div>
-                </div>
-                <!-- Offcanvas menu toggler -->
-                <div class="nav-item">
-                    <a class="nav-link p-0" data-bs-toggle="offcanvas" href="#offcanvasMenu" role="button"
-                       aria-controls="offcanvasMenu">
-                        <i class="bi bi-text-right rtl-flip fs-2" data-bs-target="#offcanvasMenu"> </i>
-                    </a>
-                </div>
-            </div>
-            <!-- Nav right END -->
         </div>
     </nav>
     <!-- Logo Nav END -->
 </header>
 
 
-
 <div id="sticky-space" style="height: 0px;"></div>
 
 <main>
-    <section class="py-2">
-        <div class="container">
-            <div class="row g-0">
-                <div class="col-12 bg-primary-soft p-2 rounded">
-
-                    {% block body %}
-                    {% endblock %}
-
-
-                </div>
-            </div>
-        </div>
-
-
-    </section>
+    {% block body %}
+    {% endblock %}
 </main>
 
 
@@ -200,11 +160,11 @@
 <div class="back-top back-top-show"><i class="bi bi-arrow-up-short"></i></div>
 <!-- ======================= JS libraries, plugins and custom scripts -->
 <!-- Bootstrap JS -->
-<script src="{{'/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js'|asseturl}}"></script>
-<script src="{{'/assets/vendor/sticky-js/sticky.min.js'|asseturl}}"></script>
-<script src="{{'/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js'|asseturl}}"></script>
-<script src="{{'/assets/vendor/sticky-js/sticky.min.js'|asseturl}}"></script>
+<script src="{{ '/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js'|asseturl }}"></script>
+<script src="{{ '/assets/vendor/sticky-js/sticky.min.js'|asseturl }}"></script>
+<script src="{{ '/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js'|asseturl }}"></script>
+<script src="{{ '/assets/vendor/sticky-js/sticky.min.js'|asseturl }}"></script>
 <!-- Template Functions -->
-<script src="{{'/assets/js/functions.js'|asseturl}}"></script>
+<script src="{{ '/assets/js/functions.js'|asseturl }}"></script>
 
 </body>
