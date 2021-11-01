@@ -70,3 +70,9 @@ Save `access_token` and `access_token_secret` in `config.py`.
 - [Facebook]( https://developers.facebook.com/tools/debug/sharing/)
 - [LinkedIn]( https://www.linkedin.com/post-inspector/inspect/)
 - [Twitter]( https://cards-dev.twitter.com/validator)
+
+
+## Known Caveats
+
+### Do not use `class` `stretched-link`
+This class is buggy and extends the link beyond the scope, e.g. to the complete `<container` (containing other links).

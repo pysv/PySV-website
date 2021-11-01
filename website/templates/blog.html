@@ -30,6 +30,7 @@
                 <div class="col-lg-9">
 
 
+                    <!-- Render paginated post previews -->
                     {% for subpage in this.pagination.items %}
 
                         <div class="mb-4">
@@ -40,12 +41,21 @@
 
                     {% endfor %}
 
+                    <!-- Pagination for posts -->
+                    {% if this.pagination.pages > 1 %}
+                        {{ render_pagination( this.pagination) }}
+                    {% endif %}
+
                 </div>
 
-            {{ blog_rightbar() }}
+                {{ blog_rightbar() }}
 
             </div>
         </div>
     </section>
+
+
+
+
 
 {% endblock %}

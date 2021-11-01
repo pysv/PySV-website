@@ -13,7 +13,8 @@
             <a href="#" class="badge bg-info mb-2"><i class="fas fa-circle me-2 small fw-bold"></i>{{ tag.strip() }}</a>
         {% endfor %}
 
-        <h3><a href="{{ subpage.path|url }}" class="btn-link stretched-link text-reset">{{ subpage.title }}</a></h3>
+        <!-- IMPORTANT: do not use class stretched-link-->
+        <h3><a href="{{ subpage.path|url }}" class="btn-link text-reset">{{ subpage.title }}</a></h3>
         <p>{{ subpage.teaser }}</p>
 
         <!-- Card info -->
@@ -27,7 +28,8 @@
                             <img class="avatar-img rounded-circle" src="/static/media/avatars/{{ avatar }}" alt="avatar">
 
                         </div>
-                        <span class="ms-3">by <a href="#" class="stretched-link text-reset btn-link">{{ subpage.author }}</a></span>
+                        <!-- IMPORTANT: do not use class stretched-link-->
+                        <span class="ms-3">by <a href="#" class="text-reset btn-link">{{ subpage.author }}</a></span>
                     </div>
                 </div>
             </li>

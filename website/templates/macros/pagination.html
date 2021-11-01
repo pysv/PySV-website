@@ -1,15 +1,31 @@
 {% macro render_pagination(pagination) %}
-  <div class="pagination">
-    {% if pagination.has_prev %}
-      <a href="{{ pagination.prev|url }}">&laquo; Previous</a>
-    {% else %}
-      <span class="disabled">&laquo; Previous</span>
-    {% endif %}
-    | {{ pagination.page }} |
-    {% if pagination.has_next %}
-      <a href="{{ pagination.next|url }}">Next &raquo;</a>
-    {% else %}
-      <span class="disabled">Next &raquo;</span>
-    {% endif %}
-  </div>
+
+    <nav class="mt-5" aria-label="navigation">
+        <ul class="pagination d-flex justify-content-between">
+
+
+            {% if pagination.has_next %}
+                <li class="page-item flex-fill text-center">
+                    <a href="{{ pagination.for_page(pagination.next.page_num).path|url }}" class="page-link">&nbsp;&nbsp;<i
+                            class="fas fa-long-arrow-alt-left me-2 rtl-flip"></i>Older</a>
+                </li>
+            {% else %}
+                <li class="page-item flex-fill text-center">
+            {% endif %}
+
+            <li class="page-item active"><a class="page-link" href="#"><i>{{ pagination.page }}</i></a></li>
+
+
+            {% if pagination.has_prev %}
+                <li class="page-item flex-fill text-center">
+                    <a href="{{ pagination.for_page(pagination.prev.page_num).path|url }}" class="page-link"> Newer&nbsp;&nbsp;<i
+                            class="fas fa-long-arrow-alt-right me-2 rtl-flip"></i></a>
+                </li>
+            {% else %}
+                <li class="page-item flex-fill text-center">
+            {% endif %}
+
+        </ul>
+    </nav>
+
 {% endmacro %}
