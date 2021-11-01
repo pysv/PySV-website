@@ -1,3 +1,11 @@
 _model: blog
 ---
 title: Blog
+---
+teaser: Aktuelles aus der Python Community, Events, unserem Verein und aller Welt.
+---
+body:
+
+Du kannst zu unserem Blog beitragen, lies mehr dazu [hier](contribute/).
+
+
