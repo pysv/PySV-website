@@ -12,6 +12,8 @@ organisation_twitter_handle = PythonSV
 twitter_image = "/static/media/twitter_image.png"
 meta_twitter_title = "Der Python Software Verband unterstützt und fördert die Python-Community im deutschsprachigen Raum."
 
+home_show_latest_n_blogposts = 4
+
 
 [alternatives.de]
 name = German

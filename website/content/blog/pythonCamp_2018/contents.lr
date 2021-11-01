@@ -1,3 +1,5 @@
+model: _blog-post
+---
 title: PythonCamp 2018
 ---
 pub_date: 2018-05-01

@@ -2,24 +2,28 @@
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
 
-<main class="site-main" id="main">
-  <section class="section section--singular">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-xl-10 offset-xl-1">
-          <header class="page-header text-center in-view__child">
-            <h1 class="page-title">{{ this.title }}</h1>
-            <span class="sub-head-2">
-              <span>{{ this.pub_date|dateformat }} by {{ this.author }}</span>
-            </span>
-          </header>
-          <div class="single-content">
-            {{ this.body }}
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    <main class="site-main" id="main">
+        <section class="section section--singular">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-xl-10 offset-xl-1">
+                        <header class="page-header text-center in-view__child">
+                            <h1 class="page-title">{{ this.title }}</h1>
+                            <span class="sub-head-2">
+                            {% if this.pub_date %}
+                              <span>
+                                  {% if this.pub_date %}{{ this.pub_date|dateformat('full') }}{% endif %}
+                                  {% if this.author %}by {{ this.author }}{% endif %}
+                              </span>
+                            </span>
+                        </header>
+                        <div class="single-content">
+                            {{ this.body }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-</main>
+    </main>
 {% endblock %}

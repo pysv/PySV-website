@@ -23,10 +23,12 @@
     <meta name="twitter:site" content="@{{ site.config.PROJECT.organisation_twitter_handle }}">
     <meta name="twitter:title" content="{% if this.meta_twitter_title %}{{ this.meta_twitter_title }}{% else %}{{ this.title }}{% endif %}">
     <meta name="twitter:description" content="{{ this.description }}">
-    {% if this.twitter_image %}<meta name="twitter:image" content="{{ this.twitter_image|asseturl }}">
-    {% else %}<meta name="twitter:image" content="{{ site.config.PROJECT.twitter_image|asseturl }}">
+    {% if this.twitter_image %}
+        <meta name="twitter:image" content="{{ this.twitter_image|asseturl }}">
+    {% else %}
+        <meta name="twitter:image" content="{{ site.config.PROJECT.twitter_image|asseturl }}">
     {% endif %}
-     <!-- Twitter Card data END -->
+    <!-- Twitter Card data END -->
 
 
     <!-- Favicon -->
@@ -156,6 +158,52 @@
 <div id="sticky-space" style="height: 0px;"></div>
 
 <main>
+
+    <!-- NEWS TICKER START, data is stored in databags/news.json -->
+    {% from 'macros/news.html' import render_news_from %}
+    <section class="py-2">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-12 bg-primary-soft p-2 rounded">
+                    <div class="d-sm-flex align-items-center text-center text-sm-start">
+                        <!-- Title -->
+                        <div class="me-3">
+                            <span class="badge bg-primary p-2 px-3">News:</span>
+                        </div>
+                        <!-- Slider -->
+                        <div class="tiny-slider arrow-end arrow-xs arrow-white arrow-round arrow-md-none">
+                            <div class="tns-outer" id="tns1-ow">
+                                <div class="tns-liveregion tns-visually-hidden" aria-live="polite" aria-atomic="true">slide <span
+                                        class="current">3</span> of 3
+                                </div>
+                                <div id="tns1-mw" class="tns-ovh">
+                                    <div class="tns-inner" id="tns1-iw">
+                                        <div class="tiny-slider-inner  tns-slider tns-carousel tns-subpixel tns-calc tns-horizontal"
+                                             data-autoplay="true" data-hoverpause="true" data-gutter="0" data-arrow="true" data-dots="false"
+                                             data-items="1" id="tns1" style="transform: translate3d(-40%, 0px, 0px);">
+
+                                            {% for message in bag("news").message %}
+                                                {{ render_news_from(message) }}
+                                            {% endfor %}
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tns-controls" aria-label="Carousel Navigation" tabindex="0">
+                                    <button type="button" data-controls="prev" tabindex="-1" aria-controls="tns1"><i
+                                            class="fas fa-chevron-left"></i></button>
+                                    <button type="button" data-controls="next" tabindex="-1" aria-controls="tns1"><i
+                                            class="fas fa-chevron-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- Row END -->
+        </div>
+    </section>
+    <!-- NEWS TICKER END -->
     {% block body %}
     {% endblock %}
 </main>
@@ -163,7 +211,7 @@
 
 <!-- =======================Footer START -->
 <footer class="bg-info pt-5">
-    &copy; Copyright 2021 by Python Software Verband.
+    &copy; Copyright 2021 by Python Software Verband e.V.
 </footer>
 <!-- =======================Footer END -->
 
@@ -172,11 +220,10 @@
 <!-- ======================= JS libraries, plugins and custom scripts -->
 <!-- Bootstrap JS -->
 <script src="{{ '/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js'|asseturl }}"></script>
-<script src="{{ '/assets/vendor/sticky-js/sticky.min.js'|asseturl }}"></script>
-<script src="{{ '/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js'|asseturl }}"></script>
-<script src="{{ '/assets/vendor/sticky-js/sticky.min.js'|asseturl }}"></script>
 <!-- Vendors -->
-<script src="assets/vendor/tiny-slider/tiny-slider.js"></script>
+<script src="{{ '/assets/vendor/tiny-slider/tiny-slider.js'|asseturl }}"></script>
+<script src="{{ '/assets/vendor/sticky-js/sticky.min.js'|asseturl }}"></script>
+<script src="{{ 'assets/vendor/glightbox/js/glightbox.js'|asseturl }}"></script>
 <!-- Template Functions -->
 <script src="{{ '/assets/js/functions.js'|asseturl }}"></script>
 
