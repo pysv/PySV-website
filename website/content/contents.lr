@@ -1,4 +1,10 @@
+_model: index
+---
 title: Python Software Verband e.V Homepage
+---
+twitter_image: "static/media/twitter_image.png"
+---
+author: Python Software Verband Vorstand
 ---
 body:
 Der Python Software Verband unterstützt und fördert die Python-Community im deutschsprachigen Raum.

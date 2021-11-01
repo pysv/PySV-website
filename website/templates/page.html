@@ -1,6 +1,37 @@
 {% extends "layout.html" %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
-  <h2>{{ this.title }}</h2>
-  {{ this.body }}
+
+    <section class="pt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="border p-4 text-center rounded-3">
+
+                        <h1><i class="bi bi-hourglass-top me-2"></i>{{ this.title }}</h1>
+                        <p>{{ this.teaser }}</p>
+                        <p>{{ this.body }}</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="position-relative pt-0">
+        <div class="container" data-sticky-container>
+            <div class="row">
+                <div class="col-lg-9">
+
+
+                    <!-- CARDS / Content -->
+
+                </div>
+
+                <!-- Right sidebar -->
+
+            </div>
+        </div>
+    </section>
+
 {% endblock %}
