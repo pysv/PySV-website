@@ -24,6 +24,8 @@ The local website is run on
 
 ## Build Static Site
 
+The rendered page is saveto to the www dirctory which is excluded from VC, make sure a www directory is available in project root.
+
     cd website
     lektor build --output-path ../www
 
