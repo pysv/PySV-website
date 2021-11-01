@@ -15,7 +15,8 @@
         },
         {
           "name": "Membership",
-          "path": "/membership"
+          "path": "/membership",
+          "id": "membership"
         }
       ]
     },

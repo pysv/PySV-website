@@ -1,12 +1,12 @@
 {
   "types": [
     {
-      "name": "board",
+      "name": "Current board members:",
       "members": [
         {
               "name": "Dr.-Ing. Mike Müller",
               "role":"1. Vorsitzender",
-              "imgage": "/static/board/mike_mueller.png",
+              "image": "/static/media/board/799.png",
               "twitter":"",
               "linkedin":"",
               "xing":""
@@ -14,7 +14,7 @@
         {
           "name": "Alexander Hendorf",
           "role":"2. Vorsitzender",
-          "imgage": "/static/board/hendorf.png",
+          "image": "/static/media/board/hendorf.png",
           "twitter":"",
           "linkedin":"",
           "xing":""
@@ -22,7 +22,7 @@
         {
           "name": "Dr. Tereza Iofciu",
           "role":"1. stellvertretender Vorsitzender",
-          "imgage": "/static/board/tereza.png",
+          "image": "/static/media/board/tereza.png",
           "twitter":"",
           "linkedin":"",
           "xing":""
@@ -30,7 +30,7 @@
         {
           "name": "Prof. Dr. Martin Christen",
           "role":"2. stellvertretender Vorsitzender",
-          "imgage": "/static/board/martin_christen.png",
+          "image": "/static/media/board/799.png",
           "twitter":"",
           "linkedin":"",
           "xing":""
@@ -38,7 +38,7 @@
         {
           "name": "Yu Yan Cheung",
           "role":" Vorstandsmitglied",
-          "imgage": "/static/board/yenny_cheung.png",
+          "image": "/static/media/board/799.png",
           "twitter":"",
           "linkedin":"",
           "xing":""
@@ -46,7 +46,7 @@
         {
           "name": "Dr. Klaus Bremer",
           "role":" Vorstandsmitglied",
-          "imgage": "/static/board/klaus_bremer.png",
+          "image": "/static/media/board/799.png",
           "twitter":"",
           "linkedin":"",
           "xing":""
@@ -54,7 +54,7 @@
         {
           "name": "Katharine Jarmul ",
           "role":" Vorstandsmitglied",
-          "imgage": "/static/board/katharine_jarmul.png",
+          "image": "/static/media/board/799.png",
           "twitter":"",
           "linkedin":"",
           "xing":""
@@ -62,7 +62,7 @@
         {
           "name": "Christian Theune",
           "role":" Vorstandsmitglied",
-          "imgage": "/static/board/christian_theune.png",
+          "image": "/static/media/board/799.png",
           "twitter":"",
           "linkedin":"",
           "xing":""
@@ -70,12 +70,12 @@
       ]
     },
   {
-    "name": "special",
+    "name": "Special Representatives:",
     "members": [
       {
             "name": "Anna Müller",
             "role":" (Besonderer Vertreter)",
-            "imgage": "/static/board/anna_mueller.png",
+            "image": "/static/media/board/799.png",
             "twitter":"",
             "linkedin":"",
             "xing":""

@@ -16,8 +16,7 @@
     </div>
 </section>
 
-
-{% for member_type in bag('members').types %}
+{% for member_type in bag('board').types %}
 
 <section class="padding-bottom">
     <div class="container">
@@ -43,15 +42,14 @@
                                     <div class="col-12 col-lg-4 in-view">
                                         <div >
                                             <figure><img
-                                                         src="{{ member.logo }}"
-                                                         data-src="{{ member.logo }}" alt="" width="445" height="445">
+                                                         src="{{ member.image }}" alt="" width="445" height="445">
                                                 <div ></div>
                                             </figure>
                                         </div>
                                     </div>
                                     <div class="col-12 col-lg-8 in-view">
                                         <h5 class="margin-top-0 in-view__child in-view__child--fadein">{{ member.name }}</h5>
-                                        <p class="text-body-3 in-view__child in-view__child--fadein">{{ member.link }}
+                                        <p class="text-body-3 in-view__child in-view__child--fadein">{{ member.role }}
                                         <p>
                                     </div>
                                 </div>
@@ -64,6 +62,5 @@
     </div>
 </section>
 {% endfor %}
-
 
 {% endblock %}

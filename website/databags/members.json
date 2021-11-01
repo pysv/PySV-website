@@ -1,12 +1,12 @@
 {
   "types": [
     {
-      "name": "company",
+      "name": "Companies",
       "members": [
         {
           "name": "Python Academy",
           "link": "https://www.python-academy.com",
-          "logo": "/static/media/members/logo_pythonacademy.png"
+          "logo": "/static/media/members/logo_pythonacademy.gif"
         }
       ]
     }

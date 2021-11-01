@@ -1,24 +1,7 @@
+_model: board
+---
 title: Vorstand
 ---
 body:
 
 Der Vorstand des Python Software Verband wird auf der jährlich stattfindenden Mitgliederversammlung gewählt.
-
-Den aktuellen Vorstand bilden:
-
-- Dr.-Ing. Mike Müller  (1. Vorsitzender)
-- Alexander Hendorf (2. Vorsitzender)
-<div style="display: flex; align-items: center; justify-content: center;">
-    <img src="/static/board/hendorf.png" style="max-width:200px">
-</div>
-- Dr. Tereza Iofciu (1. stellvertretender Vorsitzender) 
-<div style="display: flex; align-items: center; justify-content: center;">
-    <img src="/static/board/tereza.png" style="max-width:200px">
-</div>
-- Prof. Dr. Martin Christen (2. stellvertretender Vorsitzender)
-- Yu Yan Cheung (Vorstandsmitglied)
-- Dr. Klaus Bremer (Vorstandsmitglied)
-- Katharine Jarmul  (Vorstandsmitglied)
-- Christian Theune (Vorstandsmitglied)
-
-Besonderer Vertreter: Anna Müller
