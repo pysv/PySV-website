@@ -3,6 +3,14 @@ name = PySV-website
 locale = de_DE
 
 avatar = default.svg
+site_url = python-verband.org
+organisation_name = Python Software Verband e.V.
+organisation_shortname = PySV
+organisation_description = "Der Python Software Verband unterstützt und fördert die Python-Community im deutschsprachigen Raum."
+
+organisation_twitter_handle = PythonSV
+twitter_image = "/static/media/twitter_image.png"
+meta_twitter_title = "Der Python Software Verband unterstützt und fördert die Python-Community im deutschsprachigen Raum."
 
 
 [alternatives.de]

@@ -1,21 +1,32 @@
 <!DOCTYPE html>
 <html lang="de" data-theme="light">
 <head>
-    <title>{% block title %}Welcome{% endblock %} — PySV-website</title>
+    <title>{{ site.config.PROJECT.organisation_shortname }}: {{ this.title }}</title>
 
     <!-- Meta Tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <meta name="author" content="pysv.org">
     <meta name="description" property="og:description"
-          content="Der Python Software Verband unterstützt und fördert die Python-Community im deutschsprachigen Raum."/>
+          content="{{ site.config.PROJECT.organisation_description }}"/>
     <meta content="summary" name="twitter:card"/>
-    <meta content="Python Software Verband e.V." property="og:site_name"/>
-    <meta content="Python Software Verband" property="og:title"/>
+    <meta content="{{ site.config.PROJECT.organisation_name }}" property="og:site_name"/>
+    <meta content="{{ this.title }}" property="og:title"/>
     <meta content="website" property="og:type"/>
-    <meta content="https://python-verband.org/verband" property="og:url"/>
+    <meta content="https://{{ site.config.PROJECT.site_url }}" property="og:url"/>
     <meta content="https://python-verband.org/@@site-logo/logo.png" property="og:image"/>
     <meta content="image/png" property="og:image:type"/>
+
+    <!-- Twitter Card data START -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@{{ site.config.PROJECT.organisation_twitter_handle }}">
+    <meta name="twitter:title" content="{% if this.meta_twitter_title %}{{ this.meta_twitter_title }}{% else %}{{ this.title }}{% endif %}">
+    <meta name="twitter:description" content="{{ this.description }}">
+    {% if this.twitter_image %}<meta name="twitter:image" content="{{ this.twitter_image|asseturl }}">
+    {% else %}<meta name="twitter:image" content="{{ site.config.PROJECT.twitter_image|asseturl }}">
+    {% endif %}
+     <!-- Twitter Card data END -->
 
 
     <!-- Favicon -->
