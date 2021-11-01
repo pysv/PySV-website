@@ -10,7 +10,6 @@
                         <header class="page-header text-center in-view__child">
                             <h1 class="page-title">{{ this.title }}</h1>
                             <span class="sub-head-2">
-                            {% if this.pub_date %}
                               <span>
                                   {% if this.pub_date %}{{ this.pub_date|dateformat('full') }}{% endif %}
                                   {% if this.author %}by {{ this.author }}{% endif %}

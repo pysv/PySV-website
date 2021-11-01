@@ -1,5 +1,4 @@
 {% extends "layout.html" %}
-{% from 'macros/news.html' import render_news_from %}
 {% from 'macros/static_links.html' import link_to_twitter_image %}
 {% block body %}
 
@@ -79,6 +78,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
+
+                <div class="mb-4">
+					<h2 class="m-0">Die neusten Blogposts</h2>
+					<p>Aktuelle Nachrichten, Bilder, Videos und Sonderberichte</p>
+				</div>
 
                     {%  set no_of_posts = site.config.PROJECT.home_show_latest_n_blogposts | int %}
                     {% for post in this.pagination.items.limit( no_of_posts ) %}

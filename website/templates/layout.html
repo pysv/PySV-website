@@ -7,6 +7,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+
     <meta name="author" content="pysv.org">
     <meta name="description" property="og:description"
           content="{{ site.config.PROJECT.organisation_description }}"/>
@@ -183,7 +184,7 @@
                                              data-items="1" id="tns1" style="transform: translate3d(-40%, 0px, 0px);">
 
                                             {% for message in bag("news").message %}
-                                                {{ render_news_from(message) }}
+                                                {{ render_news_from(message, loop.index) }}
                                             {% endfor %}
 
 
@@ -219,7 +220,7 @@
 <div class="back-top back-top-show"><i class="bi bi-arrow-up-short"></i></div>
 <!-- ======================= JS libraries, plugins and custom scripts -->
 <!-- Bootstrap JS -->
-<script src="{{ '/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js'|asseturl }}"></script>
+<script src="{{ '/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js' }}"></script>
 <!-- Vendors -->
 <script src="{{ '/assets/vendor/tiny-slider/tiny-slider.js'|asseturl }}"></script>
 <script src="{{ '/assets/vendor/sticky-js/sticky.min.js'|asseturl }}"></script>
