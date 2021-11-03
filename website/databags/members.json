@@ -4,9 +4,64 @@
       "name": "Companies",
       "members": [
         {
+          "id":1,
           "name": "Python Academy",
           "link": "https://www.python-academy.com",
-          "logo": "/static/media/members/logo_pythonacademy.gif"
+          "logo": "/static/media/members/1_logo_pythonacademy.gif"
+        },
+        {
+          "id":2,
+          "name": "gocept gmbh & co. kg",
+          "link": "https://gocept.com",
+          "logo": "/static/media/members/2_gocept_logo_outline_neg.png"
+        },
+        {
+          "id":3,
+          "name": "Zetwork",
+          "link": "https://www.zetwork.com",
+          "logo": "/static/media/members/3_zetwork.png"
+        },
+        {
+          "id":4,
+          "name": "COM.lounge GmbH",
+          "link": "https://comlounge.net",
+          "logo": "/static/media/members/4_cropped-Logo_COMlounge.png"
+        },
+        {
+          "id":5,
+          "name": "cyberconcepts IT-Consulting",
+          "link": "https://www.cyberconcepts.de",
+          "logo": "/static/media/members/5_cyberconcepts.png"
+        },
+        {
+          "id":6,
+          "name": "Klein & Partner KG",
+          "link": "https://kleinundpartner.at",
+          "logo": "/static/media/members/6_kup-logo.svg"
+        },
+        {
+          "id":7,
+          "name": "SYSLAB.COM GmbH",
+          "link": "https://www.syslab.com",
+          "logo": "/static/media/members/7_Logo_SYSLAB_ohneClaim_4c.svg"
+        },
+        {
+          "id":8,
+          "name": "I.T.YOU.Ingenieurbüro für E-Business-Lösungen",
+          "link": "https://www.ityou.de",
+          "logo": "/static/media/members/8_ityou-logo.png"
+        },
+        {
+          "id":9,
+          "name": "togis information design",
+          "link": "https://www.togis.com",
+          "logo": "/static/media/members/9_togis.png"
+        },
+        {
+          "id":10,
+          "name": "tProntonet",
+          "link": "https://www.prontonet.eu",
+          "logo": "/static/media/members/10_prontologo.png"
         }
       ]
     }
