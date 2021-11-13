@@ -158,6 +158,48 @@
           "name": "nexiles GmbH",
           "link": "https://www.nexiles.com",
           "logo": "/static/media/members/26_logo-4.png"
+        },
+        {
+          "id":27,
+          "name": "TOHATEC web solutions",
+          "link": "https://www.tohatec.de",
+          "logo": "/static/media/members/27_tohatec-logo-mobile.png"
+        },
+        {
+          "id":28,
+          "name": "redO2oo KLG",
+          "link": "https://www.redo2oo.ch",
+          "logo": "/static/media/members/28_redO2oo KLG.png"
+        },
+        {
+          "id":29,
+          "name": "Linux Systemhaus",
+          "link": "https://linux-systemhaus.de",
+          "logo": "/static/media/members/29_lshs_logo.jpg"
+        },
+        {
+          "id":30,
+          "name": "hubertz-it-consulting GmbH",
+          "link": "https://hubertz.de",
+          "logo": "/static/media/members/30_logo-5.png"
+        },
+        {
+          "id":31,
+          "name": "pi-lar GmbH",
+          "link": "https://www.pi-lar.net",
+          "logo": "/static/media/members/31_pi-lar-logo_2020.svg"
+        },
+        {
+          "id":32,
+          "name": "FHNW - Fachhochschule Nordwestschweiz",
+          "link": "https://www.fhnw.ch/en/",
+          "logo": "/static/media/members/32_university-applied-sciences-arts-northwestern-switzerland-fhnw-logo.svg"
+        },
+        {
+          "id":26,
+          "name": "PerFact Innovation GmbH @ Co. KG",
+          "link": "https://perfact.de/en/services/",
+          "logo": "/static/media/members/33_perfact-logo.svg"
         }
       ]
     }
