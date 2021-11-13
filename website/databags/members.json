@@ -59,9 +59,105 @@
         },
         {
           "id":10,
-          "name": "tProntonet",
+          "name": "Prontonet",
           "link": "https://www.prontonet.eu",
           "logo": "/static/media/members/10_prontologo.png"
+        },
+        {
+          "id":11,
+          "name": "Haufe-Lexware GmbH & Co. KG",
+          "link": "https://www.haufegroup.com/en/home",
+          "logo": "/static/media/members/11_591e6251f13786217f2e2062_16132_LO_Haufe_Group_RGB_pos_en.svg"
+        },
+        {
+          "id":12,
+          "name": "Novareto GmbH",
+          "link": "http://novareto.de",
+          "logo": "/static/media/members/12_logo-novareto.png"
+        },
+        {
+          "id":13,
+          "name": "Werkbank Multimedia GmbH",
+          "link": "https://werkbank.de",
+          "logo": "/static/media/members/13_werkbank.png"
+        },
+        {
+          "id":14,
+          "name": "Technische Universität München",
+          "link": "https://www.tum.de",
+          "logo": "/static/media/members/14_tum.png"
+        },
+        {
+          "id":15,
+          "name": "4teamwork",
+          "link": "https://www.4teamwork.ch",
+          "logo": "/static/media/members/15_4TW_Logo_Blau_RGB.svg"
+        },
+        {
+          "id":16,
+          "name": "Derstappen IT Consulting",
+          "link": "https://derico.de",
+          "logo": "/static/media/members/16_derico_logo-02_302x100.png"
+        },
+        {
+          "id":17,
+          "name": "InQuant GmbH",
+          "link": "https://www.inquant.de",
+          "logo": "/static/media/members/17_inquant.png"
+        },
+        {
+          "id":18,
+          "name": "Starzel",
+          "link": "https://www.starzel.de",
+          "logo": "/static/media/members/18_logo-3.png"
+        },
+        {
+          "id":19,
+          "name": "operun GmbH",
+          "link": "https://www.operun.de",
+          "logo": "/static/media/members/19_logo_w_noborder.svg"
+        },
+        {
+          "id":20,
+          "name": "Lugensa GmbH",
+          "link": "http://www.lugensa.com",
+          "logo": "/static/media/members/20_lugensa.png"
+        },
+        {
+          "id":21,
+          "name": "Clark Consulting & Research",
+          "link": "https://clark-consulting.eu",
+          "logo": "/static/media/members/21_ccr_logo.png"
+        },
+        {
+          "id":22,
+          "name": "kitconcept GmbH",
+          "link": "https://kitconcept.com",
+          "logo": "/static/media/members/22_logo-white.svg"
+        },
+        {
+          "id":23,
+          "name": "agitator Weblösungen",
+          "link": "https://www.agitator.com",
+          "logo": ""
+        },
+        {
+          "id":24,
+          "name": "cloud19 web solutions & services",
+          "link": "https://www.cloud19.at",
+          "logo": "/static/media/members/24_c19-logo-white.svg"
+        },
+        {
+          "id":25,
+          "name": "Bluedynamics Alliance",
+          "link": "https://bluedynamics.com",
+          "logo": "/static/media/members/25_bda-logo.svg"
+        },
+        {
+          "id":26,
+          "name": "nexiles GmbH",
+          "link": "https://www.nexiles.com",
+          "logo": "/static/media/members/26_logo-4.png"
         }
       ]
     }
