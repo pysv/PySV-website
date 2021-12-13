@@ -6,7 +6,7 @@
         {
               "name": "Dr.-Ing. Mike Müller",
               "role":"1. Vorsitzender",
-              "image": "/static/media/board/799.png",
+              "image": "/static/media/board/2020_mike.jpg",
               "twitter":"",
               "linkedin":"",
               "xing":""
@@ -30,15 +30,7 @@
         {
           "name": "Prof. Dr. Martin Christen",
           "role":"2. stellvertretender Vorsitzender",
-          "image": "/static/media/board/799.png",
-          "twitter":"",
-          "linkedin":"",
-          "xing":""
-        },
-        {
-          "name": "Yu Yan Cheung",
-          "role":" Vorstandsmitglied",
-          "image": "/static/media/board/799.png",
+          "image": "/static/media/board/Martin_Christen.jpg",
           "twitter":"",
           "linkedin":"",
           "xing":""
@@ -46,15 +38,15 @@
         {
           "name": "Dr. Klaus Bremer",
           "role":" Vorstandsmitglied",
-          "image": "/static/media/board/799.png",
+          "image": "/static/media/board/2020_klaus.jpg",
           "twitter":"",
           "linkedin":"",
           "xing":""
         },
         {
           "name": "Katharine Jarmul ",
-          "role":" Vorstandsmitglied",
-          "image": "/static/media/board/799.png",
+          "role":" Beraterin",
+          "image": "/static/media/board/1517716762908.jpeg",
           "twitter":"",
           "linkedin":"",
           "xing":""
@@ -62,7 +54,7 @@
         {
           "name": "Christian Theune",
           "role":" Vorstandsmitglied",
-          "image": "/static/media/board/799.png",
+          "image": "/static/media/board/1638170933871.jpeg",
           "twitter":"",
           "linkedin":"",
           "xing":""
@@ -75,10 +67,23 @@
       {
             "name": "Anna Müller",
             "role":" (Besonderer Vertreter)",
-            "image": "/static/media/board/799.png",
+            "image": "/static/media/board/1517017402919.jpeg",
             "twitter":"",
             "linkedin":"",
             "xing":""
+      }
+    ]
+  },
+  {
+    "name": "Past members:",
+    "members": [
+      {
+        "name": "Yu Yan Cheung",
+        "role":" Vorstandsmitglied",
+        "image": "/static/media/board/yenny.jpg",
+        "twitter":"",
+        "linkedin":"",
+        "xing":""
       }
     ]
   }

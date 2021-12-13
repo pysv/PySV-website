@@ -42,8 +42,7 @@
     }
   ],
   "legal": {
-    "/impressum/": "Impressum",
-    "/privacy-policy/": "Terms & Privacy Policy",
-    "/code-of-conduct/": "Code of Conduct"
+    "/imprint/": "Imprint",
+    "/privacy-policy/": "Terms & Privacy Policy"
   }
 }
