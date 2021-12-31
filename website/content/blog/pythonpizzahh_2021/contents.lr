@@ -2,79 +2,78 @@ title: Python Pizza Hamburg 2021
 ---
 pub_date: 2021-12-15
 ---
-author: PyLadies Germany
+author: PyLadies Deutschland
 ---
 tags: python, pyladies, PythonPizzaHH2021, PythonPizzaConf, conference
 ---
 body:
 
-#### Why Python is our favorite Pizza topping!
+#### Warum Python unser Lieblings-Pizzabelag ist!
 
-This month we held the third Hamburg Python Pizza event! Originally planned as a hybrid event, where we hoped to spark connections between both those at remote and in person attending, we had to go full remote due to the rising COVID-19 numbers in Hamburg. While this was a setback, it didn't stop us hosting a great community event.
-
+Diesen Monat haben wir die dritte Hamburger Python-Pizza-Veranstaltung abgehalten! Ursprünglich als hybride Veranstaltung geplant, bei der wir hofften, Verbindungen zwischen den Teilnehmern aus der Ferne und den Teilnehmern vor Ort zu schaffen, mussten wir aufgrund der steigenden COVID-19-Zahlen in Hamburg die Veranstaltung komplett aus der Ferne durchführen. Das war zwar ein Rückschlag, hat uns aber nicht davon abgehalten, ein großartiges Community-Event zu veranstalten.
 
 ##### A community conference
 
-[Python Pizza](https://python.pizza/) is a community run micro conference, which was started in Naples in 2017 by Python Italia. Bringing together people's love of both Python and Pizza it has since been held in Berlin, Hamburg and Holguin, Cuba ([where it will happen again in January 2022](https://holguin.python.pizza/?ref=python.pizza)) as well as a special Remote edition on New year's eve 2020.
+[Python Pizza](https://python.pizza/) ist eine von der Community betriebene Mikrokonferenz, die 2017 in Neapel von Python Italia ins Leben gerufen wurde. Sie bringt die Liebe der Menschen zu Python und Pizza zusammen und hat seitdem in Berlin, Hamburg und Holguin, Kuba ([wo sie im Januar 2022 wieder stattfinden wird](https://holguin.python.pizza/?ref=python.pizza)) stattgefunden, sowie eine spezielle Remote-Ausgabe zu Silvester 2020.
 The hallmark of this micro-conference is to present short, dynamic sessions, in which developers present their knowledge of the language or their own experiences with real-life projects. Each talk lasts 10 minutes (no more, no less).
 
 
 > *"A good mix of topics, beyond the technical side of things. The plannable breaks turned out to be positive as well."*  -*Attendee*
 
 
-For this edition we had 26 talks in total, 23% of which were from first time speakers, with a diverse lineup with speakers from all over the world. 
-Two amazing keynotes kicked off both the morning and afternoon sessions, [Iqbal Abdullah](https://www.linkedin.com/in/iqbalabd/) ([Tokio LaLoka Labs](https://www.linkedin.com/company/laloka-labs/)) on Saying Thank You and [Peggy Sylopp](https://www.linkedin.com/in/peggy-sylopp/) ([Pexlab, Berlin](https://www.google.com/url?q=https://www.pexlab.space/&sa=D&source=docs&ust=1640951768635917&usg=AOvVaw1nlFNAfz2PxQNhxyuuvGcB)) on AI and Sustainability. 
-Talks were streamed live on both Youtube and Twitter.
+Bei dieser Ausgabe gab es insgesamt 26 Vorträge, von denen 23 % von Erstrednern gehalten wurden, mit einem vielfältigen Programm mit Rednern aus der ganzen Welt. 
+Zwei erstaunliche Keynotes eröffneten sowohl die Vormittags- als auch die Nachmittagssitzung, [Iqbal Abdullah](https://www.linkedin.com/in/iqbalabd/) ([Tokio LaLoka Labs](https://www.linkedin.com/company/laloka-labs/)) zum Thema "Danke sagen" und [Peggy Sylopp](https://www.linkedin.com/in/peggy-sylopp/) ([Pexlab, Berlin](https://www.google.com/url?q=https://www.pexlab.space/&sa=D&source=docs&ust=1640951768635917&usg=AOvVaw1nlFNAfz2PxQNhxyuuvGcB)) zu AI und Nachhaltigkeit.
+Die Gespräche wurden live auf Youtube und Twitter gestreamt.
 
 
 <img alt="" src="./hhpython_pizza_tweet.png" style="max-height:25rem;">
 
 
-In between talks Tereza and Jessica from PyLadies Hamburg and Berlin had a go at the long running joke format, weaving stories about Einstein and his personal driver into the talk topics and then training their own AI on what it meant to be human based on the conference talks (Spoiler it was to throw Pizza parties).
+Zwischen den Vorträgen versuchten sich Tereza und Jessica von den PyLadies Hamburg und Berlin an dem Dauerbrenner-Witzformat, indem sie Geschichten über Einstein und seinen persönlichen Fahrer in die Vortragsthemen einflochten und dann ihre eigene KI darauf trainierten, was es bedeutet, ein Mensch zu sein, basierend auf den Vorträgen der Konferenz (Spoiler war es, Pizza-Partys zu schmeißen).
 
 
 > *"A conference can feel like meeting friends (even though I didn't know most of the people)"*  -*Attendee*
 
 
-We also organized interactive networking sessions where speakers and participants could join video calls and were given optional conversation prompts. Participants joined our Discord channel where they could ask questions and connect to other participants throughout the day and [PyLadies Munich](https://twitter.com/pyladiesmunich) together with [Luciano Ramalho](https://twitter.com/ramalhoorg) ran a raffle for copies of Luciano's book [Fluent Python](https://www.oreilly.com/library/view/fluent-python/9781491946237/).
+Wir organisierten auch interaktive Networking-Sitzungen, bei denen Redner und Teilnehmer an Videoanrufen teilnehmen konnten und optionale Gesprächsanregungen erhielten. Die Teilnehmer traten unserem Discord-Kanal bei, in dem sie den ganzen Tag über Fragen stellen und sich mit anderen Teilnehmern austauschen konnten, und [PyLadies Munich](https://twitter.com/pyladiesmunich) veranstaltete zusammen mit [Luciano Ramalho](https://twitter.com/ramalhoorg) eine Verlosung von Exemplaren von Lucianos Buch [Fluent Python](https://www.oreilly.com/library/view/fluent-python/9781491946237/).
 
 <img alt="" src="./hhpython_pizza_raffle_tweet.png" style="max-height:25rem;">
 
 
-##### Organizing a micro conference
+##### Organisation einer Mikrokonferenz
 
-The event was organized mostly by women from the PyLadies community. With initially planning to be hybrid we had inclusiveness in mind and wanted the remote and in person experience to be equally engaging. As it became apparent our plans would have to change, we adapted, this was not without its challenges.
+Die Veranstaltung wurde hauptsächlich von Frauen aus der PyLadies-Community organisiert. Ursprünglich hatten wir eine gemischte Veranstaltung geplant und wollten, dass das Erlebnis vor Ort und aus der Ferne gleichermaßen einnehmend ist. Als sich herausstellte, dass wir unsere Pläne ändern mussten, passten wir uns an, was nicht ganz unproblematisch war.
 
-Organizing a community event has the same needs and duties as any other event, plus all the work is voluntary. It involves tasks ranging from creating the scope of the event, organizing volunteers, creating and self-organizing tasks, seeking sponsorship, organizing giveaways, creating call for speakers, communicating with stakeholders, creating and updating the website and social media, deciding collectively and in numerous meetings and asynchronously what the next steps will be.
-It is not a trivial job but the reward is enormous, to have almost a ¼ of talks be from first time speakers is enriching our community and to be able to create a space where folks feel safe and empowered to express themselves is one of the many reasons volunteers opt in to such organization work. Communities often rely on these people who are willing to invest free time and energy so it’s always great to receive feedback on how that work has impacted others.
+Die Organisation einer Gemeinschaftsveranstaltung hat die gleichen Anforderungen und Pflichten wie jede andere Veranstaltung, und die gesamte Arbeit ist freiwillig. Die Aufgaben reichen von der Festlegung des Umfangs der Veranstaltung, der Organisation von Freiwilligen, der Erstellung und Selbstorganisation von Aufgaben, der Suche nach Sponsoren, der Organisation von Werbegeschenken, der Erstellung von Aufrufen für Redner, der Kommunikation mit Interessenvertretern, der Erstellung und Aktualisierung der Website und der sozialen Medien bis hin zur gemeinsamen Entscheidung über die nächsten Schritte in zahlreichen Sitzungen und asynchronen Treffen.
+Es ist keine triviale Aufgabe, aber die Belohnung ist enorm. Dass fast ein Viertel der Vorträge von Erstrednern gehalten wird, ist eine Bereicherung für unsere Gemeinschaft, und die Möglichkeit, einen Raum zu schaffen, in dem sich die Menschen sicher fühlen und in dem sie sich selbst ausdrücken können, ist einer der vielen Gründe, warum sich Freiwillige für eine solche Organisationsarbeit entscheiden. Gemeinden sind oft auf diese Menschen angewiesen, die bereit sind, ihre Freizeit und Energie zu investieren, und es ist immer schön, ein Feedback darüber zu erhalten, wie sich diese Arbeit auf andere ausgewirkt hat.
 
 > *"Getting in touch before, for the tech check up was super important to have everything smooth on stage. You did a great job behind the scenes!"*  -*Speaker*
 
 
-Our approach to the CFP was that we accepted **ALL** the talks submitted, meaning no filtering on talks based on quality or topic, considering the range and quality of talks this was, we felt, quite outstanding. Often conferences will openly admit to being unable to attract a broad range of speakers and we put our success in part down to the way we communicated around the event and where we did so. Before the conference
-[PyLadies Berlin](https://www.linkedin.com/company/15830651/) ran a talk writers room event to support and encourage more people from under-represented groups to apply for conference talks. However this also stems from the community Python Pizza has built and it was incredibly powerful to be able to put our trust in the community to bring interesting and high quality content to the conference.
+Unser Ansatz für den CFP war, dass wir **ALLE** eingereichten Vorträge akzeptierten, was bedeutet, dass wir die Vorträge nicht nach Qualität oder Thema gefiltert haben, was in Anbetracht der Bandbreite und Qualität der Vorträge unserer Meinung nach ganz hervorragend war. Oft geben Konferenzen offen zu, dass sie nicht in der Lage sind, ein breites Spektrum an Rednern anzuziehen, und wir führen unseren Erfolg zum Teil auf die Art und Weise zurück, wie wir über die Veranstaltung kommuniziert haben und wo wir dies taten. Vor der Konferenz
+[PyLadies Berlin] (https://www.linkedin.com/company/15830651/) eine Veranstaltung für Vortragsautoren, um mehr Menschen aus unterrepräsentierten Gruppen zu unterstützen und zu ermutigen, sich für Konferenzvorträge zu bewerben. Dies ist jedoch auch auf die Gemeinschaft zurückzuführen, die Python Pizza aufgebaut hat, und es war unglaublich stark, dass wir darauf vertrauen konnten, dass die Gemeinschaft interessante und qualitativ hochwertige Inhalte für die Konferenz liefern würde.
 
 > *"I couldn't have asked for a better experience/atmosphere for this. The writer's room was also a big help and I was thankful for the insights you provided regarding the CFP process."*
 > -*[Arati](https://twitter.com/aratiarr), who made her speaking debut at Pyton Pizza*
 
-##### What we learnt
+##### Was wir gelernt haben
 
-While the overall feedback was positive, we also as an orga team made some important learnings. Rather than the multi platform approach we had which also expanded due to going full remote may have been better as a single platform for participants so they could stay in one place. 
+Während das Feedback insgesamt positiv war, haben wir als Orga-Team auch einige wichtige Lehren gezogen. Statt des Multi-Plattform-Ansatzes, den wir hatten und der sich aufgrund der vollständigen Fernsteuerung ausweitete, wäre eine einzige Plattform für die Teilnehmer vielleicht besser gewesen, damit sie an einem Ort bleiben konnten. 
 
 
-Another unintentional learning was to have more breaks to split up blocks of talks: during the day we had missed an hour in our schedule which gave everyone a welcomed extra break. In our post conference survey participants were also keen to have a space dedicated to being able to ask speaker questions.
+Eine weitere unbeabsichtigte Erkenntnis war, dass wir mehr Pausen einlegen sollten, um die Gesprächsblöcke aufzuteilen: Im Laufe des Tages hatten wir eine Stunde in unserem Zeitplan vergessen, was allen eine willkommene zusätzliche Pause bescherte. In unserer Umfrage nach der Konferenz wünschten sich die Teilnehmer auch einen Raum, in dem sie den Referenten Fragen stellen konnten.
 
 
 > *"I think it was great for online conference, but I prefer live events (hope they will be possible someday again)"* -*Attendee*
 
 
-These learnings plus some more will help us make future editions, be there in person, remote or hybrid, better, and we are thankful to those who took the time to offer feedback.
+Diese und weitere Erkenntnisse werden uns dabei helfen, künftige Ausgaben - ob persönlich, per Fernzugriff oder als Hybridveranstaltung - zu verbessern, und wir sind denjenigen dankbar, die sich die Zeit genommen haben, uns ihr Feedback zu geben.
 
 
-We would like to thank all the attendees, speakers and the orga team for making an event that seemed to run so smoothly possible:
+Wir möchten allen Teilnehmern, Referenten und dem Orga-Team dafür danken, dass sie eine Veranstaltung ermöglicht haben, die so reibungslos abzulaufen schien:
 [Jessica Greene](https://www.linkedin.com/in/jessica0greene/), [Laysa Uchoa](https://www.linkedin.com/in/laysauchoa/), [Paloma Oliveira](https://www.linkedin.com/in/discombobulateme/), [Mariana Meireles](https://www.linkedin.com/in/mariana-meireles/), [Laura Gutierrez Funderburk](https://www.linkedin.com/in/laurafunderburk/), [Dr Maren Westermann](https://www.linkedin.com/in/dr-maren-westermann-0b8575144/), [Felix Seeliger](https://www.linkedin.com/in/felixseeliger/), 👩🏼‍🎨 [Tereza Iofciu](https://www.linkedin.com/in/tereza-iofciu/) and [Mary Bajorek](https://www.linkedin.com/in/marybajorek/)
 
-We would also like to thank our sponsors without which such events would just not be possible:  
+Wir möchten auch unseren Sponsoren danken, ohne die solche Veranstaltungen einfach nicht möglich wären:  
 🍕[COYO](www.coyoapp.com)  
 🍕[Ecosia](http://www.ecosia.org/)  
 🍕[Rasa](http://www.rasa.com/)  
@@ -88,6 +87,8 @@ We would also like to thank our sponsors without which such events would just no
 🍕[PyLadies Hamburg](https://hamburg.pyladies.com/)  
 
 
-##### In case you missed it!
+##### Falls Sie es verpasst haben!
 Website: https://lnkd.in/dB6EknT  
-Youtube stream: https://lnkd.in/dS7z_7Em  
+Youtube stream: https://lnkd.in/dS7z_7Em 
+
+Übersetzt mit www.DeepL.com/Translator (kostenlose Version)
