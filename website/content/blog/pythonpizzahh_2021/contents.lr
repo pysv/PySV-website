@@ -10,12 +10,12 @@ body:
 
 #### Why Python is our favorite Pizza topping!
 
-This month we held the third Hamburg Python Pizza event! Originally planned as a hybrid event, where we hoped to spark connections between both those at remote and in person attending, we had to go full remote due to the rising covid numbers in Hamburg. While this was a setback, it didn't stop us hosting a great community event.
+This month we held the third Hamburg Python Pizza event! Originally planned as a hybrid event, where we hoped to spark connections between both those at remote and in person attending, we had to go full remote due to the rising COVID-19 numbers in Hamburg. While this was a setback, it didn't stop us hosting a great community event.
 
 
 ##### A community conference
 
-[Python Pizza](https://python.pizza/) is a community run micro conference, which was started in Naples in 2017 by Python Italia. Bringing together people's love of both Python and Pizza it has since been held in Berlin, Hamburg and Holguin, Cuba ([where it will happen again in January 2021](https://holguin.python.pizza/?ref=python.pizza)) as well as a special Remote edition on New year's eve 2020.
+[Python Pizza](https://python.pizza/) is a community run micro conference, which was started in Naples in 2017 by Python Italia. Bringing together people's love of both Python and Pizza it has since been held in Berlin, Hamburg and Holguin, Cuba ([where it will happen again in January 2022](https://holguin.python.pizza/?ref=python.pizza)) as well as a special Remote edition on New year's eve 2020.
 The hallmark of this micro-conference is to present short, dynamic sessions, in which developers present their knowledge of the language or their own experiences with real-life projects. Each talk lasts 10 minutes (no more, no less).
 
 
@@ -23,7 +23,7 @@ The hallmark of this micro-conference is to present short, dynamic sessions, in 
 
 
 For this edition we had 26 talks in total, 23% of which were from first time speakers, with a diverse lineup with speakers from all over the world. 
-Two amazing keynotes kicked off both the morning and afternoon sessions, [Iqbal Abdullah](https://www.linkedin.com/in/iqbalabd/) ([Tokio LaLoka Labs](https://www.linkedin.com/company/laloka-labs/)) on Saying Thank You and [Peggy Sylopp](https://www.linkedin.com/in/peggy-sylopp/) (Berlin) on AI and Sustainability. 
+Two amazing keynotes kicked off both the morning and afternoon sessions, [Iqbal Abdullah](https://www.linkedin.com/in/iqbalabd/) ([Tokio LaLoka Labs](https://www.linkedin.com/company/laloka-labs/)) on Saying Thank You and [Peggy Sylopp](https://www.linkedin.com/in/peggy-sylopp/) ([Pexlab, Berlin](https://www.google.com/url?q=https://www.pexlab.space/&sa=D&source=docs&ust=1640951768635917&usg=AOvVaw1nlFNAfz2PxQNhxyuuvGcB)) on AI and Sustainability. 
 Talks were streamed live on both Youtube and Twitter.
 
 
@@ -45,20 +45,17 @@ We also organized interactive networking sessions where speakers and participant
 
 The event was organized mostly by women from the PyLadies community. With initially planning to be hybrid we had inclusiveness in mind and wanted the remote and in person experience to be equally engaging. As it became apparent our plans would have to change, we adapted, this was not without its challenges.
 
-
-For those less familiar with what goes into organizing an event such as this, it includes: website updates as speakers were announced, social media art, regular social media posts, managing discord on the day, managing streamyard (our streaming platform), managing dry runs of event on streamyard, email communication with speakers, keynote selection, advertisement in their networks, late night syncs, reaching out to sponsors, hosting on the day and contributing with ideas and feedback.
-
-
-> *"I couldn't have asked for a better experience/atmosphere for this. The writer's room was also a big help and I was thankful for the insights you provided regarding the CFP process."*
-> -*[Arati](https://twitter.com/aratiarr), who made her speaking debut at Pyton Pizza*
-
-
-Our approach to the CFP was that we accepted **ALL** the talks submitted, considering the range and quality of talks this was, we felt, quite outstanding. Before the conference
-[PyLadies Berlin](https://www.linkedin.com/company/15830651/) ran a talk writers room event to support and encourage more people from under-represented groups to apply for conference talks.
-
+Organizing a community event has the same needs and duties as any other event, plus all the work is voluntary. It involves tasks ranging from creating the scope of the event, organizing volunteers, creating and self-organizing tasks, seeking sponsorship, organizing giveaways, creating call for speakers, communicating with stakeholders, creating and updating the website and social media, deciding collectively and in numerous meetings and asynchronously what the next steps will be.
+It is not a trivial job but the reward is enormous, to have almost a ¼ of talks be from first time speakers is enriching our community and to be able to create a space where folks feel safe and empowered to express themselves is one of the many reasons volunteers opt in to such organization work. Communities often rely on these people who are willing to invest free time and energy so it’s always great to receive feedback on how that work has impacted others.
 
 > *"Getting in touch before, for the tech check up was super important to have everything smooth on stage. You did a great job behind the scenes!"*  -*Speaker*
 
+
+Our approach to the CFP was that we accepted **ALL** the talks submitted, meaning no filtering on talks based on quality or topic, considering the range and quality of talks this was, we felt, quite outstanding. Often conferences will openly admit to being unable to attract a broad range of speakers and we put our success in part down to the way we communicated around the event and where we did so. Before the conference
+[PyLadies Berlin](https://www.linkedin.com/company/15830651/) ran a talk writers room event to support and encourage more people from under-represented groups to apply for conference talks. However this also stems from the community Python Pizza has built and it was incredibly powerful to be able to put our trust in the community to bring interesting and high quality content to the conference.
+
+> *"I couldn't have asked for a better experience/atmosphere for this. The writer's room was also a big help and I was thankful for the insights you provided regarding the CFP process."*
+> -*[Arati](https://twitter.com/aratiarr), who made her speaking debut at Pyton Pizza*
 
 ##### What we learnt
 
