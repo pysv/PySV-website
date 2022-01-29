@@ -9,7 +9,7 @@ if __name__ == "__main__":
         background_color=pa.BackgroundColor.pick_random(),
         top=pa.HairType.pick_random(),
         eyebrows=pa.EyebrowType.DEFAULT_NATURAL,
-        eyes=pa.EyeType.DEFAULT,
+        eyes=pa.EyeType.HEART,
         nose=pa.NoseType.pick_random(),
         mouth=pa.MouthType.SMILE,
         facial_hair=pa.FacialHairType.pick_random(favor=pa.FacialHairType.NONE),  # favour putting one, i.e. less f/d
@@ -17,7 +17,7 @@ if __name__ == "__main__":
         skin_color=pa.SkinColor.pick_random(),
         # Or you can use the colors provided by the library
         hair_color=pa.HairColor.pick_random(),
-        accessory=pa.AccessoryType.NONE,
-        clothing=pa.ClothingType.pick_random(),
+        accessory=pa.AccessoryType.pick_random(),
+        clothing=pa.ClothingType.SHIRT_CREW_NECK,
         shirt_text='PySV',
     ).render(f"avatars/avatar_{uuid.uuid4().hex[:6]}.svg")

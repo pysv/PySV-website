@@ -2,35 +2,28 @@
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
 
-    <section class="pt-4">
-        <div class="container">
+    <section class="pt-0">
+        <div class="container position-relative">
+
             <div class="row">
-                <div class="col-12">
-                    <div class="border p-4 text-center rounded-3">
+                <div class="col-lg-10 mb-5">
 
-                        <h1><i class="bi me-2"></i>{{ this.title }}</h1>
+                    <h1>
+                        <i class="bi me-2"></i>{{ this.title }}
+                    </h1>
+                    <div class="col-lg-12 mb-5">
                         <p>{{ this.teaser }}</p>
-                        <p>{{ this.body }}</p>
-
                     </div>
+                    <div class="col-lg-12 mb-5">
+                        <p>{{ this.body }}</p>
+                    </div>
+
+
                 </div>
+
             </div>
         </div>
-    </section>
-
-    <section class="position-relative pt-0">
-        <div class="container" data-sticky-container>
-            <div class="row">
-                <div class="col-lg-9">
-
-
-                    <!-- CARDS / Content -->
-
-                </div>
-
-                <!-- Right sidebar -->
-
-            </div>
+        </div>
         </div>
     </section>
 

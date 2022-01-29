@@ -5,22 +5,22 @@ body:
 Diese Website wird vom Python Software Verband e.V. betrieben.
 
 #### Verwaltungssitz
-Python Software Verband e.V.
-p. Adr. Königsweg GmbH
-Julius-Hatry-Str. 1
-68163 Mannheim
+Python Software Verband e.V.  
+p. Adr. Königsweg GmbH  
+Julius-Hatry-Str. 1  
+68163 Mannheim  
 
 
 #### Vereinssitz
 
-Vereinsregister: Amtsgericht Stendal
-Vereinssitz: Halle (Saale), Deutschland
+Vereinsregister: Amtsgericht Stendal  
+Vereinssitz: Halle (Saale), Deutschland  
 
-E-Mail: info@python-verband.org
-Telefon +49 345 122 98 89 9
+E-Mail: info@python-verband.org  
+Telefon +49 345 122 98 89 9  
 
-USt-ID: DE287430795
-Registernummer: VR 33442
+USt-ID: DE287430795  
+Registernummer: VR 33442  
 
 Vorstand / Vertretungsberechtigte und besondere Vertretungsbefugnis
 
@@ -41,3 +41,5 @@ Diese Website enthält Verweise auf Websites, die von Dritten eingerichtet wurde
 Der Python Software Verband e.V. behält sich das Recht vor, die auf dieser Website angebotenen Informationen ohne gesonderte Ankündigung jederzeit zu verändern oder zu aktualisieren.
 
 Für gegebenenfalls bestehende oder künftig entstehende Rechtsverhältnisse ist ausschließlich deutsches Recht anwendbar und sind nur deutsche Gerichte zuständig.
+---
+_template: page.html
