@@ -1,0 +1,9 @@
+##########################################
+#             code ownership
+##########################################
+# The default ownership of this repo. Unless a later match takes precedence. 
+*       @PYCONDE/opensourcemaintainer
+# When someone opens a pull request with .py files that @PYCONDE/opensourcemaintainer will be requested for a review.
+*.py    @PYCONDE/opensourcemaintainer
+# only @PYCONDE/opensourcemaintainer team can review and approve this change related to .md files
+*.md @PYCONDE/opensourcemaintainer
