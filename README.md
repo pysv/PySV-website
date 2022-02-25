@@ -5,13 +5,28 @@ Python Softwareverband Website
 
 ### Conda
 
-    conda create -f environment.yml
+```bash
+conda create -f environment.yml
+```
 
 ### Virtualenv
 
-    virtualenv venv
-    source venv/bin/activate
-    pip install -r requirements.txt
+ ```bash
+virtualenv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+## Venv
+
+for M1 mac
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt --use-feature=2020-resolver
+pip install --force-reinstall MarkupSafe==2.0.1
+   ```
 
 
 ## Edit Pages
