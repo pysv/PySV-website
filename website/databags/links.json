@@ -39,6 +39,17 @@
       "name": "Grants",
       "path": "/grants",
       "id": "grants"
+    },
+    {
+      "name": "Info",
+      "id": "info",
+      "submenu": [
+        {
+          "name": "Verpflichtungserklärung zum Umweltschutz",
+          "path": "/sustainability",
+          "id": "sustainability"
+        }
+      ]
     }
   ],
   "legal": {

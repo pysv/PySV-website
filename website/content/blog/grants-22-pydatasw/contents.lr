@@ -1,0 +1,47 @@
+title: PyData Südwest: Big PyData BBQ 2022
+---
+pub_date: 2022-07-08
+---
+author: PyData Südwest
+---
+avatar: avatar_0c8492.svg
+---
+tags: community, meetup, 2022, grants
+---
+teaser: PyData Südwest ist das lokale Meetup für Python & Data im Raum Heidelberg, Mannheim und Karlsruhe. 
+Das alljährlich stattfindende "Big PyData BBQ" fand dieses Jahr in Kooperation mit PyLadies statt.
+---
+body:
+
+![Big PyData BBQ](MAFINEX-SCREENS-BBQ Slides.jpg)
+
+Wer coole Vorträge über Data Science, Künstliche Intelligenz, Coding oder Community mag, 
+war beim [Big PyData BBQ](https://www.koenigsweg.com/news-events/veranstaltungen/big-pydata-bbq/index_ger.html) 
+am 7. Juli genau richtig!
+
+Geplant waren fünf Vorträge von Sprecherinnen - allesamt PyLadies:
+
+* [Jessica Greene](https://twitter.com/sleepypioneer) (she/her) will speak about her work with data at [Ecosia](https://www.ecosia.org/)
+* [Katherine Jarmul](https://twitter.com/kjam) ([Thoughtworks](https://www.thoughtworks.com/)) about security
+* [Paula González](https://twitter.com/PGA99) ([SPICED Academy](https://www.spiced-academy.com/)) about the analysis of the process of language acquisition of a bilingual child
+* [Tereza Iofciu](https://twitter.com/terezaif) ([neuefische](https://www.neuefische.de/)) about diversity and inclusion at the [Python Software Foundation (PSF)](https://de.wikipedia.org/wiki/Python_Software_Foundation)
+* [Laysa Uchoa](https://twitter.com/laysauchoa) ([Aiven](https://aiven.io/)) about Super Search with Python and OpenSearch
+
+Leider mussten Katherine und Tereza gesundheitsbedingt kurzfristig absagen. Daher kam ein weiterer in-promptu Talk von 
+
+* [VB](https://twitter.com/reach_vb) - How to Automatic Speech Recognition(ASR)? 
+
+hinzu.
+
+Die vierte Auflage des jährlichen Big PyData BBQ bot ca. 140 Teilnehmern neben Vorträgen auch viel Zeit zum Netzwerken bei einem leckeren BBQ.
+
+Das jährliche, große Treffen der PyData Südwest Community konnte durch die freundliche Unterstützung 
+von [KÖNIGSWEG](https://www.koenigsweg.com), [NEXT MANNHEIM](https://next-mannheim.de) und dem Python Software Verband 
+realisiert werden. 
+
+
+Videolinks und Impressionen sind [auf dieser Seite](https://www.koenigsweg.com/news-events/veranstaltungen/big-pydata-bbq/index_ger.html) zu finden.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLGVZCDnMOq0rTQKXlBxrofG6yN7T7ocHl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Link zur [Meetup Gruppe PyData Südwest](https://www.meetup.com/pydata-suedwest/).
