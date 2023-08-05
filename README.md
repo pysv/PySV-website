@@ -57,6 +57,11 @@ The default avatar is defined in PySV-website.lektorproject
 ## Publishing
 The website is hosted on S3, www/* needs to be uploaded to S3, requires access token.  
 
+## Staging
+On creation of a PR on main the website is rendered and deployed to
+TODO ADD URL
+
+## Production
 
 ---
 
