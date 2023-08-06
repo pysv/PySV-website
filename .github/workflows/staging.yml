@@ -2,6 +2,7 @@ name: Upload  Staging Website
 
 on:
   pull_request:
+    types: [opened, synchronize, reopened]
     paths:
       - 'website/**'
 
@@ -9,6 +10,9 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+    - name: Message Checkout
+      run: echo Checking out repository
+      
     - name: Checkout
       uses: actions/checkout@v1
 
@@ -21,8 +25,12 @@ jobs:
 
     - name: Deploy static site to staging S3 bucket
       run: |
+        echo Installing requirements
         pip install -r requirements_deploy.txt
         cd website
         lektor project-info
+        echo Building website
         lektor build --output-path ./www
+        echo Built website, syncing to s3 now
         aws s3 sync ./www s3://pysv-web-staging --delete
+        echo DONE
