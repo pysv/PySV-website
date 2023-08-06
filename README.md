@@ -55,36 +55,23 @@ The default avatar is defined in PySV-website.lektorproject
 
 
 ## Publishing
-The website is hosted on S3, www/* needs to be uploaded to S3, requires access token.  
+The website is hosted on S3, www/* needs to be uploaded to S3, requires access tokens. 
+
+AWS Credentials are stored in the GitHub Secrets of this repository:
+* AWS_ACCESS_KEY_ID  
+* AWS_SECRET_ACCESS_KEY
+
+### GitHub Actions
+
+In the GitHub Actions tab there are two workflows:
+
+- `staging.yml`: runs automatically on pull requests. Builds the website based on the last opened PR at: http://pysv-web-staging.s3-website.eu-central-1.amazonaws.com
+- `production.yml`: builds the new website when something is pushed to the master branch at: http://pysv-web.s3-website.eu-central-1.amazonaws.com i.e. https://pysv.org
 
 
----
 
-## Future stuff
+## Production
 
-### Preparation
-- A developer account for the Twitter API
-- An app registered for this developer account
-- Save consumer_key and consumer_secret in `config.py`
-- Keep `config.py` private!
-
-###### Authorizing the App
-
-To access and act for an Twitter account, the app needs to be authorized.
-
-Run `manually_authorize_app.py`  via the console
-
-```bash
-python  manually_authorize_app.py  consumer_key consumer_secret
-```
-Follow the instructions on the terminal.
-Save `access_token` and `access_token_secret` in `config.py`.
-
-
-##### Card Validators
-- [Facebook]( https://developers.facebook.com/tools/debug/sharing/)
-- [LinkedIn]( https://www.linkedin.com/post-inspector/inspect/)
-- [Twitter]( https://cards-dev.twitter.com/validator)
 
 
 ## Known Caveats
