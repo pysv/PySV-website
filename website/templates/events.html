@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+
+    <section class="pt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="border p-4 text-center rounded-3">
+
+                        <h1><i class="bi  me-2"></i>{{ this.title }}</h1>
+                        <p>{{ this.abstract }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-4">
+        {% for event in bag("events").events %}
+        <div class="container pb-4">
+            <img src="{{ event.image }}" alt="" width="200" height="auto" class="float-end ps-4 pb-4">
+            <p class="text-uppercase">{{ event.header }}</p>
+            <h4><a href="{{ event.link }}" class="btn-link text-reset">{{ event.title }}</a></h4>
+            <p>{{ event.date }}</p>
+            <p>{{ event.abstract }}</p>
+            <p>--</p>
+        </div>
+        {% endfor %}
+    </section>
+
+{% endblock %}
