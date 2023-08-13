@@ -19,7 +19,9 @@
     <section class="pt-4">
         {% for event in bag("events").events %}
         <div class="container pb-4">
-            <img src="{{ event.image }}" alt="" width="200" height="auto" class="float-end ps-4 pb-4">
+            <a href="{{ event.link }}">
+                <img src="{{ event.image }}" alt="" width="200" height="auto" class="float-end ps-4 pb-4">
+            </a>
             <p class="text-uppercase">{{ event.header }}</p>
             <h4><a href="{{ event.link }}" class="btn-link text-reset">{{ event.title }}</a></h4>
             <p>{{ event.date }}</p>
