@@ -1,0 +1,84 @@
+title: Grant Program
+---
+body:
+
+The  Python Software Verband e.V. (Python Software Association) offers a funding program to support the Python community in the German-speaking area in their
+activities financially and organizationally.
+
+#### Motivation
+
+According to its statutes, the Python Software Verband has the task to promote the spread of the free programming
+language Python, to organize congresses and to support the creation and use of free software.
+
+Python has been leading many rankings of popular programming languages for some time now - we at the PySV therefore see
+anonymous and general publicity work as no longer being effective. With the funding program described here, we want to
+both support the community in a decentralized way and promote new ideas, as well as consolidate the
+existing ecosystem of events and projects.
+
+This funding program is intended to diversify the Python community in the German-speaking world and help connect with
+new communities and promote small, autonomous - even experimental - efforts.
+
+#### Eligible projects
+
+Usually we support projects maximum once a year.
+
+In line with our statutory mission, we promote:
+
+#### Small Events Grant ( up to 50 people)
+
+Small events that bring people in contact with Python and the Python community, or that bring the Python
+community together with other communities, are eligible for a contribution of 20€ per person up to a maximum of 400 €
+per event.
+For 10 or more participants, we will provide the full amount of 400€ upon request.
+
+#### Events Grant ( 50 or more people)
+
+Larger events (50 people or more) that are explicitly related to Python, but which we are not involved in organizing,
+can be funded with a lump sum of 1.000 € per event.
+
+#### Development Grant
+
+Developments and developers we support for concrete features and programming tasks or programming events (sprints) with
+up to 800 € per project.
+
+Our total funding program budget per year is approximately €15,000.
+
+#### Examples of Funded Projects
+
+- [Djangogirl Berlin 2023](https://djangogirls.org/de/berlin/)
+- [Big PyData BBQ 2023, Heidelberg](https://www.meetup.com/de-DE/pydata-suedwest/events/295202051/)
+- [GeoPython 2023, Basel](https://2023.geopython.net/) / Financial Aid Program
+- [DjangoConEurope 2018](https://2018.djangocon.eu/)/ Financial Aid Program
+- Zope 4 Sprint
+- [Jugend Hackt](https://jugendhackt.org/), multiple years
+
+#### Conditions
+
+We deliberately impose only a few conditions and want to keep the bureaucratic hurdles low. Therefore, the following
+procedure:
+
+1. Send us an informal application by e-mail (see below). In this e-mail explain to us what you are planning to do,
+   approximately how much money you need and what you want to use it for. This could be for example travel expenses,
+   material means or
+   catering.
+2. Our board will decide after your application in one of the regular monthly meetings (3rd Thursday every month) and
+   will let you know if we can support you.
+3. Your event or project will be announced on our homepage.
+4. You will receive the funds and carry out your event.
+5. We appreciate you providing us after the event independently 2-3 photos, as well as a short report of 2-3 paragraphs,
+   which we publish on our website.
+6. Small events please also provide us with a signed list of participants (name and first name) (which we keep
+   confidential),
+   large events provide us with the number of actual participants, and development projects present adequate progress
+   notes (tickets, commits, releases, changelogs, ...).
+
+Also:
+
+- As an organization, we will sponsor you in exchange for a regular invoice. If you are liable to VAT, then we will
+  sponsor the net.
+- If you are a private person, preferably you hand in receipts for expense we reimburse. We can conclude a sponsoring
+  contract with you if you wish. You do not have to submit any receipts then - but you have to pay attention to your income tax.
+- Please also remember that you need the consent of the persons photographed.
+
+#### Application and Contact
+To apply for funding with us, simply email us at grants@python-verband.org.

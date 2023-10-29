@@ -1,49 +1,82 @@
 title: Förderprogramm
 ---
 body:
- 
-###Der Python Software Verband bietet ein Förderprogramm um die Python-Community im deutschsprachigen Raum in ihren vielfältigen Aktivitäten finanziell zu unterstützen.
 
+Der Python Software Verband bietet ein Förderprogramm um die Python-Community im deutschsprachigen Raum in ihren
+vielfältigen Aktivitäten finanziell und organisatorisch zu unterstützen.
 
-####Motivation
+#### Motivation
 
-Der Python Software Verband hat nach seiner Satzung die Aufgabe, die Verbreitung der freien Programmiersprache Python zu fördern, Kongresse zu veranstalten und die Erstellung und Verwendung freier Software zu unterstützen.
+Der Python Software Verband hat nach seiner Satzung die Aufgabe, die Verbreitung der freien Programmiersprache Python zu
+fördern, Kongresse zu veranstalten und die Erstellung und Verwendung freier Software zu unterstützen.
 
-Python führt seit einiger Zeit viele Ranglisten beliebter Programmiersprachen an – eine anonym und allgemein gehaltene Öffentlichkeitsarbeit sehen wir beim PySV deshalb als nicht mehr zielführend an. Mit dem hier beschriebenen Förderprogramm wollen wir sowohl die vielfältige und bunte Community dezentral unterstützen und neue Ideen fördern als auch das bestehende Ökosystem von Veranstaltungen und Projekten festigen.
+Python führt seit einiger Zeit viele Ranglisten beliebter Programmiersprachen an – eine anonym und allgemein gehaltene
+Öffentlichkeitsarbeit sehen wir beim PySV deshalb als nicht mehr zielführend an. Mit dem hier beschriebenen
+Förderprogramm wollen wir sowohl die Community dezentral unterstützen und neue Ideen fördern als
+auch das bestehende Ökosystem von Veranstaltungen und Projekten festigen.
 
-Dieses Förderprogramm soll die Python-Community im deutschsprachigen Raum diversifizieren und dabei helfen mit neuen Communities Kontakt aufzunehmen und kleine, autonome – sogar experimentelle – Maßnahmen fördern.
+Dieses Förderprogramm soll die Python-Community im deutschsprachigen Raum diversifizieren und dabei helfen mit neuen
+Communities Kontakt aufzunehmen und kleine, autonome – sogar experimentelle – Maßnahmen fördern.
 
-####Förderfähige Vorhaben
-Passend zu unseren satzungsgemäßen Auftrag fördern wir:
+#### Förderfähige Vorhaben
 
-1. Kleine Veranstaltungen, die Personen mit Python und der Python-Community in Kontakt bringen, oder die die Python-Community mit anderen Communities zusammenbringen, fördern wir mit einem Beitrag von 20 € pro Person bis maximal 400 € pro Veranstaltung. Ab 10 Teilnehmern stellen wir den vollen Betrag von 400€ auf Wunsch zur Verfügung.
+Normalerweise unterstützen wir Projekte maximal einmal im Jahr.
 
-2. Größere Veranstaltungen (ab 50 Personen) die einen expliziten Bezug zu Python haben, an deren Organisation wir aber nicht mitwirken, fördern wir mit einer Pauschale von 1.000 € pro Veranstaltung.
+Passend zu unserem satzungsgemäßen Auftrag fördern wir:
 
-3. Entwicklungen und Entwickler fördern wir für konkrete Features und Programmieraufgaben oder Programmierveranstaltungen (Sprints) mit bis zu 800 € je Vorhaben.
+#### Kleine Veranstaltungen (bis zu 50 Personen)
 
-Unser Gesamtbudget des Förderprogramms beträgt für 2018 etwa 16.000 €.
+Kleine Veranstaltungen, die Personen mit Python und der Python-Community in Kontakt bringen, oder die die
+Python-Community mit anderen Communities zusammenbringen, fördern wir mit einem Beitrag von 20 € pro Person bis
+maximal 400 € pro Veranstaltung. Ab 10 Teilnehmern stellen wir den vollen Betrag von 400€ auf Wunsch zur Verfügung.
 
-####Beispiele geförderter Vorhaben
-- Zope-4-Sprint
-- DjangoConEurope / Financial Aid Program
-- "Jugend hackt"
+#### Veranstaltungen (50 oder mehr Personen)
 
-####Bedingungen
+Größere Veranstaltungen (ab 50 Personen) die einen expliziten Bezug zu Python haben, an deren Organisation wir aber
+nicht mitwirken, fördern wir mit einer Pauschale von 1.000 € pro Veranstaltung.
 
-Wir stellen bewusst nur wenige Bedingungen und wollen die bürokratischen Hürden niedrig halten. Daher gilt folgender Ablauf:
+#### Python Open Source Entwicklung
 
-1. Ihr stellt einen formlosen Antrag per E-Mail (siehe unten). Ihr erklärt uns in dieser E-Mail was Ihr vorhabt, wieviel Geld ihr benötigt und wofür Ihr es verwenden wollt. Dies könnten zum Beispiel Reisekosten, Sachmittel oder Verpflegung sein.
-2. Unser Vorstand entscheidet nach Eurem Antrag in einer unserer regelmäßigen Sitzungen und gibt Euch Bescheid ob wir Euch fördern können.
+Entwicklungen und Entwickler fördern wir für konkrete Features und Programmieraufgaben oder
+Programmierveranstaltungen (Sprints) mit bis zu 800 € je Vorhaben.
+
+Unser jährliches Gesamtbudget für das Förderprogramm beträgt in der Regel etwa 15.000 €.
+
+#### Beispiele geförderter Vorhaben
+
+- [Djangogirl Berlin 2023](https://djangogirls.org/de/berlin/)
+- [Big PyData BBQ 2023, Heidelberg](https://www.meetup.com/de-DE/pydata-suedwest/events/295202051/)
+- [GeoPython 2023, Basel](https://2023.geopython.net/) / Financial Aid Programm
+- [DjangoConEurope 2018](https://2018.djangocon.eu/)/ Financial Aid Programm
+- Zope 4 Sprint
+- [Jugend Hackt](https://jugendhackt.org/), mehrere Jahre
+
+#### Bedingungen
+
+Wir stellen bewusst nur wenige Bedingungen und wollen die bürokratischen Hürden niedrig halten. Daher gilt folgender
+Ablauf:
+
+1. Ihr stellt einen formlosen Antrag per E-Mail (siehe unten). Ihr erklärt uns in dieser E-Mail was Ihr vorhabt, wieviel
+   Geld ihr benötigt und wofür Ihr es verwenden wollt. Dies könnten zum Beispiel Reisekosten, Sachmittel oder
+   Verpflegung sein.
+2. Unser Vorstand entscheidet nach Eurem Antrag in einer unserer regelmäßigen Sitzungen und gibt Euch Bescheid, ob wir
+   Euch fördern können.
 3. Eure Veranstaltung oder Euer Projekt wird auf unserer Homepage angekündigt.
 4. Ihr erhaltet das zugesagte Geld und führt eure Veranstaltung durch.
-5. Ihr stellt uns nach der Veranstaltung selbständig 2-3 Fotos, sowie einen kurzen Bericht von 2-3 Absätzen zur Verfügung, den wir auf unserer Webseite veröffentlichen dürfen.
-6. Kleine Veranstaltungen stellen uns außerdem eine unterschriebene Teilnehmerliste (Name und Vorname) zur Verfügung (die wir vertraulich behandeln), große Veranstaltungen nennen uns die Zahl der tatsächlichen Teilnehmer und Entwicklungsvorhaben präsentieren angemessene Fortschrittsnachweise (Tickets, Commits, Releases, Changelogs, ...).
+5. Ihr stellt uns nach der Veranstaltung selbständig 2-3 Fotos, sowie einen kurzen Bericht von 2 bis 3 Absätzen zur
+   Verfügung, den wir auf unserer Webseite veröffentlichen dürfen.
+6. Kleine Veranstaltungen stellen uns außerdem eine unterschriebene Teilnehmerliste (Name und Vorname) zur Verfügung (
+   die wir vertraulich behandeln), große Veranstaltungen nennen uns die Zahl der tatsächlichen Teilnehmer und
+   Entwicklungsvorhaben präsentieren angemessene Fortschrittsnachweise (Tickets, Commits, Releases, Changelogs, ...).
 
 Außerdem gilt:
-- Als Organisation fördern wir Euch gegen eine ordentliche Rechnung. Wenn Ihr mehrwertsteuerpflichtig seid, dann fördern wir den Netto-Betrag. 
-- Als Privatpersonen schließen wir auf Wunsch einen Sponsoringvertrag mit Euch ab. Ihr müsst keine Belege einreichen – müsst aber selbst auf Eure steuerliche Situation achten. 
+
+- Als Organisation fördern wir Euch gegen eine ordentliche Rechnung. Wenn Ihr mehrwertsteuerpflichtig seid, dann fördern
+  wir den Netto-Betrag.
+- Als Privatpersonen schließen wir auf Wunsch einen Sponsoringvertrag mit Euch ab. Ihr müsst keine Belege einreichen –
+  müsst aber selbst auf Eure steuerliche Situation achten.
 - Denkt außerdem bitte daran, dass Ihr das Einverständnis von fotografierten Personen benötigt.
 
-####Antragstellung und Kontakt
+#### Antragstellung und Kontakt
+
 Um eine Förderung bei uns zu beantragen, schreibt uns einfach eine E-Mail an grants@python-verband.org.
