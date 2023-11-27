@@ -1,91 +1,102 @@
 {
   "types": [
     {
-      "name": "Current board members:",
+      "name": "Vorstand",
       "members": [
         {
-              "name": "Dr.-Ing. Mike Müller",
-              "role":"1. Vorsitzender",
-              "image": "/static/media/board/2020_mike.jpg",
-              "twitter":"",
-              "linkedin":"",
-              "xing":""
+          "name": "Dr.-Ing. Mike Müller",
+          "role": "1. Vorsitzender",
+          "image": "/static/media/board/2020_mike.jpg",
+          "twitter": "",
+          "linkedin": "",
+          "github": "",
+          "website": "" 
         },
         {
           "name": "Alexander Hendorf",
-          "role":"2. Vorsitzender",
-          "image": "/static/media/board/hendorf.png",
-          "twitter":"",
-          "linkedin":"",
-          "xing":""
+          "role": "2. Vorsitzender",
+          "image": "/static/media/board/hendorf.jpeg",
+          "twitter": "https://www.twitter.com/hendorf/",
+          "linkedin": "https://www.linkedin.com/in/hendorf/",
+          "github": "https://github.com/alanderex",
+          "website": "" 
         },
         {
           "name": "Dr. Tereza Iofciu",
-          "role":"1. stellvertretender Vorsitzender",
+          "role": "1. stellvertretender Vorsitzender",
           "image": "/static/media/board/tereza.png",
-          "twitter":"",
-          "linkedin":"",
-          "xing":""
+          "twitter": "",
+          "linkedin": "",
+          "github": "",
+          "website": "" 
         },
         {
           "name": "Prof. Dr. Martin Christen",
-          "role":"2. stellvertretender Vorsitzender",
+          "role": "2. stellvertretender Vorsitzender",
           "image": "/static/media/board/Martin_Christen.jpg",
-          "twitter":"",
-          "linkedin":"",
-          "xing":""
+          "twitter": "",
+          "linkedin": "",
+          "github": "",
+          "website": ""
         },
         {
           "name": "Dr. Klaus Bremer",
-          "role":" Vorstandsmitglied",
+          "role": " Vorstandsmitglied",
           "image": "/static/media/board/2020_klaus.jpg",
-          "twitter":"",
-          "linkedin":"",
-          "xing":""
+          "twitter": "",
+          "linkedin": "",
+          "website": ""
         },
         {
-          "name": "Katharine Jarmul ",
-          "role":" Beraterin",
-          "image": "/static/media/board/1517716762908.jpeg",
-          "twitter":"",
-          "linkedin":"",
-          "xing":""
+          "name": "Jessica Greene",
+          "role": " Vorstandsmitglied",
+          "image": "/static/media/board/jessica.jpeg",
+          "twitter": "",
+          "linkedin": "https://www.linkedin.com/in/jessica0greene/ ",
+          "github": "",
+          "website": "" 
         },
         {
-          "name": "Christian Theune",
-          "role":" Vorstandsmitglied",
-          "image": "/static/media/board/1638170933871.jpeg",
-          "twitter":"",
-          "linkedin":"",
-          "xing":""
+          "name": "Paloma Oliveira",
+          "role": " Vorstandsmitglied",
+          "image": "/static/media/board/paloma.jpeg",
+          "twitter": "",
+          "linkedin": "",
+          "github": "",
+          "website": "" 
         }
       ]
     },
-  {
-    "name": "Special Representatives:",
-    "members": [
-      {
-            "name": "Anna Müller",
-            "role":" (Besonderer Vertreter)",
-            "image": "/static/media/board/1517017402919.jpeg",
-            "twitter":"",
-            "linkedin":"",
-            "xing":""
-      }
-    ]
-  },
-  {
-    "name": "Past members:",
-    "members": [
-      {
-        "name": "Yu Yan Cheung",
-        "role":" Vorstandsmitglied",
-        "image": "/static/media/board/yenny.jpg",
-        "twitter":"",
-        "linkedin":"",
-        "xing":""
-      }
-    ]
-  }
+    {
+      "name": "Ehemalige Vorstandsmitglieder",
+      "members": [
+        {
+          "name": "Christian Theune",
+          "role": " Vorstandsmitglied",
+          "image": "/static/media/board/1638170933871.jpeg",
+          "twitter": "",
+          "linkedin": "",
+          "website": ""
+        },
+        {
+          "name": "Yu Yan Cheung",
+          "role": " Vorstandsmitglied",
+          "image": "/static/media/board/yenny.jpg",
+          "twitter": "",
+          "linkedin": "",
+          "github": "",
+          "website": "" 
+        },
+        {
+          "name": "Katharine Jarmul ",
+          "role": " Beraterin",
+          "image": "/static/media/board/1517716762908.jpeg",
+          "twitter": "",
+          "linkedin": "",
+          "github": "",
+          "website": "" 
+        }
+      ]
+    }
   ]
 }
