@@ -9,7 +9,8 @@
           "image": "/static/media/board/2020_mike.jpg",
           "twitter": "",
           "linkedin": "",
-          "xing": ""
+          "github": "",
+          "website": "" 
         },
         {
           "name": "Alexander Hendorf",
@@ -17,7 +18,8 @@
           "image": "/static/media/board/hendorf.jpeg",
           "twitter": "https://www.twitter.com/hendorf/",
           "linkedin": "https://www.linkedin.com/in/hendorf/",
-          "xing": ""
+          "github": "https://github.com/alanderex",
+          "website": "" 
         },
         {
           "name": "Dr. Tereza Iofciu",
@@ -25,7 +27,8 @@
           "image": "/static/media/board/tereza.png",
           "twitter": "",
           "linkedin": "",
-          "xing": ""
+          "github": "",
+          "website": "" 
         },
         {
           "name": "Prof. Dr. Martin Christen",
@@ -33,7 +36,8 @@
           "image": "/static/media/board/Martin_Christen.jpg",
           "twitter": "",
           "linkedin": "",
-          "xing": ""
+          "github": "",
+          "website": ""
         },
         {
           "name": "Dr. Klaus Bremer",
@@ -41,15 +45,16 @@
           "image": "/static/media/board/2020_klaus.jpg",
           "twitter": "",
           "linkedin": "",
-          "xing": ""
+          "website": ""
         },
         {
           "name": "Jessica Greene",
           "role": " Vorstandsmitglied",
           "image": "/static/media/board/jessica.jpeg",
           "twitter": "",
-          "linkedin": "",
-          "xing": ""
+          "linkedin": "https://www.linkedin.com/in/jessica0greene/ ",
+          "github": "",
+          "website": "" 
         },
         {
           "name": "Paloma Oliveira",
@@ -57,7 +62,8 @@
           "image": "/static/media/board/paloma.jpeg",
           "twitter": "",
           "linkedin": "",
-          "xing": ""
+          "github": "",
+          "website": "" 
         }
       ]
     },
@@ -70,7 +76,7 @@
           "image": "/static/media/board/1638170933871.jpeg",
           "twitter": "",
           "linkedin": "",
-          "xing": ""
+          "website": ""
         },
         {
           "name": "Yu Yan Cheung",
@@ -78,7 +84,8 @@
           "image": "/static/media/board/yenny.jpg",
           "twitter": "",
           "linkedin": "",
-          "xing": ""
+          "github": "",
+          "website": "" 
         },
         {
           "name": "Katharine Jarmul ",
@@ -86,7 +93,8 @@
           "image": "/static/media/board/1517716762908.jpeg",
           "twitter": "",
           "linkedin": "",
-          "xing": ""
+          "github": "",
+          "website": "" 
         }
       ]
     }
