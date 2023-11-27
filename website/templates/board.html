@@ -2,65 +2,66 @@
 {% block title %}{{ this.title }}{% endblock %}
 
 {% block body %}
-<section class="pt-4">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="border p-4 text-center rounded-3">
+    <section class="pt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="border p-4 text-center rounded-3">
 
-                    <h1><i class="bi me-2"></i>{{ this.title }}</h1>
-                    <p>{{ this.body }}</p>
+                        <h1><i class="bi me-2"></i>{{ this.title }}</h1>
+                        <p>{{ this.body }}</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-{% for member_type in bag('board').types %}
+    {% for member_type in bag('board').types %}
 
-<section class="padding-bottom">
-    <div class="container">
-        <div class="row">
-           
-            <div class="col-12 col-xl-10 offset-xl-1">
+        <section class="padding-bottom">
+            <div class="container">
                 <div class="row">
                     <div class="col-12 col-xl-10 offset-xl-1">
                         <header class="page-header">
-                            <h5 class="page-subtitle"><span>{{ member_type.name }}</span></h5>
+                            <h4 class="page-subtitle"><span>{{ member_type.name }}</span></h4>
                         </header>
                     </div>
-                </div>
+                    <div class="row">
+                        <div class="col-12 col-xl-10 offset-xl-1">
 
-                <div class="row">
+                            <div class="row">
 
-                    {% for member in member_type.members %}
+                                {% for member in member_type.members %}
 
-                        <div class="col-12 col-lg-6">
-                            <div class="workshop">
+                                    <div class="col-12 col-lg-6">
+                                        <div class="workshop">
 
-                                <div class="row">
-                                    <div class="col-12 col-lg-4 in-view">
-                                        <div >
-                                            <figure><img
-                                                         src="{{ member.image }}" alt="" width="445" height="445">
-                                                <div ></div>
-                                            </figure>
+                                            <div class="row">
+                                                <div class="col-12 col-lg-4 in-view">
+                                                    <div>
+                                                        <figure><img
+                                                                src="{{ member.image }}" alt="" width="445"
+                                                                height="445">
+                                                            <div></div>
+                                                        </figure>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-lg-8 in-view">
+                                                    <h5 class="margin-top-0 in-view__child in-view__child--fadein">{{ member.name }}</h5>
+                                                    <p class="text-body-3 in-view__child in-view__child--fadein">{{ member.role }}
+                                                    <p>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="col-12 col-lg-8 in-view">
-                                        <h5 class="margin-top-0 in-view__child in-view__child--fadein">{{ member.name }}</h5>
-                                        <p class="text-body-3 in-view__child in-view__child--fadein">{{ member.role }}
-                                        <p>
-                                    </div>
-                                </div>
+                                {% endfor %}
                             </div>
                         </div>
-                    {% endfor %}
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
-{% endfor %}
+        </section>
+
+    {% endfor %}
 
 {% endblock %}
