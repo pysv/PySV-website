@@ -1,0 +1,123 @@
+title: Mitgliederversammlung 2023
+---
+pub_date: 2023-11-27
+---
+author: Python Software Verband
+---
+avatar: custom_name.jpg
+---
+tags: verein, members
+---
+teaser: Die Mitgliederversammlung des PySV fand am 26. November 2023 statt. Der Vorstand gab den Mitgliedern ein
+umfangreiches Update über die Community Aktivitäten des Vereins und den Plänen für die Zukunft.
+
+---
+body:
+
+### Geschäftsbericht 2022
+
+Der Vorstand stellte den Geschäftsbericht 2022 vor. Im Laufe von 2022 normalisierte sich wieder nach Ende der Pandemie
+die Lage und wir konnten wieder mehr Aktivitäten durchführen. Erfreulich war auch, dass wieder mehr Förderanträge
+gestellt wurden und wir mehr Projekte unterstützen konnten.
+Die Kassenprüfer bestätigten die ordnungsgemäße Führung der Finanzen.
+
+### Bericht und Ausblick 2023 und 2024
+
+2023 markiert für uns wieder ein "normales" Jahr, in dem die Vereinsarbeit ohne externe Hindernisse durchgeführt werden
+konnte. Als Verein konnten wir unsere Rolle als Träger für mehrere Präsenzveranstaltungen wieder aufnehmen und mehr
+Projekte
+in der Community fördern. Besonders stolz sind wir darauf, im April 2023 erneut
+die [PyCon DE und PyData Berlin](https://2023.pycon.de) im
+bcc ausgerichtet zu haben, die als nun größte Python-Konferenz in Europa hervorstach. Ein neu formiertes, größeres
+Organisationsteam verteilte die Verantwortungsbereiche effektiv, mit einem Fokus auf Programmgestaltung, Diversität und
+Teilnehmererfahrung, während das Backoffice sich um die Eventabwicklung und das Sponsoring kümmerte. Die dreitägige
+Konferenz zog
+1.841 Teilnehmer an.
+
+Des Weiteren veranstalteten wir als Verein die [EuroSciPy Konferenz](https://euroscipy.org/2023/) Ende August in Basel,
+die
+mehr als 200 Teilnehmer aus verschiedenen Ländern anzog. Diese Konferenz diente als Plattform für den Austausch und
+Diskussionen über
+wissenschaftliches Programmieren in Python und vereinte Akademiker, Industrievertreter und Open-Source-Maintainer.
+
+Im Jahr 2023 gingen auch mehr Förderanträge beim uns ein, und es konnten bereits über 10 Projekte finanziell oder als
+Träger unterstützt werden:
+
+- [Django Girls Berlin](https://djangogirls.org/berlin/)
+- [GeoPython, Basel](https://2023.geopython.net/)
+- [Jugend hackt Halle 2023](https://jugendhackt.org/event-rueckblick/halle-2023/)
+- [PyData Südwest, Heidelberg](https://www.meetup.com/pydata-suedwest/events/295202051/)
+- PyLadies [Berlin](https://berlin.pyladies.com/), [Munich](https://www.meetup.com/de-DE/pyladiesmunich/), [Hamburg](https://hamburg.pyladies.com/), [Südwest](https://www.meetup.com/de-DE/pyladies-suedwest/)
+- [Python Berlin Meetup](https://www.meetup.com/de-DE/pyberlin/)
+- [Techkids](https://www.teckids.org/)
+
+Der PySV war Träger für:
+
+- [PythonCamp Rügen](https://barcamps.eu/pyr2023/)
+- [PyCampLeipzig](https://barcamps.eu/python-barcamp-der-leipzig-python-user-group-2023/)
+- [Python Pizza Hamburg](https://hamburg.python.pizza/)
+
+#### Ausblick 2024
+
+Besonders erfreut ist der Verein, dass es nicht nur die [PyCon DE & PyData Berlin 2024](https://2024.pycon.de/) geben
+wird, sondern auch schon vier weitere Events in der Vorbereitung sind, bei denen der PySV die Trägerschaft übernimmt.
+
+##### Konferenzen
+
+- [PyCon DE & PYData Berlin 2024](https://2024.pycon.de/): 22. April - 24. April 2024
+
+##### Trägerschaft (aktueller Stand)
+
+- Plone Tage
+- PythonCamp Karlsruhe
+- PythonCamp Rügen
+- PyCamp Leipzig
+
+Der Verein entwickelt derzeit Richtlinien für die Trägerschaft von Veranstaltungen, um der Community - insbesondere auch
+Organizern ohne Vorwissen besser unter die Arme greifen zu können. Wir prüfen die Umsetzbarkeit einer
+Veranstaltungshaftpflicht für unterstützte Meetups und User Groups.
+
+### Vorstandswahlen
+
+Der Vorstand wurde satzungsgemäß dieses Jahr neu gewählt.
+Es der bestehende Vorstand kandidierte wieder bis auf Christian Theune, der nach langjährigem Engagement nicht mehr
+kandidierte. Wir bedanken uns herzlich bei Christian fpr seinen langjährigen Einsatz für den Verein und die Community.
+
+Der neue [Vorstand](../../board) setzt sich wie folgt zusammen:
+
+&#8291;1. Vorsitzender: Dr.-Ing. Mike Müller  
+&#8291;2. Vorsitzender: Alexander Hendorf  
+&#8291;1. stellvertretende Vorsitzende: Dr. Tereza Iofciu  
+&#8291;2. stellvertretender Vorsitzender: Prof. Dr. Martin Christen  
+&#8291;Vorstandsmitglied: Klaus Bremer  
+&#8291;Vorstandsmitglied: Jessica Greene  
+&#8291;Vorstandsmitglied: Paloma Olivera  
+
+Es freut uns, dass der Vorstand auf nun auf sieben Mitglieder erweitert wurde und wir zwei neue
+Vorstandsmitglieder begrüßen dürfen, die wir hier kurz vorstellen:
+
+#### Jessica Greene
+
+Jessica Green hat als Quereinsteigerin eine unkonventionelle Karriere in der Technikbranche eingeschlagen, wobei die
+Community und insbesondere die Python-Community stets im Zentrum ihrer beruflichen Laufbahn standen. Sie feierte
+kürzlich ihr fünfjähriges Jubiläum als Software-Ingenieurin und ihr sechsjähriges als Mitglied der [PyLadies Berlin](https://berlin.pyladies.com/).
+Zudem engagierte sie sich im [PSF](https://psf.org) Conduct WG. Sie arbeitet Vollzeit als Entwicklerin bei [Ecosia](https://ecosia.org/) und setzt
+sich leidenschaftlich für Klimaschutz und Nachhaltigkeitsinitiativen ein. Jessica hofft, durch ihre Mitgliedschaft im
+Vorstand ihre vielfältigen Fähigkeiten und Interessen zum Wohl der Python-Community in Deutschland und der DACH-Region
+einzubringen.
+
+#### Palmoma Olivera
+
+Geboren in Brasilien und mit Wohnsitz in Mexiko und Deutschland, verbindet sie einen multikulturellen Hintergrund mit
+Erfahrungen in der Kunst an der Schnittstelle von Wissenschaft und Technologie. Ihre Reise mit [PyLadies Berlin](https://berlin.pyladies.com/)
+inspirierte sie zu einem Karrierewechsel zur Software-Ingenieurin, und seit 2009 setzt sie sich als Befürworterin für
+FOSS und Diversität in Open-Source-Projekten ein, aktuell tätig bei [Sauce Labs](https://saucelabs.com/) als Growth Engineer & Open Source
+Advocate.
+
+### Satzungsänderungen
+
+Die Mitgliederversammlung beschloss den Passus *"unter deutschsprachigen Anwendern"* aus §2 Abs. 12 der Satzung zu streichen,
+da dies nicht mehr als zeitgemäß angesehen wird. 
+Ebenso wurde beschlossen die Mitglieder-Verwaltung zu vereinfachen, insbesondere für den Fall, dass Mitglieder nicht mehr erreichbar sind.
+
+** Wir bedanken uns bei allen Mitgliedern für die Teilnahme an der Mitgliederversammlung und freuen uns auf ein weiteres Jahr mit euch! 🤗 ** 
