@@ -1,14 +1,6 @@
 {
     "events": [
         {
-            "header": "One day micro-conference",
-            "title": "Hamburg Python Pizza",
-            "date": "17.11.2023",
-            "abstract": "Python Pizza is a micro conference organized by the Hamburg Python Pizza Community. We bring the Python Community together for some amazing original Pizza™ and 10-minute Python Talks.",
-            "link": "https://www.linkedin.com/feed/update/urn:li:activity:7095824186379526144",
-            "image": "/static/media/events/2023/hamburg_python_pizza.jpg"
-        },
-        {
             "header": "Barcamp",
             "title": "PyCamp Leipzig 2024",
             "date": "22. und 23. Juni 2024",
