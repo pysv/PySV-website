@@ -1,15 +1,17 @@
 title: Impressum
 ---
+_template: page.html
+---
 body:
 
 Diese Website wird vom Python Software Verband e.V. betrieben.
 
 #### Verwaltungssitz
+
 Python Software Verband e.V.  
 p. Adr. Königsweg GmbH  
 Julius-Hatry-Str. 1  
 68163 Mannheim  
-
 
 #### Vereinssitz
 
@@ -22,14 +24,15 @@ Telefon +49 345 122 98 89 9
 USt-ID: DE287430795  
 Registernummer: VR 33442  
 
-Vorstand / Vertretungsberechtigte und besondere Vertretungsbefugnis
+Vorstand / Vertretungsberechtigte
 
 - Dr.-Ing. Mike Müller  (1. Vorsitzender)
 - Alexander Hendorf (2. Vorsitzender)
 - Dr. Tereza Iofciu (1. stellvertretender Vorsitzender)
 - Prof. Dr. Martin Christen (2. stellvertretender Vorsitzender)
 - Dr. Klaus Bremer  (Vorstandsmitglied)
-- Christian Theune (Vorstandsmitglied)
+- Jessica Greene (Vorstandsmitglied)
+- Paloma Oliveira (Vorstandsmitglied)
 
 #### Haftungshinweis
 Trotz sorgfältiger inhaltlicher Kontrolle übernimmt der Python Software Verband e.V. keine Haftung oder Garantie für die Aktualität, Richtigkeit und Vollständigkeit der Informationen auf dieser Website. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich. Für die eingestellten Inhalte auf den Teilnehmerseiten sind die jeweiligen Teilnehmer selbst verantwortlich.
@@ -39,5 +42,4 @@ Diese Website enthält Verweise auf Websites, die von Dritten eingerichtet wurde
 Der Python Software Verband e.V. behält sich das Recht vor, die auf dieser Website angebotenen Informationen ohne gesonderte Ankündigung jederzeit zu verändern oder zu aktualisieren.
 
 Für gegebenenfalls bestehende oder künftig entstehende Rechtsverhältnisse ist ausschließlich deutsches Recht anwendbar und sind nur deutsche Gerichte zuständig.
----
-_template: page.html
+

@@ -152,7 +152,7 @@ pyvenv.cfg
 pip-selfcheck.json
 
 ### JetBrains ´
-.idea/
+.idea
 
 # CMake
 cmake-build-*/
