@@ -1,5 +1,14 @@
 {
     "events": [
+
+        {
+            "header": "Barcamp",
+            "title": "Python BarCamp Karlsruhe 2024",
+            "date": "23. bis 24 März 2024",
+            "abstract": "Vom 23. bis 24 März 2024 erwarten dich in Karlsruhe Vorträge, Workshops, Code-Reviews und vieles mehr zu allen Themen rund um Python. Das Barcamp ist eine Veranstaltung für alle Python-Interessierten, egal ob Anfänger oder Profi. Hier kannst du dich mit anderen Python-Entwicklern austauschen, neue Dinge lernen und deine eigenen Ideen vorstellen. Wir freuen uns, dich auf unserem Python Barcamp in Karlsruhe begrüßen zu dürfen.",
+            "link": "https://barcamps.eu/pythonbarcamp-karlsruhe-2024/",
+            "image": "/static/media/events/2024/barcamp-flame.png"
+        },
         {
             "header": "Barcamp",
             "title": "PyCamp Leipzig 2024",
