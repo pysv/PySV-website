@@ -32,6 +32,14 @@
             "abstract": "Python zwischen Meer und Bodden: Sommer, Sonne, Surfen,  Chillen ... und natürlich viel Python! All das bietet das Python BarCamp auf Rügen. Save the date!",
             "link": "http://pythoncamp.de",
             "image": "/static/media/events/2025/pythoncamp_ruegen_sunset.jpg"
+        },
+        {
+            "header": "User Group Treffen",
+            "title": "Leipzig Python User Group",
+            "date": "regelmäßige Treffen am zweiten Dienstag im Monat",
+            "abstract": "Monatliches Treffen von an Python Interessierten mit Vorträgen und Diskussionen zu Python und verwandten Themen.",
+            "link": "https://lpug.github.io/",
+            "image": "/static/media/events/2025/lpug.svg"
         }
 
     ]
