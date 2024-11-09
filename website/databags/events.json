@@ -10,6 +10,14 @@
             "image": "/static/media/events/2025/barcamp-flame.png"
         },
         {
+            "header": "Konferenz",
+            "title": "PyCon DE & PyData 2025",
+            "date": "23. bis 25. April 2025",
+            "abstract": "Over the span of 3 days, attendees will have the opportunity to participate in workshops, attend live keynote sessions and talks, as well as get to know fellow members of the Python and PyData Communities. We aim to be an accessible, community-driven conference, with novice to advanced level presentations. Tutorials and talks bring attendees the latest project features along with cutting-edge use cases. The conference is organized by experts for other experts providing an excellent quality level of content. Newcomers explicitly welcome!",
+            "link": "https://2025.pycon.de/",
+            "image": "/static/media/events/2025/pycon_de.png"
+        },
+        {
             "header": "Barcamp",
             "title": "PyCamp Leipzig 2025",
             "date": "28. und 29. Juni 2025",
