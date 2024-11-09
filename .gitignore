@@ -227,3 +227,6 @@ Temporary Items
 .history/
 
 www/
+# pixi environments
+.pixi
+*.egg-info
