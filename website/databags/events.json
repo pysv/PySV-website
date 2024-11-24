@@ -3,27 +3,43 @@
 
         {
             "header": "Barcamp",
-            "title": "Python BarCamp Karlsruhe 2024",
-            "date": "23. bis 24 März 2024",
-            "abstract": "Vom 23. bis 24 März 2024 erwarten dich in Karlsruhe Vorträge, Workshops, Code-Reviews und vieles mehr zu allen Themen rund um Python. Das Barcamp ist eine Veranstaltung für alle Python-Interessierten, egal ob Anfänger oder Profi. Hier kannst du dich mit anderen Python-Entwicklern austauschen, neue Dinge lernen und deine eigenen Ideen vorstellen. Wir freuen uns, dich auf unserem Python Barcamp in Karlsruhe begrüßen zu dürfen.",
-            "link": "https://barcamps.eu/pythonbarcamp-karlsruhe-2024/",
-            "image": "/static/media/events/2024/barcamp-flame.png"
+            "title": "Python BarCamp Karlsruhe 2025",
+            "date": "15. bis 16. Februar 2025",
+            "abstract": "Vom 15. bis 16. Februar 2025 erwarten dich in Karlsruhe Vorträge, Workshops, Code-Reviews und vieles mehr zu allen Themen rund um Python. Das Barcamp ist eine Veranstaltung für alle Python-Interessierten, egal ob Anfänger oder Profi. Hier kannst du dich mit anderen Python-Entwicklern austauschen, neue Dinge lernen und deine eigenen Ideen vorstellen. Wir freuen uns, dich auf unserem Python Barcamp in Karlsruhe begrüßen zu dürfen.",
+            "link": "https://barcamps.eu/python-barcamp-karlsruhe-2025/",
+            "image": "/static/media/events/2025/barcamp-flame.png"
+        },
+        {
+            "header": "Konferenz",
+            "title": "PyCon DE & PyData 2025",
+            "date": "23. bis 25. April 2025",
+            "abstract": "Over the span of 3 days, attendees will have the opportunity to participate in workshops, attend live keynote sessions and talks, as well as get to know fellow members of the Python and PyData Communities. We aim to be an accessible, community-driven conference, with novice to advanced level presentations. Tutorials and talks bring attendees the latest project features along with cutting-edge use cases. The conference is organized by experts for other experts providing an excellent quality level of content. Newcomers explicitly welcome!",
+            "link": "https://2025.pycon.de/",
+            "image": "/static/media/events/2025/pycon_de.png"
         },
         {
             "header": "Barcamp",
-            "title": "PyCamp Leipzig 2024",
-            "date": "22. und 23. Juni 2024",
-            "abstract": "Die zweitägige Veranstaltung richtet sich an alle, die sich für die Programmiersprache Python und deren Einsatz interessieren - sei es im Bereich Web Development, Automatisierung, Scientific Computing oder einfach nur zum Spaß. Die Themen des PyCamps sind so vielfältig wie die Einsatzmöglichkeiten von Python selbst, denn das Programm wird - wie bei einem BarCamp üblich - von den Teilnehmern selbst gestaltet.",
-            "link": "https://barcamps.eu/python-barcamp-der-leipzig-python-user-group-2024/",
-            "image": "/static/media/events/2024/pycamp_leipzig.jpg"
+            "title": "PyCamp Leipzig 2025",
+            "date": "28. und 29. Juni 2025",
+            "abstract": "Die zweitägige Veranstaltung richtet sich an alle, die sich für die Programmiersprache Python und deren Einsatz interessieren - sei es im Bereich Web Development, Automatisierung, Scientific Computing oder einfach nur zum Spaß. Die Themen des PyCamps sind so vielfältig wie die Einsatzmöglichkeiten von Python selbst, denn das Programm wird - wie bei einem BarCamp üblich - von den Teilnehmenden selbst gestaltet.",
+            "link": "https://barcamps.eu/python-barcamp-leipzig-2025/",
+            "image": "/static/media/events/2025/pycamp_leipzig.jpg"
         },
         {
             "header": "Barcamp",
-            "title": "pythoncamp Rügen 2024",
-            "date": "21. und 22. September 2024",
+            "title": "pythoncamp Rügen 2025",
+            "date": "20. und 21. September 2025 (geplant)",
             "abstract": "Python zwischen Meer und Bodden: Sommer, Sonne, Surfen,  Chillen ... und natürlich viel Python! All das bietet das Python BarCamp auf Rügen. Save the date!",
             "link": "http://pythoncamp.de",
-            "image": "/static/media/events/2024/pythoncamp_ruegen_sunset.jpg"
+            "image": "/static/media/events/2025/pythoncamp_ruegen_sunset.jpg"
+        },
+        {
+            "header": "User Group Treffen",
+            "title": "Leipzig Python User Group",
+            "date": "regelmäßige Treffen am zweiten Dienstag im Monat",
+            "abstract": "Monatliches Treffen von an Python Interessierten mit Vorträgen und Diskussionen zu Python und verwandten Themen.",
+            "link": "https://lpug.github.io/",
+            "image": "/static/media/events/2025/lpug.svg"
         }
 
     ]
