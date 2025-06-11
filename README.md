@@ -1,5 +1,4 @@
-Python Softwareverband Website
-================================
+# Python Softwareverband Website
 
 ## Install
 
@@ -34,8 +33,15 @@ pip install --force-reinstall MarkupSafe==2.0.1
     cd website
     lektor server
 
-The local website is run on    
+The local website is run on
 [http://localhost:5000](http://localhost:5000)
+
+### Pixi
+
+Alternatively use Pixi:
+
+    pixi run local-server
+
 
 ## Build Static Site
 
@@ -44,21 +50,26 @@ The rendered page is saveto to the www dirctory which is excluded from VC, make 
     cd website
     lektor build --output-path ../www
 
+### Pixi
+
+Alternatively use Pixi:
+
+    pixi run build-static
 
 ## Adding more avatars
 Create new avatars with the script below
 The default avatar is defined in PySV-website.lektorproject
 
-    
+
     avatar_creator/create_avatar.py
-    
+
 
 
 ## Publishing
-The website is hosted on S3, www/* needs to be uploaded to S3, requires access tokens. 
+The website is hosted on S3, www/* needs to be uploaded to S3, requires access tokens.
 
 AWS Credentials are stored in the GitHub Secrets of this repository:
-* AWS_ACCESS_KEY_ID  
+* AWS_ACCESS_KEY_ID
 * AWS_SECRET_ACCESS_KEY
 
 ### GitHub Actions
