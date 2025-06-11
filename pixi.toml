@@ -1,9 +1,9 @@
 [project]
 authors = ["Mike Müller <mmueller@python-academy.de>"]
 channels = ["conda-forge"]
-description = "Add a short description here"
+description = "Website of Python Software Verband e.V."
 name = "pysv_website"
-platforms = ["osx-arm64"]
+platforms = ["osx-arm64", "linux-64"]
 version = "0.1.0"
 
 [tasks]
@@ -21,3 +21,13 @@ pip = "*"
 
 [pypi-dependencies]
 python-avatars = "*"
+
+[tasks.build-static]
+cwd = "website"
+cmd = "lektor build --output-path ../www"
+description = "build static site"
+
+[tasks.local-server]
+cwd = "website"
+cmd = "lektor server"
+description = "start local server"
