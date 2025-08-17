@@ -1,0 +1,20 @@
+{
+    "pages": [
+        {
+            "name": "Blog",
+            "path": "blog"
+        },
+        {
+            "name": "Community",
+            "path": "community"
+        },
+        {
+            "name": "Events",
+            "path": "events"
+        },
+        {
+            "name": "About",
+            "path": "about"
+        }
+    ]
+}

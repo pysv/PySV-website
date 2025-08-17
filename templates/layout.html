@@ -1,29 +1,32 @@
-<!doctype html>
-<meta charset="utf-8">
-<link rel="stylesheet" href="{{ '/static/style.css'|url }}">
-<title>{% block title %}Welcome{% endblock %} — Python Software Verband</title>
-<body>
-  <header>
-    <h1>Python Software Verband</h1>
-    <nav>
-      <ul class="nav navbar-nav">
-        <li{% if this._path == '/' %} class="active"{% endif
-          %}><a href="{{ '/'|url }}">Welcome</a></li>
-        {% for href, title in [
-          ['/blog', 'Blog'],
-          ['/projects', 'Projects'],
-          ['/about', 'About']
-        ] %}
-          <li{% if this.is_child_of(href) %} class="active"{% endif
-            %}><a href="{{ href|url }}">{{ title }}</a></li>
-        {% endfor %}
-      </ul>
-    </nav>
-  </header>
-  <div class="page">
-    {% block body %}{% endblock %}
-  </div>
-  <footer>
-    &copy; Copyright 2025 by Ömür Özkir.
-  </footer>
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Software Verband</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/stylesheets/main.css'|url }}">
+</head>
+
+<body class="page">
+    <div class="main-content">
+
+        <nav aria-label="Site Navigation" class="main-navigation">
+            <a href="/"><img src="/images/psv-logo.svg" alt="Python Software Verband"></a>
+            <ol class="intrapage-links">
+                {% for page in bag('links')['pages'] %}
+                <li class="navigation-link"><a href="/{{ page.path|url }}">{{ page.name }}</a></li>
+                {% endfor %}
+            </ol>
+        </nav>
+
+        {% block body %}
+        {% endblock %}
 </body>
+
+</html>
