@@ -17,7 +17,8 @@
     <div class="main-content">
 
         <nav aria-label="Site Navigation" class="main-navigation">
-            <a href="/"><img src="/images/psv-logo.svg" alt="Python Software Verband"></a>
+            <a href="/"><img src="/images/logo.png" alt="Python Software Verband" class="nav-logo"></a>
+
             <ol class="intrapage-links">
                 {% for page in bag('links')['pages'] %}
                 <li class="navigation-link"><a href="/{{ page.path|url }}">{{ page.name }}</a></li>
