@@ -26,8 +26,20 @@
             </ol>
         </nav>
 
-        {% block body %}
-        {% endblock %}
+        <div class="content">
+            {% block body %}
+            {% endblock %}
+        </div>
+
+        <footer>
+            <ul>
+                <li class="footer-link"><a href="/imprint">Impressum</a></li>
+                <li class="footer-link"><a href="/privacy">Datenschutz</a></li>
+                <li class="footer-link"><a href="/coc">Code of Conduct</a></li>
+                <li class="footer-link"><a href="https://www.linkedin.com/company/pysv">Kontakt</a></li>
+            </ul>
+        </footer>
+    </div>
 </body>
 
 </html>

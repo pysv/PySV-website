@@ -66,6 +66,7 @@ body {
 h1,
 h2,
 h3,
+h4,
 .main-navigation a {
     line-height: calc(var(--rythm-unit) * 2);
     font-family: "Montserrat", sans-serif;
@@ -142,7 +143,7 @@ a {
     text-transform: lowercase;
 }
 
-.main-navigation a:hover {
+.main-navigation .intrapage-links a:hover {
     color: white;
     background-color: black;
 }
@@ -170,5 +171,12 @@ a {
 /* main navigation */
 .nav-logo {
     max-height: 2em;
-    filter: drop-shadow(1px 2px 3px rgba(0, 0, 0, 0.4));
+    filter: drop-shadow(1px 2px 3px rgba(0, 0, 0, 0.5));
+}
+
+/* content pages */
+.content ul,
+.content ol {
+    list-style-type: circle;
+    margin-left: 1em;
 }
