@@ -13,6 +13,10 @@
             "path": "events"
         },
         {
+            "name": "Grants",
+            "path": "grants"
+        },
+        {
             "name": "About",
             "path": "about"
         }
