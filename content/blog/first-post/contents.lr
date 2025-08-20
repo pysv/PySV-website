@@ -6,4 +6,6 @@ author: Ömür Özkir
 ---
 body:
 
-This is an example blog post.  Not much here but that's not the point :)
+## 1st example
+---
+show_on_homepage: True
