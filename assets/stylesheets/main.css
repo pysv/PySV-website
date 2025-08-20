@@ -250,6 +250,13 @@ p {
 /* content pages */
 .content ul,
 .content ol {
-    list-style-type: circle;
     margin-left: 1em;
+}
+
+.content ul {
+    list-style-type: circle;
+}
+
+.content ol {
+    list-style-type: decimal;
 }
