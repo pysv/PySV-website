@@ -1,4 +1,5 @@
 {% extends "layout.html" %}
+{% from "macros/blog.html" import render_blog_post %}
 
 {% block title %}{{ this.title }}{% endblock %}
 
@@ -8,6 +9,14 @@
 <div class="hero">
     <h1>{{ this.title }}</h1>
     {{ this.hero }}
+</div>
+
+<div class="usps">
+    {% for post in site.query('/blog').filter(F.show_on_homepage == True).order_by('-pub_date') %}
+    <h2><a href="{{ post|url }}">{{ post.title }}</a></h2>
+    <p>{{ post.pub_date }}</p>
+    <div>{{ post.body }}</div>
+    {% endfor %}
 </div>
 
 {% endblock %}
