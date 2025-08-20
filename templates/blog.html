@@ -5,7 +5,7 @@
 
 {% block body %}
 
-{% for child in this.pagination.items %}
+{% for child in this.children %}
 {{ render_blog_post(child, from_index=true) }}
 {% endfor %}
 
