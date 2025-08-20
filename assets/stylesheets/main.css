@@ -232,6 +232,21 @@ p {
     margin-left: 0;
 }
 
+.usps {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.usp {
+    flex: 0 0 33.33%;
+}
+
+@media (max-width: 800px) {
+    .usp {
+        flex: 0 0 100%;
+    }
+}
+
 /* content pages */
 .content ul,
 .content ol {
