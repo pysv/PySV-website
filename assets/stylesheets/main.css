@@ -227,6 +227,11 @@ p {
     font-size: 1.1em;
 }
 
+.content .usps {
+    list-style-type: none;
+    margin-left: 0;
+}
+
 /* content pages */
 .content ul,
 .content ol {

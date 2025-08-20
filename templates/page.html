@@ -11,12 +11,13 @@
     {{ this.hero }}
 </div>
 
-<div class="usps">
+<ol class="usps">
     {% for post in site.query('/blog').filter(F.show_on_homepage == True).order_by('-pub_date') %}
-    <h2><a href="{{ post|url }}">{{ post.title }}</a></h2>
-    <p>{{ post.pub_date }}</p>
-    <div>{{ post.body }}</div>
-    {% endfor %}
-</div>
-
-{% endblock %}
+    <li>
+        <h2><a href="{{ post|url }}">{{ post.title }}</a></h2>
+        <p>{{ post.pub_date }}</p>
+        <div>{{ post.body }}</div>
+        {% endfor %}
+    </li>
+    {% endblock %}
+</ol>
