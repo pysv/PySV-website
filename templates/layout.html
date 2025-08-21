@@ -21,7 +21,23 @@
 
             <ol class="intrapage-links">
                 {% for page in bag('links')['pages'] %}
-                <li class="navigation-link"><a href="/{{ page.path|url }}">{{ page.name }}</a></li>
+                <li class="navigation-link">
+                    {% if page.subpages %}
+                    <div class="dropdown">
+                        <button class="dropdown--button">
+                            {{ page.name }}
+                        </button>
+
+                        <div class="dropdown--content">
+                            {% for subpage in page.subpages %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                    {% else %}
+                    <a href="/{{ page.path|url }}">{{ page.name }}</a>
+
+                    {% endif %}
+                </li>
                 {% endfor %}
             </ol>
         </nav>

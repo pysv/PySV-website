@@ -18,7 +18,25 @@
         },
         {
             "name": "About",
-            "path": "about"
+            "path": "about",
+            "subpages": [
+                {
+                    "name": "Board",
+                    "path": "board"
+                },
+                {
+                    "name": "Dokumente",
+                    "path": "documents"
+                },
+                {
+                    "name": "Mitgliedschaft",
+                    "path": "membership"
+                },
+                {
+                    "name": "Sustainability",
+                    "path": "sustainability"
+                }
+            ]
         }
     ]
 }

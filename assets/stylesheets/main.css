@@ -67,7 +67,9 @@ h1,
 h2,
 h3,
 h4,
-.main-navigation a {
+.main-navigation a,
+.dropdown,
+.dropdown--button {
     line-height: calc(var(--rythm-unit) * 2);
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -75,7 +77,8 @@ h4,
     font-style: normal;
 }
 
-.main-navigation a {
+.main-navigation a,
+.dropdown--button {
     font-size: 1.3em;
 }
 
@@ -153,6 +156,7 @@ html {
 .intrapage-links {
     display: flex;
     gap: 1em;
+    align-items: center;
 }
 
 .footer {
@@ -187,7 +191,7 @@ p {
 .footer-link,
 .intrapage-links li {
     background: linear-gradient(to top, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.9) 50%);
-    background-size: 100% 200%;
+    background-size: 101% 200%;
     background-position: bottom;
     transition: background-position 0.6s ease;
 }
@@ -207,7 +211,8 @@ p {
 }
 
 .footer-link a,
-.intrapage-links li a {
+.intrapage-links li a,
+.dropdown--button {
     display: block;
     font-weight: 900;
     color: black;
@@ -215,8 +220,16 @@ p {
 }
 
 .intrapage-links li a:hover,
-.footer-link a:hover {
+.footer-link a:hover,
+.dropdown--button:hover {
     color: white;
+}
+
+.dropdown--button {
+    background: none;
+    border: none;
+    text-decoration: underline;
+    text-transform: lowercase;
 }
 
 /* homepage content */
