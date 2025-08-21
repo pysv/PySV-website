@@ -1,0 +1,46 @@
+{
+    "current_members": [
+        {
+            "name": "Dr.-Ing. Mike Müller",
+            "role": "1. Vorsitzender",
+            "socials": {}
+        },
+        {
+            "name": "Alexander Hendorf",
+            "role": "2. Vorsitzender",
+            "socials": {
+                "linkedin": "https://www.linkedin.com/authwall?trk=bf&trkInfo=AQHVXju53OCjpgAAAZjITzlgncBnZl4LAlXCbBwQzcXpb5XSU8fK2ezWEctJxJVzTOmQWWN8HLCuPDgPr0EDFfx5qvlhnWJhz6hhfmtpv68xPLfCAZFqOz-S0H_n-zvcED9-RsU=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fhendorf%2F",
+                "twitter": "https://x.com/hendorf/",
+                "github": "https://github.com/alanderex"
+            }
+        },
+        {
+            "name": "Dr. Tereza Iofciu",
+            "role": "1. Stellvertretender Vorsitzende",
+            "socials": {}
+        },
+        {
+            "name": "Prof. Dr. Martin Christen",
+            "role": "2. Stellvertretender Vorsitzender",
+            "socials": {}
+        },
+        {
+            "name": "Dr. Klaus Bremer",
+            "role": "Vorstandsmitglied",
+            "socials": {}
+        },
+        {
+            "name": "Jessica Greene",
+            "role": "Vorstandsmitglied",
+            "socials": {
+                "linkedin": "https://www.linkedin.com/in/jessica0greene/"
+            }
+        },
+        {
+            "name": "Paloma Oliveira",
+            "role": "Vorstandsmitglied",
+            "socials": {}
+        }
+    ],
+    "former_members": []
+}
