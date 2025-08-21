@@ -1,2 +1,4 @@
+build:
+	lektor build -O tmp
 run:
-	uv run lektor server -O tmp -p 5001
+	lektor server -O tmp -p 5001
