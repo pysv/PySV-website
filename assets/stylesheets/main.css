@@ -295,19 +295,16 @@ p {
 /* homepage content */
 
 .hero {
-    font-weight: 900;
+    font-weight: 400;
     line-height: 1.8em;
     font-size: 1.1em;
 }
 
 .content .usps {
     list-style-type: none;
-    margin-left: 0;
-}
-
-.usps {
     display: flex;
     flex-wrap: wrap;
+    margin: calc(var(--rythm-unit) * 3) 0;
 }
 
 .usp {
@@ -332,4 +329,38 @@ p {
 
 .content ol {
     list-style-type: decimal;
+}
+
+ol.board-members {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+.board-member h3 {
+    line-height: var(--rythm-unit);
+}
+
+.board-members {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--rythm-unit);
+}
+
+.board-member {
+    flex: 1 1 calc(50% - calc(var(--rythm-unit)/2));
+    display: flex;
+}
+
+.board-member .image {
+    flex-basis: 33%;
+}
+
+.board-member .details {
+    padding-left: var(--rythm-unit);
+}
+
+.board-member .image,
+.board-member .details {
+    flex-grow: 0;
+    flex-shrink: 0;
 }

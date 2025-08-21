@@ -1,9 +1,29 @@
 {% extends "layout.html" %}
+{% from "macros/board.html" import render_board_member %}
+
 {% block title %}{{ this.title }}{% endblock %}
 
 {% block body %}
 
 <h1>{{ this.title }}</h1>
 {{ this.body }}
+
+<div class="current-members">
+    <h2>Vorstand</h2>
+    <ol class="board-members">
+        {% for member in bag('board')['current_members'] %}
+        {{ render_board_member(member) }}
+        {% endfor %}
+    </ol>
+</div>
+
+<div class="former-members">
+    <h2>Ehemalige Vorstandsmitglieder</h2>
+    <ol class="board-members">
+        {% for member in bag('board')['former_members'] %}
+        {{ render_board_member(member) }}
+        {% endfor %}
+    </ol>
+</div>
 
 {% endblock %}

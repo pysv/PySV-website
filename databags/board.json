@@ -3,11 +3,13 @@
         {
             "name": "Dr.-Ing. Mike Müller",
             "role": "1. Vorsitzender",
+            "image": "2020_mike.jpg",
             "socials": {}
         },
         {
             "name": "Alexander Hendorf",
             "role": "2. Vorsitzender",
+            "image": "hendorf.jpeg",
             "socials": {
                 "linkedin": "https://www.linkedin.com/authwall?trk=bf&trkInfo=AQHVXju53OCjpgAAAZjITzlgncBnZl4LAlXCbBwQzcXpb5XSU8fK2ezWEctJxJVzTOmQWWN8HLCuPDgPr0EDFfx5qvlhnWJhz6hhfmtpv68xPLfCAZFqOz-S0H_n-zvcED9-RsU=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fhendorf%2F",
                 "twitter": "https://x.com/hendorf/",
@@ -17,21 +19,25 @@
         {
             "name": "Dr. Tereza Iofciu",
             "role": "1. Stellvertretender Vorsitzende",
+            "image": "tereza.png",
             "socials": {}
         },
         {
             "name": "Prof. Dr. Martin Christen",
             "role": "2. Stellvertretender Vorsitzender",
+            "image": "Martin_Christen.jpg",
             "socials": {}
         },
         {
             "name": "Dr. Klaus Bremer",
             "role": "Vorstandsmitglied",
+            "image": "2020_klaus.jpg",
             "socials": {}
         },
         {
             "name": "Jessica Greene",
             "role": "Vorstandsmitglied",
+            "image": "jessica.jpeg",
             "socials": {
                 "linkedin": "https://www.linkedin.com/in/jessica0greene/"
             }
@@ -39,6 +45,7 @@
         {
             "name": "Paloma Oliveira",
             "role": "Vorstandsmitglied",
+            "image": "paloma.jpeg",
             "socials": {}
         }
     ],
@@ -46,16 +53,19 @@
         {
             "name": "Yu Yan Cheung",
             "role": "Vorstandsmitglied",
+            "image": "yenny.jpg",
             "socials": {}
         },
         {
             "name": "Christian Theune",
             "role": "Vorstandsmitglied",
+            "image": "1638170933871.jpeg",
             "socials": {}
         },
         {
             "name": "Katharine Jarmul",
             "role": "Beraterin",
+            "image": "1517716762908.jpeg",
             "socials": {}
         }
     ]

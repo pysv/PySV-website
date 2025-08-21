@@ -1,0 +1,11 @@
+{% macro render_board_member(member) %}
+<li class="board-member">
+    <div class="image">
+        <img src="/board/{{member.image}}" alt="{{member.name}}">
+    </div>
+    <div class="details">
+        <h3>{{ member.name }}</h3>
+        <h4>{{ member.role }}</h4>
+    </div>
+</li>
+{% endmacro %}
