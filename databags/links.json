@@ -22,19 +22,19 @@
             "subpages": [
                 {
                     "name": "Board",
-                    "path": "board"
+                    "path": "/board"
                 },
                 {
                     "name": "Dokumente",
-                    "path": "documents"
+                    "path": "/documents"
                 },
                 {
                     "name": "Mitgliedschaft",
-                    "path": "membership"
+                    "path": "/membership"
                 },
                 {
                     "name": "Sustainability",
-                    "path": "sustainability"
+                    "path": "/sustainability"
                 }
             ]
         }
