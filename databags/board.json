@@ -42,5 +42,21 @@
             "socials": {}
         }
     ],
-    "former_members": []
+    "former_members": [
+        {
+            "name": "Yu Yan Cheung",
+            "role": "Vorstandsmitglied",
+            "socials": {}
+        },
+        {
+            "name": "Christian Theune",
+            "role": "Vorstandsmitglied",
+            "socials": {}
+        },
+        {
+            "name": "Katharine Jarmul",
+            "role": "Beraterin",
+            "socials": {}
+        }
+    ]
 }
