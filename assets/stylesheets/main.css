@@ -249,7 +249,7 @@ p {
 }
 
 .intrapage-links .navigation-link a {
-    font-weight: 100;
+    font-weight: 200;
     text-decoration: none;
 }
 
@@ -266,9 +266,9 @@ p {
 .dropdown--button {
     background: none;
     border: none;
-    text-decoration: underline;
     text-transform: lowercase;
     cursor: pointer;
+    font-weight: 200;
 }
 
 .dropdown--content {
