@@ -6,6 +6,14 @@ This is the repository for the [Python Software Verband](https://python-verband.
 
 ### Local Setup
 
+You don't need anything specific except for your normal python installation to setup your development environment.
+
+1. Make sure you have the python version specified in `.python-version`.
+2. `python -m venv ./venv && source venv/bin/activate` to setup a virtual environment and activate it
+3. `pip install -r requirements.txt` to install the dependencies
+4. `make run` to launch the development server.
+5. You can visit the website on localhost:5001
+
 ### Deployment
 
 ### Recreating the Deployment Target on S3
