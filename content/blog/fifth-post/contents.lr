@@ -4,8 +4,16 @@ pub_date: 2025-08-08
 ---
 author: Ömür Özkir
 ---
+teaser:
+
+## 5th example
+
+something really really cool!
+---
 body:
 
 ## 5th example
+---
+cta: AI hype!
 ---
 show_on_homepage: True
