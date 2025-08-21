@@ -201,6 +201,28 @@ p {
     transition: background-position 0.6s ease;
 }
 
+.footer {
+    display: flex;
+}
+
+.legal-links,
+.contact-links {
+    flex: 1 1 50%;
+}
+
+.contact-links {
+    text-align: right;
+}
+
+@media (max-width: 800px) {
+
+    .lega-links,
+    .contact-links {
+        flex-basis: 100%;
+        text-align: left;
+    }
+}
+
 .footer-link {
     line-height: 1.6em;
     letter-spacing: .1em;
