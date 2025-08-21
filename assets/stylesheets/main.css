@@ -195,12 +195,20 @@ p {
 }
 
 .footer-link,
-.intrapage-links .navigation-link {
+.intrapage-links .navigation-link,
+.usp {
     background: linear-gradient(to top, rgba(0, 0, 0, 0) 50%, var(--white) 50%);
     background-size: 101% 200%;
     background-position: bottom;
     transition: background-position 0.6s ease;
 }
+
+.footer-link:hover,
+.intrapage-links li:hover,
+.usp:hover {
+    background-position: top;
+}
+
 
 .footer {
     display: flex;
@@ -228,11 +236,6 @@ p {
 .footer-link {
     line-height: 1.6em;
     letter-spacing: .1em;
-}
-
-.footer-link:hover,
-.intrapage-links li:hover {
-    background-position: top;
 }
 
 .intrapage-links li a {
@@ -317,7 +320,6 @@ p {
 /* homepage content */
 
 .hero {
-    /* font-weight: 900; */
     padding: var(--rythm-unit) 0;
     line-height: 1.8em;
     font-size: 1.1em;
@@ -335,7 +337,6 @@ p {
 
 .usp {
     flex: 0 0 33.33%;
-    background-color: var(--black);
     border: var(--border-width) solid var(--white);
     margin-top: var(--rythm-unit);
 }
@@ -347,13 +348,13 @@ p {
     }
 }
 
-.usp:hover {
-    background-color: var(--white);
+.usp a {
+    color: var(--white);
+    transition: color 0.4s ease-out;
 }
 
 .usp:hover a {
     text-decoration: none;
-    background-color: var(--white);
     color: var(--black);
 }
 
