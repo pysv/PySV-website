@@ -195,6 +195,7 @@ p {
 .footer-link,
 .intrapage-links .navigation-link,
 .usp,
+.blog-post,
 .dropdown {
     background: linear-gradient(to top, rgba(0, 0, 0, 0) 50%, var(--white) 50%);
     background-size: 101% 200%;
@@ -204,6 +205,7 @@ p {
 
 .footer-link:hover,
 .intrapage-links li:hover,
+.blog-post:hover,
 .usp:hover {
     background-position: top;
 }
@@ -253,7 +255,8 @@ p {
     transition: color 0.3s ease-out;
 }
 
-.intrapage-links .navigation-link a {
+.intrapage-links .navigation-link a,
+.blog-post a {
     text-decoration: none;
 }
 
@@ -358,12 +361,14 @@ p {
     }
 }
 
-.usp a {
+.usp a,
+.blog-post a {
     color: var(--white);
     transition: color 0.4s ease-out;
 }
 
-.usp:hover a {
+.usp:hover a,
+.blog-post:hover a {
     text-decoration: none;
     color: var(--black);
 }
@@ -443,4 +448,6 @@ ol.content-list {
 
 .blog-posts {}
 
-.blog-post {}
+.blog-post {
+    border-bottom: calc(var(--border-width)/2) solid var(--white);
+}

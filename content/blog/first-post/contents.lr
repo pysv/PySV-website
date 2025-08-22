@@ -2,11 +2,11 @@ title: Hello Website
 ---
 pub_date: 2025-08-08
 ---
-author: Ömür Özkir
----
 body:
 
 ## 1st example
+
+Some blog post about python. Probably.
 ---
 teaser:
 
