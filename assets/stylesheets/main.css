@@ -57,6 +57,13 @@ ol {
 
     --black: #100811;
     --white: #DAD3D2;
+
+    --bar-width: 42px;
+    --bar-height: 2px;
+    --hamburger-gap: 6px;
+    --hamburger-margin: 1rem;
+    --animation-timing: 433ms ease-in-out;
+    --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
 }
 
 /* Typography */
@@ -112,8 +119,15 @@ a {
 
 .page {
     display: grid;
-    grid-template-columns: 1fr min(1100px, 90vw) 1fr;
-    grid-template-areas: ". content .";
+    padding: calc(var(--rythm-unit)/2);
+}
+
+@media (min-width: 600px) {
+    .page {
+        padding: 0;
+        grid-template-columns: 1fr min(1100px, 90vw) 1fr;
+        grid-template-areas: ". content .";
+    }
 }
 
 html {
@@ -131,10 +145,12 @@ html {
     margin-top: calc(var(--rythm-unit) * 2);
 }
 
-.main-navigation {
-    border-top: 1px solid;
-    border-bottom: 1px solid;
-    border-color: var(--white);
+@media (min-width: 600px) {
+    .main-navigation {
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        border-color: var(--white);
+    }
 }
 
 .intrapage-links {
@@ -338,6 +354,12 @@ p {
     }
 }
 
+@media (min-width: 600px) {
+    .collapsed-navigation {
+        display: none;
+    }
+}
+
 /* homepage content */
 
 .hero {
@@ -350,6 +372,94 @@ p {
     font-weight: 100;
     letter-spacing: 1.9px;
 }
+
+@media (max-width: 1000px) {
+    .hero h1 {
+        line-height: 1em;
+    }
+}
+
+.hamburger-menu {
+    --x-width: calc(var(--hamburger-height) * 1.41421356237);
+    /* height * sqrt(2) = length of the diagonal, since it is a right angle */
+    --foreground: white;
+    --background: white;
+    display: flex;
+    flex-direction: column;
+    gap: var(--hamburger-gap);
+    width: max-content;
+    position: absolute;
+    top: 2rem;
+    left: calc(var(--rythm-unit)/2);
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.hamburger-menu::before,
+.hamburger-menu::after,
+.hamburger-menu input {
+    content: "";
+    width: var(--bar-width);
+    height: var(--bar-height);
+    transform-origin: left center;
+    transition: opacity var(--animation-timing),
+        width var(--animation-timing),
+        rotate var(--animation-timing),
+        translate var(--animation-timing),
+        background-color var(--animation-timing);
+}
+
+.hamburger-menu::before,
+.hamburger-menu::after {
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+.hamburger-menu input {
+    appearance: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    pointer-events: none;
+}
+
+.hamburger-menu:has(input:checked)::before {
+    rotate: 45deg;
+    width: var(--x-width);
+    translate: 0 calc(var(--bar-height) / -2);
+}
+
+.hamburger-menu:has(input:checked)::after {
+    rotate: -45deg;
+    width: var(--x-width);
+    translate: 0 calc(var(--bar-height) / 2);
+}
+
+.sidebar {
+    position: absolute;
+    padding-top: calc(var(--hamburger-height) * 4);
+    background-color: var(--black);
+    color: white;
+    translate: 0 -100%;
+    opacity: 0;
+    transition: translate var(--animation-timing), opacity var(--animation-timing);
+    min-height: 100vh;
+    width: 100%;
+    z-index: 999;
+    overscroll-behavior: contain;
+    overflow: hidden;
+}
+
+.sidebar a {
+    display: block;
+}
+
+.hamburger-menu:has(input:checked)+.sidebar {
+    translate: 0;
+    opacity: 1;
+}
+
+
 
 .content .usps {
     list-style-type: none;

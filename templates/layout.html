@@ -44,7 +44,35 @@
                 {% endif %}
                 {% endfor %}
             </ol>
+
+            <div class="collapsed-navigation">
+                <label class="hamburger-menu">
+                    <input type="checkbox" />
+                </label>
+
+                <aside class="sidebar">
+                    <nav aria-label="Site Navigation">
+                        <ul class="nav">
+                            <li>
+                                <a href="/"><img src="/images/logo.png" alt="Python Software Verband"
+                                        class="nav-logo"></a>
+
+                            </li>
+                            {% for page in bag('links')['pages'] %}
+                            {% if page.subpages %}
+                            {% for subpage in page.subpages %}
+                            <li><a href="/{{ subpage.path|url }}">{{ subpage.name }}</a></li>
+                            {% endfor %}
+                            {% else %}
+                            <li><a href="/{{ page.path|url }}">{{ page.name }}</a></li>
+                            {% endif %}
+                            {% endfor %}
+                        </ul>
+                    </nav>
+                </aside>
+            </div>
         </nav>
+
 
         <div class="content">
             {% block body %}
