@@ -7,4 +7,22 @@
 <h1>{{ this.title }}</h1>
 {{ this.body }}
 
+<ol class="content-list company-members">
+    {% for member in bag('membership')['members'] %}
+    <li class="company-member">
+        <a href="{{ member.url }}">
+            <div class="image">
+                {% if member.logo %}
+                <img src="/membership/{{ member.logo }}" alt="{{member.name}}">
+                {% endif %}
+            </div>
+            <div class="details">
+                <div class="name">{{ member.name }}</div>
+                <div class="website">{{ member.url }}</div>
+            </div>
+        </a>
+    </li>
+    {% endfor %}
+</ol>
+
 {% endblock %}

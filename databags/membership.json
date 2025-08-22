@@ -1,0 +1,19 @@
+{
+    "members": [
+        {
+            "name": "Python Academy",
+            "logo": "1_logo_pythonacademy.gif",
+            "url": "https://www.python-academy.com"
+        },
+        {
+            "name": "gocept gmbh & co. kg",
+            "logo": null,
+            "url": "https://gocept.com"
+        },
+        {
+            "name": "Zetwork",
+            "logo": "3_zetwork.png",
+            "url": "https://www.zetwork.com"
+        }
+    ]
+}

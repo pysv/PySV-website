@@ -56,7 +56,7 @@ ol {
     --border-width: 8px;
 
     --black: #100811;
-    --white: #F0F0F0;
+    --white: #DAD3D2;
 }
 
 /* Typography */
@@ -197,9 +197,10 @@ p {
 .usp,
 .blog-post,
 .event,
+.company-member,
 .dropdown {
     background: linear-gradient(to top, rgba(0, 0, 0, 0) 50%, var(--white) 50%);
-    background-size: 101% 200%;
+    background-size: 100% 200%;
     background-position: bottom;
     transition: background-position 0.6s ease;
 }
@@ -208,6 +209,7 @@ p {
 .intrapage-links li:hover,
 .blog-post:hover,
 .event:hover,
+.company-member:hover,
 .usp:hover {
     background-position: top;
 }
@@ -259,6 +261,7 @@ p {
 
 .intrapage-links .navigation-link a,
 .blog-post a,
+.company-member a,
 .event a {
     text-decoration: none;
 }
@@ -328,6 +331,13 @@ p {
     }
 }
 
+/* hamburger menu */
+@media (max-width: 600px) {
+    .intrapage-links {
+        display: none;
+    }
+}
+
 /* homepage content */
 
 .hero {
@@ -367,6 +377,7 @@ p {
 
 .usp a,
 .blog-post a,
+.company-member a,
 .event a {
     color: var(--white);
     transition: color 0.4s ease-out;
@@ -374,6 +385,7 @@ p {
 
 .usp:hover a,
 .blog-post:hover a,
+.company-member:hover a,
 .event:hover a {
     text-decoration: none;
     color: var(--black);
@@ -427,32 +439,41 @@ ol.content-list {
     line-height: var(--rythm-unit);
 }
 
-.board-members {
+.board-members,
+.company-members {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: var(--rythm-unit);
 }
 
-.board-member {
+.board-member,
+.company-member {
     flex: 1 1 calc(50% - calc(var(--rythm-unit)/2));
     display: flex;
 }
 
-.board-member .image {
+.company-member a {
+    display: flex;
+    width: 100%;
+}
+
+.board-member .image,
+.company-member .image {
     flex-basis: 33%;
 }
 
-.board-member .details {
+.board-member .details,
+.company-member .details {
     padding-left: var(--rythm-unit);
 }
 
 .board-member .image,
-.board-member .details {
+.board-member .details,
+.company-member .image,
+.company-member .details {
     flex-grow: 0;
     flex-shrink: 0;
 }
-
-.blog-posts {}
 
 .blog-post {
     border-bottom: calc(var(--border-width)/2) solid var(--white);
