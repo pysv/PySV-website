@@ -348,6 +348,7 @@ p {
 
 .usp {
     flex: 0 0 33.33%;
+    border-bottom: var(--border-width) solid var(--white);
 }
 
 @media (min-width: 800px) {
@@ -358,7 +359,6 @@ p {
 
     .usp {
         border-right: var(--border-width) solid var(--white);
-        border-bottom: var(--border-width) solid var(--white);
     }
 }
 
