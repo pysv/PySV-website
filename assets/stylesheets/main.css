@@ -61,8 +61,12 @@ ol {
 
 /* Typography */
 
+html,
 body {
     font-size: 18px;
+}
+
+body {
     line-height: var(--rythm-unit);
     font-family: "Lato", sans-serif;
     font-weight: 400;
@@ -108,7 +112,7 @@ a {
 
 .page {
     display: grid;
-    grid-template-columns: 1fr min(1000px, 90vw) 1fr;
+    grid-template-columns: 1fr min(1100px, 90vw) 1fr;
     grid-template-areas: ". content .";
 }
 
