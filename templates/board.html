@@ -10,7 +10,7 @@
 
 <div class="current-members">
     <h2>Vorstand</h2>
-    <ol class="board-members">
+    <ol class="content-list board-members">
         {% for member in bag('board')['current_members'] %}
         {{ render_board_member(member) }}
         {% endfor %}
@@ -19,7 +19,7 @@
 
 <div class="former-members">
     <h2>Ehemalige Vorstandsmitglieder</h2>
-    <ol class="board-members">
+    <ol class="content-list board-members">
         {% for member in bag('board')['former_members'] %}
         {{ render_board_member(member) }}
         {% endfor %}

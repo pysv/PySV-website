@@ -406,7 +406,8 @@ p {
     list-style-type: decimal;
 }
 
-ol.board-members {
+
+ol.content-list {
     list-style-type: none;
     margin-left: 0;
 }
@@ -439,3 +440,7 @@ ol.board-members {
     flex-grow: 0;
     flex-shrink: 0;
 }
+
+.blog-posts {}
+
+.blog-post {}

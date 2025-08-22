@@ -5,8 +5,12 @@
 
 {% block body %}
 
-{% for child in this.children %}
-{{ render_blog_post(child, from_index=true) }}
-{% endfor %}
+<ol class="content-list">
+    {% for child in this.children %}
+    <li class="blog-post">
+        {{ render_blog_post(child, from_index=true) }}
+    </li>
+    {% endfor %}
+</ol>
 
 {% endblock %}
