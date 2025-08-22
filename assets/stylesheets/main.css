@@ -328,10 +328,8 @@ p {
 /* homepage content */
 
 .hero {
-    padding: var(--rythm-unit) 0;
     line-height: 1.8em;
     font-size: 1.1em;
-    border-bottom: var(--border-width) solid var(--white);
 }
 
 .hero h1 {
@@ -344,20 +342,23 @@ p {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    margin: calc(var(--rythm-unit) * 3) 0;
+    margin: 0;
     align-items: stretch;
 }
 
 .usp {
     flex: 0 0 33.33%;
-    border: var(--border-width) solid var(--white);
-    margin-top: var(--rythm-unit);
 }
 
 @media (min-width: 800px) {
+    .usps {
+        border-top: var(--border-width) solid var(--white);
+        border-left: var(--border-width) solid var(--white);
+    }
+
     .usp {
-        border-left: calc(var(--border-width)/2) solid var(--white);
-        border-right: calc(var(--border-width)/2) solid var(--white);
+        border-right: var(--border-width) solid var(--white);
+        border-bottom: var(--border-width) solid var(--white);
     }
 }
 
