@@ -1,4 +1,5 @@
 {% extends "layout.html" %}
+{% from "macros/event.html" import render_event %}
 
 {% block title %}{{ this.title }}{% endblock %}
 
@@ -6,5 +7,15 @@
 
 <h1>{{ this.title }}</h1>
 {{ this.body }}
+
+<ol class="content-list">
+    {% for child in this.children %}
+    <li class="event">
+        <a href="{{child|url}}">
+            {{ render_event(child) }}
+        </a>
+    </li>
+    {% endfor %}
+</ol>
 
 {% endblock %}
