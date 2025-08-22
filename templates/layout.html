@@ -17,9 +17,12 @@
     <div class="main-content">
 
         <nav aria-label="Site Navigation" class="main-navigation">
-            <a href="/"><img src="/images/logo.png" alt="Python Software Verband" class="nav-logo"></a>
 
             <ol class="intrapage-links">
+                <li class="navigation-link">
+                    <a href="/"><img src="/images/logo.png" alt="Python Software Verband" class="nav-logo"></a>
+                </li>
+
                 {% for page in bag('links')['pages'] %}
                 {% if page.subpages %}
                 <li class="dropdown">

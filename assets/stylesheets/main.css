@@ -55,8 +55,8 @@ ol {
     --rythm-unit: 1.5em;
     --border-width: 8px;
 
-    --black: #0B0B11;
-    --white: #E5E0DA;
+    --black: #100811;
+    --white: #F0F0F0;
 }
 
 /* Typography */
@@ -85,7 +85,7 @@ h4,
 
 .main-navigation a,
 .dropdown--button {
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 @media (max-width: 600px) {
@@ -96,30 +96,6 @@ h4,
         line-height: 1.1em;
         padding-bottom: var(--rythm-unit);
     }
-}
-
-.lato-thin {
-    font-family: "Lato", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-}
-
-.lato-light {
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-}
-
-.lato-regular {
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.lato-bold {
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    font-style: normal;
 }
 
 a {
@@ -152,17 +128,35 @@ html {
 }
 
 .main-navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1em 0em;
-    text-transform: lowercase;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: var(--white);
 }
 
 .intrapage-links {
     display: flex;
-    gap: 1em;
+    justify-content: center;
     align-items: center;
+    padding: 1em 0em;
+    text-transform: lowercase;
+    gap: 1em;
+}
+
+.navigation-link,
+.dropdown {
+    flex: 1;
+    height: 4em;
+
+    display: flex;
+}
+
+.navigation-link a {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
 }
 
 .footer {
@@ -191,12 +185,13 @@ p {
 /* links */
 .nav-logo {
     max-height: 2em;
-    filter: drop-shadow(1px 2px 3px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(1px 2px 3px rgba(0, 0, 0, 0.2));
 }
 
 .footer-link,
 .intrapage-links .navigation-link,
-.usp {
+.usp,
+.dropdown {
     background: linear-gradient(to top, rgba(0, 0, 0, 0) 50%, var(--white) 50%);
     background-size: 101% 200%;
     background-position: bottom;
@@ -238,26 +233,29 @@ p {
     letter-spacing: .1em;
 }
 
+.footer-link a {
+    display: block;
+}
+
 .intrapage-links li a {
     line-height: 1.6em;
 }
 
 .footer-link a,
-.intrapage-links li a,
+.intrapage-links a,
 .dropdown--button {
-    display: block;
-    font-weight: 900;
+    font-weight: 400;
     color: var(--white);
     transition: color 0.3s ease-out;
 }
 
 .intrapage-links .navigation-link a {
-    font-weight: 200;
     text-decoration: none;
 }
 
 .intrapage-links .navigation-link a:hover,
-.footer-link a:hover {
+.footer-link a:hover,
+.dropdown:hover .dropdown--button {
     color: var(--black);
 }
 
@@ -271,7 +269,7 @@ p {
     border: none;
     text-transform: lowercase;
     cursor: pointer;
-    font-weight: 200;
+    width: 100%;
 }
 
 .dropdown--content {
@@ -281,6 +279,7 @@ p {
     position: absolute;
     z-index: 1;
     text-align: right;
+    top: 4em;
     right: 0;
     color: var(--black);
     background-color: var(--white);
@@ -290,6 +289,8 @@ p {
 
 .dropdown--content a {
     padding: 0 calc(var(--rythm-unit)/2);
+    display: block;
+    font-weight: 900;
 }
 
 .dropdown:hover .dropdown--content {
@@ -323,8 +324,13 @@ p {
     padding: var(--rythm-unit) 0;
     line-height: 1.8em;
     font-size: 1.1em;
-    border-top: var(--border-width) solid var(--white);
     border-bottom: var(--border-width) solid var(--white);
+}
+
+.hero h1 {
+    font-size: 3em;
+    font-weight: 100;
+    letter-spacing: 1.9px;
 }
 
 .content .usps {
