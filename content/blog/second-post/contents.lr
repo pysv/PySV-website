@@ -4,11 +4,13 @@ pub_date: 2025-08-09
 ---
 teaser:
 
+### PR: 2nd example
+
 Connecting companies and research institutes to harness the great potential in this country.
 ---
 body:
 
-## 2nd example
+## PR: 2nd example
 
 Connecting companies and research institutes to harness the great potential in this country.
 
@@ -16,3 +18,5 @@ Connecting companies and research institutes to harness the great potential in t
 cta: Connect companies and research
 ---
 show_on_homepage: True
+---
+category: PR

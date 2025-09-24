@@ -4,7 +4,7 @@ pub_date: 2025-08-08
 ---
 teaser:
 
-## 5th example
+### community: 5th example
 
 something really really cool!
 ---
@@ -15,3 +15,5 @@ body:
 cta: AI hype!
 ---
 show_on_homepage: True
+---
+category: community

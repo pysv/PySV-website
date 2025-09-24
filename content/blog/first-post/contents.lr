@@ -4,16 +4,18 @@ pub_date: 2025-08-08
 ---
 body:
 
-## 1st example
+## PR: 1st example
 
 Some blog post about python. Probably.
 ---
 teaser:
 
-## 1st example
+### PR: 1st example
 
 wonderful people all around.
 ---
 cta: A strong community
 ---
 show_on_homepage: True
+---
+category: PR

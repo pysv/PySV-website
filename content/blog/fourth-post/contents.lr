@@ -5,4 +5,13 @@ pub_date: 2025-08-11
 body:
 
 ## 4th example
+---
+teaser:
 
+### community: 4th example
+---
+cta: The beating heart of the community
+---
+show_on_homepage: True
+---
+category: community
