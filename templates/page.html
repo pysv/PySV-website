@@ -1,4 +1,5 @@
 {% extends "layout.html" %}
+{% from "macros/blog.html" import render_blog_as_usp %}
 
 {% block title %}{{ this.title }}{% endblock %}
 
@@ -10,20 +11,25 @@
     {{ this.hero }}
 </div>
 
-<ol class="usps">
-    {% for post in site.query('/blog').filter(F.show_on_homepage == True).order_by('-pub_date') %}
-    <li class="usp">
-        <a href="{{ post|url }}">
-            <h2>{{ post.title }}</h2>
-            <div>{{ post.teaser }}</div>
+<div class="usps">
+    <ol class="usps--pr">
+        {% for post in site.query('/blog').filter(F.show_on_homepage == True)
+        .filter(F.category == "PR").order_by('-pub_date') %}
 
-            {% if post.cta %}
-            <div class="cta">{{ post.cta }}</div>
-            {% endif %}
-        </a>
-    </li>
-    {% endfor %}
-    {% endblock %}
-</ol>
+        {{ render_blog_as_usp(post) }}
+
+        {% endfor %}
+    </ol>
+
+    <ol class="usps--community">
+        {% for post in site.query('/blog').filter(F.show_on_homepage == True)
+        .filter(F.category == "community").order_by('-pub_date') %}
+
+        {{ render_blog_as_usp(post) }}
+
+        {% endfor %}
+    </ol>
+</div>
 
 <div class="details">{{ this.details }}</div>
+{% endblock %}

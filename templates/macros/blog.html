@@ -4,3 +4,16 @@
 
 <p>{{ post.body }}</p>
 {% endmacro %}
+
+{% macro render_blog_as_usp(post) %}
+<li class="usp">
+    <a href="{{ post|url }}">
+        <h2>{{ post.title }}</h2>
+        <div>{{ post.teaser }}</div>
+
+        {% if post.cta %}
+        <div class="cta">{{ post.cta }}</div>
+        {% endif %}
+    </a>
+</li>
+{% endmacro %}
