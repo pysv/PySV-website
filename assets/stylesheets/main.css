@@ -460,28 +460,19 @@ p {
 }
 
 
-
-.content .usps {
+.content .usps--community,
+.content .usps--pr {
     list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
     margin: 0;
-    align-items: stretch;
 }
 
-.usp {
-    flex: 0 0 33.33%;
-    border-bottom: var(--border-width) solid var(--white);
+.usps {
+    display: grid;
 }
 
 @media (min-width: 800px) {
     .usps {
-        border-top: var(--border-width) solid var(--white);
-        border-left: var(--border-width) solid var(--white);
-    }
-
-    .usp {
-        border-right: var(--border-width) solid var(--white);
+        grid-template-columns: 1fr 1fr;
     }
 }
 
