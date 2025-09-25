@@ -444,7 +444,7 @@ p {
     opacity: 0;
     transition: translate var(--animation-timing), opacity var(--animation-timing);
     min-height: 100vh;
-    width: 100%;
+    width: 95%;
     z-index: 999;
     overscroll-behavior: contain;
     overflow: hidden;
