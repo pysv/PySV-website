@@ -8,6 +8,9 @@
 {% macro render_blog_as_usp(post) %}
 <li class="usp">
     <a href="{{ post|url }}">
+        {% if post.image %}
+        <img src="{{post|url}}/{{post.image}}" alt="{{post.title}}">
+        {% endif %}
         <div class="usp-text">
             <h2>{{ post.title }}</h2>
             <div>{{ post.teaser }}</div>

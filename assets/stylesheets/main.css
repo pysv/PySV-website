@@ -594,3 +594,7 @@ ol.content-list {
     padding: 0 var(--rythm-unit);
     border-bottom: calc(var(--border-width)/2) solid var(--white);
 }
+
+.event {
+    padding: calc(var(--rythm-unit)/2) 0;
+}
