@@ -113,7 +113,7 @@ h4,
 }
 
 a {
-    color: var(--white);
+    color: var(--toggled-color);
     font-weight: bold;
     text-decoration-thickness: 2px;
 }
@@ -134,8 +134,8 @@ a {
 }
 
 html {
-    background-color: var(--secondary);
-    color: var(--white);
+    background-color: var(--toggled-color);
+    color: var(--primary-color);
     height: 100%;
 }
 
@@ -372,7 +372,7 @@ p {
 
 .hero h1 {
     font-size: 3em;
-    font-weight: 100;
+    font-weight: 900;
     letter-spacing: 1.9px;
 }
 
@@ -600,7 +600,7 @@ ol.content-list {
 
 .blog-post {
     padding: 0 var(--rythm-unit);
-    border-bottom: calc(var(--border-width)/2) solid var(--white);
+    border-bottom: calc(var(--border-width)/2) solid var(--primary-color);
 }
 
 .event {
