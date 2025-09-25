@@ -84,6 +84,7 @@ h1,
 h2,
 h3,
 h4,
+.cta,
 .main-navigation a,
 .dropdown,
 .dropdown--button {
@@ -462,8 +463,8 @@ p {
 }
 
 
-.content .usps--community,
-.content .usps--pr {
+.content .usps--others,
+.content .usps--highlighted {
     list-style-type: none;
     margin: 0;
 }

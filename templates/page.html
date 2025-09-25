@@ -12,18 +12,18 @@
 </div>
 
 <div class="usps">
-    <ol class="usps--pr">
+    <ol class="usps--highlighted">
         {% for post in site.query('/blog').filter(F.show_on_homepage == True)
-        .filter(F.category == "PR").order_by('-pub_date') %}
+        .filter(F.highlighted == True).order_by('-pub_date') %}
 
         {{ render_blog_as_usp(post) }}
 
         {% endfor %}
     </ol>
 
-    <ol class="usps--community">
+    <ol class="usps--others">
         {% for post in site.query('/blog').filter(F.show_on_homepage == True)
-        .filter(F.category == "community").order_by('-pub_date') %}
+        .filter(F.highlighted == False).order_by('-pub_date') %}
 
         {{ render_blog_as_usp(post) }}
 
