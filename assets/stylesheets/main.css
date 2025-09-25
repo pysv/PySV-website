@@ -55,13 +55,15 @@ ol {
     --rythm-unit: 1.5em;
     --border-width: 8px;
 
-    --black: #100811;
-    --white: #DAD3D2;
+    --primary-color: #400811;
+    --toggled-color: #fefeff;
+    --bg-tinted-color: #e2e8f0;
+    --highlight-color: #FA4233;
+    --highlight-color-pale: #FFEDEB;
 
     --bar-width: 42px;
     --bar-height: 2px;
     --hamburger-gap: 6px;
-    --hamburger-margin: 1rem;
     --animation-timing: 433ms ease-in-out;
     --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
 }
@@ -132,7 +134,7 @@ a {
 }
 
 html {
-    background-color: var(--black);
+    background-color: var(--secondary);
     color: var(--white);
     height: 100%;
 }
@@ -216,7 +218,7 @@ p {
 .event,
 .company-member,
 .dropdown {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0) 50%, var(--white) 50%);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0) 50%, var(--highlight-color) 50%);
     background-size: 100% 200%;
     background-position: bottom;
     transition: background-position 0.6s ease;
@@ -286,7 +288,7 @@ p {
 .intrapage-links .navigation-link a:hover,
 .footer-link a:hover,
 .dropdown:hover .dropdown--button {
-    color: var(--black);
+    color: var(--primary-color);
 }
 
 
@@ -311,8 +313,8 @@ p {
     text-align: right;
     top: 4em;
     right: 0;
-    color: var(--black);
-    background-color: var(--white);
+    color: var(--toggled-color);
+    background-color: var(--primary-color);
     padding: var(--rythm-unit);
     backdrop-filter: blur(4px);
 }
@@ -329,12 +331,12 @@ p {
 }
 
 .dropdown:hover a {
-    color: var(--black);
+    color: var(--toggled-color);
 }
 
 .dropdown a:hover {
-    color: var(--white);
-    background-color: var(--black);
+    color: var(--primary-color);
+    background-color: var(--toggled-color);
 }
 
 @media (max-width: 600px) {
@@ -383,8 +385,8 @@ p {
 .hamburger-menu {
     --x-width: calc(var(--hamburger-height) * 1.41421356237);
     /* height * sqrt(2) = length of the diagonal, since it is a right angle */
-    --foreground: white;
-    --background: white;
+    --foreground: var(--primary-color);
+    --background: var(--primary-color);
     display: flex;
     flex-direction: column;
     gap: var(--hamburger-gap);
@@ -438,9 +440,11 @@ p {
 
 .sidebar {
     position: absolute;
-    padding-top: calc(var(--hamburger-height) * 4);
-    background-color: var(--black);
-    color: white;
+    padding: calc(var(--hamburger-height) * 4) calc(var(--rythm-unit)/2);
+    top: 0;
+    left: 0;
+    background-color: var(--primary-color);
+    color: var(--toggled-color);
     translate: 0 -100%;
     opacity: 0;
     transition: translate var(--animation-timing), opacity var(--animation-timing);
@@ -448,9 +452,7 @@ p {
     z-index: 999;
     overscroll-behavior: contain;
     overflow: hidden;
-
-    /* not a full 100% to avoid overflowing on small screens */
-    width: 95%;
+    width: 100%;
 }
 
 .sidebar a {
@@ -462,6 +464,11 @@ p {
     opacity: 1;
 }
 
+.hamburger-menu:has(input:checked) {
+    --background: var(--toggled-color);
+    --foreground: var(--toggled-color);
+
+}
 
 .content .usps--others,
 .content .usps--highlighted {
@@ -470,7 +477,7 @@ p {
 }
 
 .usp {
-    border-bottom: var(--border-width) solid var(--white);
+    border-bottom: var(--border-width) solid var(--highlight-color);
     margin-bottom: var(--border-width);
 }
 
@@ -489,7 +496,7 @@ p {
     }
 
     .usp:nth-child(1) {
-        border-top: var(--border-width) solid var(--white);
+        border-top: var(--border-width) solid var(--highlight-color);
     }
 }
 
@@ -497,7 +504,7 @@ p {
 .blog-post a,
 .company-member a,
 .event a {
-    color: var(--white);
+    color: var(--primary-color);
     transition: color 0.4s ease-out;
 }
 
@@ -506,20 +513,20 @@ p {
 .company-member:hover a,
 .event:hover a {
     text-decoration: none;
-    color: var(--black);
+    color: var(--toggled-color);
 }
 
 .usp a {
     /* padding: var(--rythm-unit); */
     text-decoration: none;
     display: block;
-    color: var(--white);
+    color: var(--primary-color);
 }
 
 .usp .cta {
     text-transform: uppercase;
-    background-color: var(--white);
-    color: var(--black);
+    background-color: var(--highlight-color-pale);
+    color: var(--highlight-color);
     padding: calc(var(--rythm-unit)/2);
     padding-bottom: 2px;
     font-weight: 900;
