@@ -546,6 +546,10 @@ p {
     }
 }
 
+.psv-details {
+    padding: var(--rythm-unit) 0;
+}
+
 /* content pages */
 .content ul,
 .content ol {
