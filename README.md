@@ -4,6 +4,14 @@ This is the repository for the [Python Software Verband](https://python-verband.
 
 ## Contribute
 
+### Content
+
+#### USPs
+
+The main USPs on the homepage are actually blog posts that have their **show_on_homepage** flag set to true.
+
+You can further control if the usp should be on the left or right by setting the **highlighted** flag on the blog post (True = left).
+
 ### Local Setup
 
 You don't need anything specific except for your normal python installation to setup your development environment.
