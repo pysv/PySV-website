@@ -4,7 +4,7 @@
     {% if post.image %}
     <img src="{{ post.path }}/{{ post.image }}" alt="{{ post.title }}">
     {% else %}
-    <img src="/images/planets.jpg" alt="{{post.title}}">
+    <img src="/images/python.jpg" alt="{{post.title}}">
     {% endif %}
 </div>
 <h3>{{ post.pub_date|dateformat('d.MM.YYYY')}}</h3>
@@ -18,7 +18,7 @@
         {% if post.image %}
         <img src="/{{ post|url }}{{ post.image }}" alt="{{ post.title }}">
         {% else %}
-        <img src="/images/planets.jpg" alt="{{ post.title }}">
+        <img src="/images/python.jpg" alt="{{ post.title }}">
         {% endif %}
         <div class="usp-text">
             <h2>{{ post.title }}</h2>
