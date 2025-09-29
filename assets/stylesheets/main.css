@@ -465,6 +465,7 @@ p {
 
 .sidebar a {
     display: block;
+    color: var(--toggled-color);
 }
 
 .hamburger-menu:has(input:checked)+.sidebar {
