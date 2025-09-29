@@ -15,7 +15,7 @@
 {% macro render_blog_post_in_list(post) %}
 
 {% if post.teaser_image %}
-<img src="/{{ post|url }}{{ post.teaser_image }}" alt="{{ post.title }}">
+<img src="{{ post.path }}/{{ post.teaser_image }}" alt="{{ post.title }}">
 {% else %}
 <img src="/images/python.jpg" alt="{{ post.title }}">
 {% endif %}
