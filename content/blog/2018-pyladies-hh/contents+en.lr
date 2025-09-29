@@ -1,0 +1,57 @@
+title: PyLadies x MicroPython @ PyCon DE 2018
+---
+pub_date: 2018-11-01
+---
+author: Python Software Verband
+---
+tags: python, pyladies, grants, pycon
+---
+body:
+
+####Im Rahmen unseres Förderprogramms unterstützen wir die PyLadies bei einem Workshop auf der PyConDE um Teilnehmer*innen mit Hardware auszustatten.
+
+As part of PyCon DE 18 Pyladies and MicroPython will be running a
+beginner friendly full day hands-on workshop on MicroPython and the
+IoT. We welcome anyone with existing programming knowledge or who is
+code curious to join us.
+
+You received a pyboard last year during PyCon DE but did not really do
+something with it until today? We want to change this! So bring your board
+along or any other MicroPython related hardware.
+
+If you have existing hardware feel free to bring it along, you can
+also purchase hardware here or on the day. We will also have units
+you can work with without having to purchase them. Lunch will be
+provided and at the end of the day we will run a presentation of what
+has been produced (optional).
+
+Buying the hardware does not automatically sign you up for this workshop.
+
+Please note that MicroPython is an Open Source project that funds itself solely
+through selling hardware. If you like to support this – please consider buying
+the hardware.
+
+####PyLadies
+is an international mentorship group for women with mission to
+promote, educate, and advance a diverse Python community and provide a friendly
+support network with a bridge to the larger Python world.
+
+####MicroPython
+is a lean and efficient implementation of Python 3 that includes a
+small subset of the Python standard library and is optimised to run on
+microcontrollers and in constrained environments. The MicroPython
+Pyboard is a compact electronic circuit board that runs MicroPython on
+the bare metal, giving you a low-level Python operating system that
+can be used to control all kinds of electronic projects. The pyboard
+is the official MicroPython microcontroller board with full support
+for software features.
+
+Learn more here: [micropython.org](http://micropython.org/)
+
+####Gender policy
+We believe knowledge is for all and at the same time our events aim
+primarily to empower women tech community. We request non female
+attendees to be aware of these situation and make their presence
+discrete. Eg. by coming with a female plus one to ensure gender
+balance, avoiding to be heard more than the rest of the attendees in
+discussions and question sections.
