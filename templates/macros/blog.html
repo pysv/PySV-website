@@ -12,18 +12,24 @@
 <p>{{ post.body }}</p>
 {% endmacro %}
 
+{% macro render_blog_post_in_list(post) %}
+
+{% if post.teaser_image %}
+<img src="/{{ post|url }}{{ post.teaser_image }}" alt="{{ post.title }}">
+{% else %}
+<img src="/images/python.jpg" alt="{{ post.title }}">
+{% endif %}
+
+<div class="usp-text">
+    <h2>{{ post.title }}</h2>
+    <div>{{ post.teaser_text }}</div>
+</div>
+{% endmacro %}
+
 {% macro render_blog_as_usp(post) %}
 <li class="usp">
     <a href="{{ post|url }}">
-        {% if post.image %}
-        <img src="/{{ post|url }}{{ post.image }}" alt="{{ post.title }}">
-        {% else %}
-        <img src="/images/python.jpg" alt="{{ post.title }}">
-        {% endif %}
-        <div class="usp-text">
-            <h2>{{ post.title }}</h2>
-            <div>{{ post.teaser }}</div>
-        </div>
+        {{ render_blog_post_in_list(post) }}
 
         {% if post.cta %}
         <div class="cta">{{ post.cta }}</div>

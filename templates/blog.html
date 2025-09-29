@@ -1,5 +1,5 @@
 {% extends "layout.html" %}
-{% from "macros/blog.html" import render_blog_post %}
+{% from "macros/blog.html" import render_blog_post_in_list %}
 
 {% block title %}{{ this.title }}{% endblock %}
 
@@ -9,7 +9,7 @@
     {% for child in this.children %}
     <li class="blog-post">
         <a href="{{child|url}}">
-            {{ render_blog_post(child) }}
+            {{ render_blog_post_in_list(child) }}
         </a>
     </li>
     {% endfor %}
