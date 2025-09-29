@@ -152,7 +152,7 @@ html {
     .main-navigation {
         border-top: 1px solid;
         border-bottom: 1px solid;
-        border-color: var(--white);
+        border-color: var(--primary-color);
     }
 }
 
