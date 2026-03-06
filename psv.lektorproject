@@ -2,6 +2,7 @@
 name = Python Software Verband
 locale = de_DE
 
+url_prefix = /v2
 site_url = python-verband.org
 organisation_name = Python Software Verband e.V.
 organisation_shortname = PySV

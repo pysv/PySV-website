@@ -5,7 +5,7 @@
 </div>
 
 <div class="image">
-    <img src="{{ event.path }}/{{ event.logo }}" alt="{{ event.title }}">
+    <img src="{{ (event.path ~ '/' ~ event.logo)|url }}" alt="{{ event.title }}">
 </div>
 
 <p>{{ event.body }}</p>

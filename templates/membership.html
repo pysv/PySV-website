@@ -13,7 +13,7 @@
         <a href="{{ member.url }}">
             <div class="image">
                 {% if member.logo %}
-                <img src="/membership/{{ member.logo }}" alt="{{member.name}}">
+                <img src="{{ ('/membership/' ~ member.logo)|url }}" alt="{{member.name}}">
                 {% endif %}
             </div>
             <div class="details">

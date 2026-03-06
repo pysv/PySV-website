@@ -20,7 +20,7 @@
 
             <ol class="intrapage-links">
                 <li class="navigation-link">
-                    <a href="/"><img src="/images/logo.png" alt="Python Software Verband" class="nav-logo"></a>
+                    <a href="{{ '/'|url }}"><img src="{{ '/images/logo.png'|url }}" alt="Python Software Verband" class="nav-logo"></a>
                 </li>
 
                 {% for page in bag('links')['pages'] %}
@@ -32,13 +32,13 @@
 
                     <div class="dropdown--content">
                         {% for subpage in page.subpages %}
-                        <a href="{{subpage.path|url}}">{{subpage.name}}</a>
+                        <a href="{{ subpage.path|url }}">{{ subpage.name }}</a>
                         {% endfor %}
                     </div>
                 </li>
                 {% else %}
                 <li class="navigation-link">
-                    <a href="/{{ page.path|url }}">{{ page.name }}</a>
+                    <a href="{{ ('/' ~ page.path)|url }}">{{ page.name }}</a>
 
                 </li>
                 {% endif %}
@@ -54,17 +54,17 @@
                     <nav aria-label="Site Navigation">
                         <ul class="nav">
                             <li>
-                                <a href="/"><img src="/images/logo.png" alt="Python Software Verband"
+                                <a href="{{ '/'|url }}"><img src="{{ '/images/logo.png'|url }}" alt="Python Software Verband"
                                         class="nav-logo"></a>
 
                             </li>
                             {% for page in bag('links')['pages'] %}
                             {% if page.subpages %}
                             {% for subpage in page.subpages %}
-                            <li><a href="/{{ subpage.path|url }}">{{ subpage.name }}</a></li>
+                            <li><a href="{{ subpage.path|url }}">{{ subpage.name }}</a></li>
                             {% endfor %}
                             {% else %}
-                            <li><a href="/{{ page.path|url }}">{{ page.name }}</a></li>
+                            <li><a href="{{ ('/' ~ page.path)|url }}">{{ page.name }}</a></li>
                             {% endif %}
                             {% endfor %}
                         </ul>
@@ -81,9 +81,9 @@
 
         <footer class="footer">
             <ul class="legal-links">
-                <li class="footer-link"><a href="/imprint">Impressum</a></li>
-                <li class="footer-link"><a href="/privacy">Datenschutz</a></li>
-                <li class="footer-link"><a href="/coc">Code of Conduct</a></li>
+                <li class="footer-link"><a href="{{ '/imprint'|url }}">Impressum</a></li>
+                <li class="footer-link"><a href="{{ '/privacy'|url }}">Datenschutz</a></li>
+                <li class="footer-link"><a href="{{ '/coc'|url }}">Code of Conduct</a></li>
             </ul>
 
             <ul class="contact-links">
