@@ -638,3 +638,19 @@ ol.content-list {
 .event {
     padding: calc(var(--rythm-unit)/2) 0;
 }
+
+/* Fix white-on-white logos: dark background for member logo container */
+.company-member .image {
+    background: #2b2b2b;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.company-member .image img {
+    max-width: 100%;
+    max-height: 80px;
+    object-fit: contain;
+}

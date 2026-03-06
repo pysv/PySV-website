@@ -1,12 +1,20 @@
 {% macro render_event(event) %}
 <div class="details">
     <h2>{{ event.title }}</h2>
+    {% if event.start_date and event.end_date %}
     <h3>{{ event.start_date|dateformat('d.MM.YYYY')}} - {{ event.end_date|dateformat('d.MM.YYYY') }}</h3>
+    {% endif %}
 </div>
 
+{% if event.logo %}
 <div class="image">
     <img src="{{ (event.path ~ '/' ~ event.logo)|url }}" alt="{{ event.title }}">
 </div>
+{% endif %}
 
 <p>{{ event.body }}</p>
+
+{% if event.url %}
+<p><a href="{{ event.url }}" target="_blank" rel="noopener">→ {{ event.url }}</a></p>
+{% endif %}
 {% endmacro %}
