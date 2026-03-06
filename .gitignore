@@ -10,3 +10,15 @@ wheels/
 .venv
 
 tmp
+
+# OpenClaw agent files
+.openclaw/
+AGENTS.md
+SOUL.md
+USER.md
+TOOLS.md
+IDENTITY.md
+HEARTBEAT.md
+BOOTSTRAP.md
+MEMORY.md
+memory/
