@@ -1,0 +1,55 @@
+title: Entwurf: EuroSciPy 2026 — Ankündigung
+---
+author: Python Software Verband
+---
+show_on_homepage: no
+---
+teaser_image:
+---
+teaser_text:
+
+Die EuroSciPy 2026 findet vom 18. bis 23. Juli an der AGH Universität in Krakau statt — die europäische Konferenz für wissenschaftliches Python.
+---
+body:
+
+## EuroSciPy 2026 — Ankündigung
+
+Die **EuroSciPy 2026** kehrt nach Krakau zurück!
+
+### Termin & Ort
+
+- **18. bis 23. Juli 2026**
+- **AGH University of Kraków**, Polen
+
+### Was erwartet Euch?
+
+Die EuroSciPy ist eine interdisziplinäre Konferenz für den Einsatz und die Weiterentwicklung von Python in der wissenschaftlichen Forschung. Das bewährte Format umfasst:
+
+- **2 Tage Tutorials**: Einführungen und vertiefte Workshops zu wissenschaftlichen Python-Tools
+- **2 Tage Vorträge**: Wissenschaftliche Talks, Maintainer-Track, Poster Sessions
+- **Sprint-Tag(e)**: Gemeinsames Arbeiten an Open-Source-Projekten
+
+### Themen
+
+Präsentationen zu wissenschaftlichen Tools und Bibliotheken in Python, darunter:
+- NumPy, SciPy, pandas, scikit-learn und verwandte Bibliotheken
+- Datenvisualisierung und -analyse
+- Machine Learning und KI in der Forschung
+- Reproduzierbare Wissenschaft
+- Open-Source-Entwicklung
+
+### Veranstalter
+
+Die EuroSciPy wird vom **Python Software Verband e.V.** veranstaltet. Es ist eine Non-Profit-Konferenz, organisiert von Freiwilligen.
+
+Mehr Informationen: [euroscipy.org](https://euroscipy.org)
+
+---
+
+*Dieser Beitrag ist ein Entwurf und wird noch ergänzt.*
+---
+tags: euroscipy, konferenz, krakau, polen, wissenschaft, 2026, ankündigung
+---
+_discoverable: yes
+---
+pub_date: 2026-03-07

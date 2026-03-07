@@ -1,0 +1,59 @@
+title: Entwurf: Geförderte Projekte 2022
+---
+author: Python Software Verband
+---
+show_on_homepage: no
+---
+teaser_image:
+---
+teaser_text:
+
+Überblick über die vom PySV im Jahr 2022 geförderten Projekte und Veranstaltungen.
+---
+body:
+
+## Geförderte Projekte & Veranstaltungen 2022
+
+Der Python Software Verband fördert die Python-Community im deutschsprachigen Raum durch finanzielle Zuschüsse und Trägerschaften. Hier ein Überblick über die Förderungen im Jahr 2022.
+
+### Förderprogramm — Zuschüsse
+
+Unser Förderprogramm orientiert sich an der Größe der Veranstaltungen:
+- Kleine Veranstaltungen: 20 € pro Teilnehmer bis 400 €
+- Größere Veranstaltungen ab 50 Personen: Pauschale von 1.000 €
+- Sprints: bis zu 800 € je Vorhaben
+
+Im Jahr 2022 haben wir folgende Projekte gefördert:
+
+| Projekt | Förderung |
+|---|---|
+| [Teckids e.V.](https://www.teckids.org) | 1.000 € |
+| PyLadies Munich | 372,22 € (Administrationskosten) |
+| PyData Südwest Meetup (100 TN) | 1.000 € |
+
+### Konferenzen & Trägerschaften
+
+Der PySV war 2022 Träger und Veranstalter folgender Konferenzen:
+- **PyCon DE & PyData Berlin 2022** — Erste große Python-Konferenz nach der Pandemie, im bcc Berlin
+- **EuroSciPy 2022** — Basel, Schweiz, ca. 200 Teilnehmende
+
+### Öffentlichkeitsarbeit & Präsenz
+
+Der PySV war auf folgenden Veranstaltungen mit Ständen und thematischen Beiträgen präsent:
+- PythonCamp Köln
+- BarCamp Leipzig
+- PyData Südwest / Big Data BBQ, Mannheim
+
+Wir haben außerdem administrativ und/oder finanziell unterstützt:
+- Hamburg Python Pizza (New Years)
+- PyData Südwest / Big Data BBQ, Mannheim
+
+---
+
+*Dieser Beitrag ist ein Entwurf und wird noch ergänzt. Quelle: Jahresbericht 2022/2023.*
+---
+tags: förderprogramm, community, 2022
+---
+_discoverable: yes
+---
+pub_date: 2022-12-31

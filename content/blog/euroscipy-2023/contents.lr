@@ -1,0 +1,48 @@
+title: Entwurf: EuroSciPy 2023
+---
+author: Python Software Verband
+---
+show_on_homepage: no
+---
+teaser_image:
+---
+teaser_text:
+
+Die EuroSciPy 2023 fand in Basel statt und brachte über 200 Teilnehmende aus Wissenschaft, Industrie und Open Source zusammen.
+---
+body:
+
+## EuroSciPy 2023 — Basel, Schweiz
+
+Vom **14. bis 18. August 2023** fand die EuroSciPy in Basel, Schweiz, statt. Der Python Software Verband e.V. war Veranstalter dieser wichtigen Konferenz für wissenschaftliches Programmieren in Python.
+
+### Über die EuroSciPy
+
+Die EuroSciPy ist eine interdisziplinäre Konferenz, die sich auf den Einsatz und die Weiterentwicklung von Python in der wissenschaftlichen Forschung konzentriert. Sie bringt Akteure aus Wissenschaft, Industrie und der Open-Source-Community zusammen.
+
+### Zahlen & Fakten
+
+- **Über 200 Teilnehmende** aus verschiedenen Ländern
+- **Ort**: Basel, Schweiz
+- **Format**: 2 Tage Tutorials + 2 Tage Vorträge + 1 Sprint-Tag
+- **Veranstalter**: Python Software Verband e.V.
+
+### Programm
+
+Die Konferenz diente als Plattform für den Austausch über wissenschaftliches Programmieren in Python und brachte ein breites Spektrum von Academia, Industrie und Open-Source-Maintainern zusammen.
+
+Themenbereiche umfassten u.a.:
+- Wissenschaftliche Python-Bibliotheken (NumPy, SciPy, pandas, scikit-learn)
+- Datenvisualisierung
+- Machine Learning in der Forschung
+- Reproduzierbare Wissenschaft
+
+---
+
+*Dieser Beitrag ist ein Entwurf und wird noch ergänzt.*
+---
+tags: euroscipy, konferenz, basel, wissenschaft, 2023
+---
+_discoverable: yes
+---
+pub_date: 2023-08-18

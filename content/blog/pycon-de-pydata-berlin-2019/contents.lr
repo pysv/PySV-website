@@ -1,0 +1,49 @@
+title: Entwurf: PyCon DE & PyData Berlin 2019
+---
+author: Python Software Verband
+---
+show_on_homepage: no
+---
+teaser_image:
+---
+teaser_text:
+
+Die PyCon DE & PyData Berlin 2019 war ein voller Erfolg: 1.111 Teilnehmende, ausverkauft zwei Monate im Voraus, mit 800 weiteren auf der Warteliste.
+---
+body:
+
+## PyCon DE & PyData Berlin 2019
+
+Vom **9. bis 11. Oktober 2019** fand die PyCon DE & PyData Berlin im Kosmos Berlin statt. Die Konferenz war ein Meilenstein für die deutsche Python-Community.
+
+### Zahlen & Fakten
+
+- **1.111 Teilnehmende** vor Ort
+- **800+ auf der Warteliste** — ausverkauft zwei Monate vor der Konferenz
+- **5 Vortrags-Tracks** mit über 100 Sessions
+- Venue: Kosmos Berlin
+
+### Programm
+
+Die Konferenz bot fünf parallele Tracks:
+- Zwei Tracks für **PyData-Themen**: Künstliche Intelligenz, Machine Learning, Data Engineering
+- Zwei Tracks für **Python-Themen**: Programmierung, Software Engineering, DevOps, Web, Django
+- Ein Track für **allgemeine Themen**: Ethik, Best Practices, Community
+
+Beliebte Themen waren u.a. Apache Airflow, Produktions-Pipelines mit Kedro, interaktive Datenvisualisierung mit Dash und produktionsfähiges Machine Learning.
+
+### Bedeutung
+
+Die PyCon DE & PyData Berlin 2019 war die bis dato größte Python-Konferenz in Deutschland. Der überwältigende Zuspruch bestätigte die Entscheidung, PyCon DE und PyData Berlin als gemeinsame Konferenz durchzuführen. Der Erfolg führte zur Planung einer noch größeren Veranstaltung im bcc Berlin Congress Center für die Folgejahre.
+
+Die Konferenz wurde vom **Python Software Verband e.V.** in Zusammenarbeit mit **NumFOCUS** organisiert und von einem engagierten Freiwilligen-Team der Community getragen.
+
+---
+
+*Dieser Beitrag ist ein Entwurf und wird noch ergänzt.*
+---
+tags: pycon-de, pydata, konferenz, berlin, 2019
+---
+_discoverable: yes
+---
+pub_date: 2019-10-11

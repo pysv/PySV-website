@@ -1,0 +1,81 @@
+title: Entwurf: Geförderte Projekte 2025
+---
+author: Python Software Verband
+---
+show_on_homepage: no
+---
+teaser_image:
+---
+teaser_text:
+
+2025 hat der PySV die Community mit ca. 35.000 € gefördert — von Konferenzen und Meetups bis hin zu studentischen Tagungen und dem Erhalt des Barcamp-Tools Camper.
+---
+body:
+
+## Geförderte Projekte & Veranstaltungen 2025
+
+2025 war erneut ein Rekordjahr: Insgesamt hat der PySV Menschen und Projekte in der Python-Community mit ca. **35.000 €** gefördert.
+
+### Förderprogramm — Zuschüsse
+
+| Projekt | Förderung |
+|---|---|
+| PyCon Web Konferenz, Berlin | 1.600 € |
+| PyCon Austria | 1.000 € |
+| Django Girls (Sticker + Räume/Catering auf PyCon DE) | 82,36 € + Sachleistungen |
+| TaCoS — 34. studentische Tagung der Computerlinguistik | 1.000 € |
+| Sprints (im Rahmen der PyCon DE) | 421 € |
+| PyBerlin Meetup (4 Meetups) | 1.600 € |
+| Beethoven Sprint | 1.000 € |
+| Düsseldorf Python User Group (PyDDF) | 200 € |
+| TaCoS — 35. studentische Tagung der Computerlinguistik (2026) | 1.000 € (bewilligt) |
+
+### PySV-Meetup-Pro-Netzwerk
+
+Neu in 2025: Der PySV übernimmt die Organizer-Kosten für Meetup-Gruppen:
+- **Django User Group Berlin**
+- **Munich NLP** Meetup Gruppe
+
+### PyLadies Fund
+
+Der PyLadies Fund (5.000 € Jahresbudget) lief weiter:
+
+**Ausgaben:** 1.277,96 €
+
+**Unterstützte Aktivitäten:**
+- Reisekostenzuschuss für Speaker
+- Erfrischungen/Geschenke für Meetups
+- Sticker, Canva-Abonnement, Bücher
+- Swag für Swiss Python Summit
+- Chapters außerhalb Deutschlands mitbetreut (z.B. Zürich)
+
+### Diversity-Programme
+
+Im Rahmen der Diversity-Programme (zusammen mit PSF, EPS, DSF, Blue Yonder und Privatspenden):
+- **PyCon DE**: 49 Teilnehmende gefördert — **24.440 €**
+- **EuroSciPy**: 7 Teilnehmende gefördert — **2.980 €**
+
+### Konferenzen & Trägerschaften
+
+2025 war das aktivste Jahr bezüglich Trägerschaften:
+- **PyCon DE & PyData 2025** — 2.079 Teilnehmende, Darmstadt
+- **EuroSciPy 2025** — Krakau, Polen
+- **Plone Tagung Koblenz**
+- **PythonCamp Rügen**
+- **PyCamp Leipzig**
+- **PythonCamp Karlsruhe**
+- **PythonCamp Süd-Ost**
+
+### Camper — Barcamp-Tool
+
+Der PySV sichert den Betrieb des Open-Source Barcamp-Tools **Camper** finanziell für zwei Jahre ab, nachdem der Deutsche Bundesjugendring (DBJR) die Unterstützung einstellen musste. Der PySV übernimmt Hosting und grundlegenden technischen Support und plant den Umzug auf eigene Server.
+
+---
+
+*Dieser Beitrag ist ein Entwurf und wird noch ergänzt. Quelle: Jahresbericht 2025.*
+---
+tags: förderprogramm, community, pyladies, diversity, camper, 2025
+---
+_discoverable: yes
+---
+pub_date: 2025-12-31
