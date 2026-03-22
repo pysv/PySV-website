@@ -1,94 +1,140 @@
 # Python Software Verband
 
-This is the repository for the [Python Software Verband](https://python-verband.org) website.
+This is the repository for the [Python Software Verband](https://python-verband.org) website. It is built with [Lektor](https://www.getlektor.com/), a static site generator, and supports both German and English content.
 
-## Contribute
+## Prerequisites
 
-### Content
+- Python (version specified in `.python-version`)
+- [uv](https://docs.astral.sh/uv/) for environment and dependency management
 
-#### USPs
+> **Note:** We use `uv` as our sole tool for environment and dependency management. We do not support `pip`, `conda`, `poetry`, or other alternatives. `uv` is fast, broadly accepted in the Python community, and keeping a single tool avoids complexity and inconsistencies across contributor setups.
 
-The main USPs on the homepage are actually blog posts that have their **show_on_homepage** flag set to true.
+## Local Setup
 
-You can further control if the usp should be on the left or right by setting the **highlighted** flag on the blog post (True = left).
+1. Install [uv](https://docs.astral.sh/uv/getting-started/installation/) if you haven't already.
+2. Sync the project (this creates the virtual environment and installs dependencies):
+   ```bash
+   uv sync
+   ```
+3. Start the development server:
+   ```bash
+   make run
+   ```
+4. Visit the website at [http://localhost:5001](http://localhost:5001).
 
-### Local Setup
+## Contributing Blog Posts
 
-You don't need anything specific except for your normal python installation to setup your development environment.
+Blog posts live in `content/blog/`. Each post has its own directory containing the content file(s) and any associated images.
 
-1. Make sure you have the python version specified in `.python-version`.
-2. `python -m venv ./venv && source venv/bin/activate` to setup a virtual environment and activate it
-3. `pip install -r requirements.txt` to install the dependencies
-4. `make run` to launch the development server.
-5. You can visit the website on localhost:5001
+### Creating a New Blog Post
 
-### Deployment
-
-### Recreating the Deployment Target on S3
-
-Here are the steps to create the cloud setup on S3 in case you need to recreate it, or you want to use a similar setup for your own website.
-
-The site is hosted as a static site on AWS/S3.
-
-To (re-)create the S3 bucket setup in the eu-central-1 region, run the following:
-
-Prerequisites:
-- aws-cli
-- aws credentials that allow you to create and manage S3 buckets
-
-Create the bucket:
-```bash
-aws s3api create-bucket --bucket <bucket-name> --region eu-central-1 --create-bucket-configuration LocationConstraint=eu-central-1
-```
-
-Allow policies to set public access:
-```bash
-aws s3api put-public-access-block --bucket <bucket-name> --public-access-block-configuration "BlockPublicPolicy=false"
-```
-
-Check that the settings are correct:
-```bash
-aws s3api get-bucket-ownership-controls --bucket <bucket-name>
-```
-
-Allow public read through policy.
+The easiest way to create a new blog post is with the CLI tool:
 
 ```bash
-aws s3api put-bucket-policy --bucket <bucket-name> --policy '{
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Sid": "PublicReadGetObject",
-            "Effect": "Allow",
-            "Principal": "*",
-            "Action": [
-                "s3:GetObject"
-            ],
-            "Resource": [
-                "arn:aws:s3:::'<bucket-name>'/*"
-
-            ]
-        }
-    ]
-}'
+uv run python blog.py add
 ```
 
-Copy website to s3:
-```bash
-aws s3 cp tmp s3://<bucket-name>/ --recursive
+This will prompt you for the title, publication date, and author name, then generate the directory with template files for both German and English.
+
+Alternatively, you can create the files manually:
+
+1. Create a new directory under `content/blog/` with a descriptive slug, e.g.:
+   ```
+   content/blog/2026-pycon-de/
+   ```
+
+2. Create a `contents.lr` file inside. This is the **German** version (the primary language). Use the following format:
+
+   ```
+   title: PyCon DE 2026
+   ---
+   pub_date: 2026-10-15
+   ---
+   author: Your Name
+   ---
+   tags: community, conference
+   ---
+   teaser_text: Eine kurze Beschreibung des Beitrags für die Übersicht.
+
+   ---
+   teaser_image: preview.jpg
+   ---
+   cta: Mehr erfahren
+   ---
+   show_on_homepage: False
+   ---
+   highlighted: False
+   ---
+   _discoverable: yes
+   ---
+   body:
+
+   Your markdown content goes here.
+   ```
+
+   **Field reference:**
+
+   | Field             | Required | Description                                                         |
+   |-------------------|----------|---------------------------------------------------------------------|
+   | `title`           | yes      | Post title                                                          |
+   | `pub_date`        | yes      | Publication date (`YYYY-MM-DD`)                                     |
+   | `author`          | no       | Author name                                                         |
+   | `tags`            | no       | Comma-separated tags                                                |
+   | `teaser_text`     | no       | Short summary shown in post listings                                |
+   | `teaser_image`    | no       | Filename of the image shown in post listings (stored in same dir)   |
+   | `cta`             | no       | Call-to-action text for the homepage                                |
+   | `body`            | yes      | The main post content in Markdown                                   |
+   | `show_on_homepage`| no       | Set to `True` to feature this post on the homepage as a USP         |
+   | `highlighted`     | no       | Set to `True` to display as the larger/left USP on the homepage     |
+   | `_discoverable`   | no       | Set to `yes` to make the post discoverable                          |
+
+### Adding an English Translation
+
+To provide an English version, create a `contents+en.lr` file in the same directory. It uses the same format as `contents.lr` but with English text:
+
+```
+content/blog/2026-pycon-de/
+├── contents.lr        # German (primary)
+├── contents+en.lr     # English translation
+├── preview.jpg
+└── ...
 ```
 
-Set index:
-```bash
-aws s3 website s3://<bucket-name> --index-document index.html
+The English version will be served under the `/en/` URL prefix automatically.
+
+### Including Images
+
+Place image files directly in the blog post directory alongside `contents.lr`:
+
+```
+content/blog/2026-pycon-de/
+├── contents.lr
+├── preview.jpg
+├── session-photo.jpg
+└── group-photo.png
 ```
 
+Reference them in the body using standard Markdown image syntax with a relative path:
 
-Confirm the results:
-```bash
-curl <bucket-name>.s3-website.eu-central-1.amazonaws.com
+```markdown
+![Attendees networking during the coffee break](./session-photo.jpg)
 ```
 
-AWS provides in-depth guides on how to setup SSL and your domain, check it out on the buckets' page:
-https://eu-central-1.console.aws.amazon.com/s3/buckets/<bucket-name>?region=eu-central-1&bucketType=general&tab=properties
+**Image guidelines:**
 
+- Use descriptive alt text for accessibility.
+- Optimize images before committing — aim for a reasonable file size (resize large photos to ~850px wide).
+- Supported formats: `.jpg`, `.png`.
+- The `teaser_image` field should reference an image in the same directory by filename (no path prefix needed).
+
+## Available Commands
+
+| Command            | Description                                    |
+|-------------------|------------------------------------------------|
+| `uv run python blog.py add` | Scaffold a new blog post interactively         |
+| `make run`         | Start the development server on port 5001      |
+| `make build`       | Build the static site into the `tmp/` directory |
+
+## Deployment
+
+See [docs/deployment.md](docs/deployment.md) for deployment instructions (S3 hosting setup).
