@@ -16,11 +16,15 @@ This is the repository for the [Python Software Verband](https://python-verband.
    ```bash
    uv sync
    ```
-3. Start the development server:
+3. Create the local build directory:
    ```bash
-   make run
+   mkdir tmp
    ```
-4. Visit the website at [http://localhost:5001](http://localhost:5001).
+4. Start the development server:
+   ```bash
+   uv run lektor server -O tmp -p 5001
+   ```
+5. Visit the website at [http://localhost:5001](http://localhost:5001).
 
 ## Contributing Blog Posts
 
