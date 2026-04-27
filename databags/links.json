@@ -35,6 +35,10 @@
                 {
                     "name": "Nachhaltigkeit",
                     "path": "/sustainability"
+                },
+                {
+                    "name": "Reimbursements",
+                    "path": "/reimbursements"
                 }
             ]
         }
