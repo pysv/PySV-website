@@ -1,0 +1,43 @@
+name: Upload Staging Website
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths:
+      - 'content/**'
+      - 'templates/**'
+      - 'models/**'
+      - 'databags/**'
+      - 'assets/**'
+      - 'psv.lektorproject'
+      - 'pyproject.toml'
+      - 'uv.lock'
+      - '.github/workflows/staging.yml'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v4
+        with:
+          enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync --frozen
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: eu-central-1
+
+      - name: Build and deploy to staging S3
+        run: |
+          uv run lektor project-info
+          uv run lektor build --output-path ./www
+          aws s3 sync ./www s3://pysv-web-staging --delete
