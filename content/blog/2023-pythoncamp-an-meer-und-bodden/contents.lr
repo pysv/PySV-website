@@ -1,16 +1,14 @@
 title: PythonCamp an Meer und Bodden
 ---
-author: Python Software Verband
----
-avatar: custom_name.jpg
----
-show_on_homepage: True
+pub_date: 2023-08-08
 ---
 teaser_image: projectbay-850x196.jpg
 ---
 teaser_text:
 
 Direkt ein zweifaches Novum war das PythonCamp auf R체gen: nach Corona wieder ein BarCamp als "in person"-Veranstaltung und zudem erstmalig im Nordosten Deutschlands.
+---
+show_on_homepage: True
 ---
 body:
 
@@ -59,13 +57,3 @@ Der PySV dankt den folgenden Sponsoren f체r die Unterst체tzung des PythonCamp R�
 [![flying-circus](./flying-circus.png)](https://flyingcircus.io)
 
 [![com-lounge](./com-lounge.jpg)](https://comlounge.net)
-
----
-tags: community, pythoncamp, barcamp, r체gen
----
-teaser: Direkt ein zweifaches Novum war das PythonCamp auf R체gen: nach Corona wieder ein BarCamp als "in person"-Veranstaltung und zudem erstmalig im Nordosten Deutschlands.
----
-_discoverable: yes
----
-pub_date: 2023-08-08
----

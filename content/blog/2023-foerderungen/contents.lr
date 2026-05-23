@@ -1,14 +1,14 @@
 title: Entwurf: Geförderte Projekte 2023
 ---
-author: Python Software Verband
----
-show_on_homepage: no
+pub_date: 2023-12-31
 ---
 teaser_image:
 ---
 teaser_text:
 
 2023 konnte der PySV mehr als 10 Projekte der Community fördern — von Django Girls Berlin bis PyLadies-Chapters in ganz Deutschland.
+---
+show_on_homepage: no
 ---
 body:
 
@@ -53,9 +53,3 @@ Der PySV war auf fünf Veranstaltungen mit Ständen und Beiträgen präsent:
 ---
 
 *Dieser Beitrag ist ein Entwurf und wird noch ergänzt. Quelle: Jahresberichte 2023/2024.*
----
-tags: förderprogramm, community, pyladies, 2023
----
-_discoverable: yes
----
-pub_date: 2023-12-31

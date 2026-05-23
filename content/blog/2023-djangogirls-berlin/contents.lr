@@ -1,18 +1,10 @@
 title: Discovering Empowerment at Django Girls Berlin 2023
 ---
-author: Lisa Quatmann (berlin@djangogirls.org)
----
-avatar: custom_name.jpg
----
-tags: community, djangogirls, womenintech, python, django
+pub_date: 2023-11-01
 ---
 teaser_text: Discover the transformative journey of Django Girls Berlin 2023, where 75 women transformed from coding novices to empowered web developers, celebrating diversity, mentorship, and the breaking of barriers in the tech world.
 ---
 show_on_homepage: False
----
-_discoverable: yes
----
-pub_date: 2023-11-01
 ---
 body:
 
@@ -38,5 +30,3 @@ und die kollektive Kraft von Frauen, die Frauen in der Technik unterstützen.
 
 Wir möchten dem Python Software Verband für ihre anhaltende Unterstützung danken und freuen uns darauf, dieses Jahr
 unser 10-jähriges Jubiläum zu feiern.
-
-

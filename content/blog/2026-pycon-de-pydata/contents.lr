@@ -1,14 +1,14 @@
 title: Entwurf: PyCon DE & PyData 2026 — Ankündigung
 ---
-author: Python Software Verband
----
-show_on_homepage: no
+pub_date: 2026-03-07
 ---
 teaser_image:
 ---
 teaser_text:
 
 Die PyCon DE & PyData 2026 findet vom 14. bis 17. April im darmstadtium in Darmstadt statt — Deutschlands größte Python-, Data- und AI-Konferenz.
+---
+show_on_homepage: no
 ---
 body:
 
@@ -46,10 +46,3 @@ Organisiert vom **Python Software Verband e.V.** in Zusammenarbeit mit **NumFOCU
 ---
 
 *Dieser Beitrag ist ein Entwurf und wird noch ergänzt.*
----
-tags: pycon-de, pydata, konferenz, darmstadt, 2026, ankündigung
----
-_discoverable: yes
----
-pub_date: 2026-03-07
----
