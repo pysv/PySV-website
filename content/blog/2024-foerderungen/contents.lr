@@ -1,14 +1,14 @@
 title: Entwurf: Geförderte Projekte 2024
 ---
-author: Python Software Verband
----
-show_on_homepage: no
+pub_date: 2024-12-31
 ---
 teaser_image:
 ---
 teaser_text:
 
 2024 war das aktivste Jahr des PySV: Sechs Trägerschaften, umfangreiche Förderungen und ein starkes Diversity-Programm mit über 56 geförderten Teilnehmenden.
+---
+show_on_homepage: no
 ---
 body:
 
@@ -76,10 +76,3 @@ Der PySV war auf sieben Veranstaltungen präsent:
 ---
 
 *Dieser Beitrag ist ein Entwurf und wird noch ergänzt. Quelle: Jahresbericht 2024/2025.*
----
-tags: förderprogramm, community, pyladies, diversity, 2024
----
-_discoverable: yes
----
-pub_date: 2024-12-31
----

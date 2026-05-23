@@ -2,16 +2,12 @@ title: Mitgliederversammlung 2021
 ---
 pub_date: 2021-10-17
 ---
-author: Python Software Verband
----
-avatar: custom_name.jpg
----
-tags: verein, members
----
-teaser_text: Unsere diesjährige Mitgliederversammlung findet am 13. November 2021 statt. Die Versammlung findet online statt.
-Neben dem Geschäftsbericht steht auch die Wahl zum Vorstand an.
----
 teaser_image: preview.png
+---
+teaser_text:
+
+Unsere diesjährige Mitgliederversammlung findet am 13. November 2021 statt. Die Versammlung findet online statt.
+Neben dem Geschäftsbericht steht auch die Wahl zum Vorstand an.
 ---
 show_on_homepage: True
 ---

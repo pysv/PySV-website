@@ -1,14 +1,14 @@
 title: Entwurf: EuroSciPy 2023
 ---
-author: Python Software Verband
----
-show_on_homepage: no
+pub_date: 2023-08-18
 ---
 teaser_image:
 ---
 teaser_text:
 
 Die EuroSciPy 2023 fand in Basel statt und brachte über 200 Teilnehmende aus Wissenschaft, Industrie und Open Source zusammen.
+---
+show_on_homepage: no
 ---
 body:
 
@@ -40,9 +40,3 @@ Themenbereiche umfassten u.a.:
 ---
 
 *Dieser Beitrag ist ein Entwurf und wird noch ergänzt.*
----
-tags: euroscipy, konferenz, basel, wissenschaft, 2023
----
-_discoverable: yes
----
-pub_date: 2023-08-18

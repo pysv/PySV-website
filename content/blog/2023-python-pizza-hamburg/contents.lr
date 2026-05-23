@@ -1,23 +1,14 @@
 title: Python Pizza Hamburg 2023
 ---
-cta: A Delicious Blend of Tech and Community!
----
-author: PyLadies Hamburg
----
-avatar: custom_name.jpg
----
-tags: community, pyladies
----
-teaser_text: Held at New Work SE, Strandkai (Hamburg), the event marked a delightful return to a hybrid format, melding the best of both in-person and remote conference attendance.
-
----
-show_on_homepage: True
+pub_date: 2023-11-17
 ---
 teaser_image: hh_pp__1-850x500.jpg
 ---
-_discoverable: yes
+teaser_text: Held at New Work SE, Strandkai (Hamburg), the event marked a delightful return to a hybrid format, melding the best of both in-person and remote conference attendance.
 ---
-pub_date: 2023-11-17
+cta: A Delicious Blend of Tech and Community!
+---
+show_on_homepage: True
 ---
 body:
 

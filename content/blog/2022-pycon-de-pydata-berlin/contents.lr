@@ -1,14 +1,14 @@
 title: Entwurf: PyCon DE & PyData Berlin 2022
 ---
-author: Python Software Verband
----
-show_on_homepage: no
+pub_date: 2022-04-13
 ---
 teaser_image:
 ---
 teaser_text:
 
 Nach zwei pandemiebedingten Absagen kehrte die PyCon DE & PyData Berlin 2022 zurück — die erste große Python-Konferenz nach der Pandemie überhaupt.
+---
+show_on_homepage: no
 ---
 body:
 
@@ -43,9 +43,3 @@ Der PySV war 2022 auch Träger der **EuroSciPy** in Basel und unterstützte weit
 ---
 
 *Dieser Beitrag ist ein Entwurf und wird noch ergänzt.*
----
-tags: pycon-de, pydata, konferenz, berlin, 2022
----
-_discoverable: yes
----
-pub_date: 2022-04-13
