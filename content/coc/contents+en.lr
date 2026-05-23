@@ -1,0 +1,75 @@
+_model: coc
+---
+title: Code of Conduct
+---
+body:
+
+> **Translation notice.** This is a courtesy English translation of the German *Verhaltenskodex*. The German version at [pysv.org/coc/](https://pysv.org/coc/) is the maintained reference; in case of doubt the German version applies.
+
+## Community
+
+The Python community is a diverse community that enjoys the reputation of being friendly, welcoming, inspiring, and dynamic. We want to keep it that way. That is why we ask everyone to follow this Code of Conduct (CoC).
+
+If you have questions about this Code of Conduct, please contact the CoC team [(coc@pycon.de)](mailto:coc@pycon.de). Questions are seen only by members of the CoC working group and are treated confidentially.
+
+### Standards of Conduct
+
+All communication should be appropriate for a professional audience that includes people from many different backgrounds.
+
+Please be kind and courteous at all times. There is no reason to be mean, rude, or disrespectful. Thank you in advance for helping us be a welcoming, friendly community for everyone.
+
+#### We strive to:
+
+Be empathetic, welcoming, friendly, and patient. We remember that much of what our community builds is shaped by people who deserve to be treated with kindness and empathy.
+
+Work together to resolve conflict, and assume good intentions. We all get frustrated from time to time, but we will not let frustration turn into a personal attack. A community in which people feel uncomfortable or threatened is not productive.
+
+Be collaborative. Our work depends on the participation of many people, and others in turn depend on our work. Open-source communities rely on effective and friendly collaboration to achieve their goals.
+
+Be curious. Nobody knows everything. Asking questions early avoids many problems later, so we encourage questions — even if we have to point them to the right forum. We strive to be approachable and helpful.
+
+Choose your words with care. We are thoughtful and respectful in our communication, and we take responsibility for our own language. Be kind to others. Do not insult or put down other members of the community.
+
+### Unacceptable Behaviour
+
+We commit to making participation in this community free from harassment.
+
+We do not accept harassment or other exclusionary behaviour, including but not limited to:
+
+- Use of sexualised language or imagery
+- Excessive profanity (please avoid swear words; people vary widely in their sensitivity to cursing)
+- Posting sexually explicit or violent material
+- Violent or intimidating threats or language directed at another person
+- Inappropriate physical contact and/or unwelcome sexual attention or sexual comments
+- Sexist, racist, or otherwise discriminatory jokes and language
+- Trolling or insulting and demeaning comments
+- Written or verbal comments that have the effect of excluding people on the basis of their membership in a specific group — for example experience, gender, gender identity and expression, sexual orientation, disability, neurotype, personal appearance, body size, race, ethnicity, age, religion, or nationality
+- Public or private harassment
+- Sharing of private content, such as privately or non-publicly sent emails or direct message histories, without the sender's consent
+- Continued interaction (e.g. photographing, recording, messaging, or conversation) with a person after they have asked you to stop
+- Sustained disruption of conversations, events, or communication, such as interrupting a speaker
+- Publishing (or threatening to publish) personal information about other people ("doxing"), such as physical or electronic addresses, without explicit permission
+- Other unethical or unprofessional conduct
+- Advocating for, or encouraging, any of the above behaviour
+
+### Reporting Guidelines
+
+If you think someone is violating the Code of Conduct, please report it in a timely manner.
+
+Violations of the Code of Conduct reduce the value of the community for everyone.
+
+The CoC team takes reports of misconduct very seriously and strives to preserve and nurture the welcoming character of our community.
+
+All reports are treated confidentially.
+
+In some cases a public statement may need to be made. In such cases, the identities of all involved parties and reporters will be kept confidential unless those individuals instruct us otherwise.
+
+All complaints are reviewed and investigated, and will result in a response deemed necessary and appropriate to the circumstances.
+
+The CoC team is committed to maintaining confidentiality toward the person reporting an incident.
+
+For possibly unintentional violations of the Code of Conduct, you may also approach the person directly and point them to this Code of Conduct (either publicly or in private — whichever is most appropriate).
+
+If you would rather not do this, please report the matter directly to the CoC team.
+
+Take care of one another. Inform the CoC team if you notice a dangerous situation, a person in distress, or any violation of this Code of Conduct, even if it seems minor.
