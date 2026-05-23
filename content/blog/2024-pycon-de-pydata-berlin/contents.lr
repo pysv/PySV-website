@@ -1,14 +1,14 @@
 title: Entwurf: PyCon DE & PyData Berlin 2024
 ---
-author: Python Software Verband
----
-show_on_homepage: no
+pub_date: 2024-04-24
 ---
 teaser_image:
 ---
 teaser_text:
 
 Die PyCon DE & PyData Berlin 2024 bestätigte ihren Status als größte Python-Konferenz Europas: 1.869 Teilnehmende, sechs Wochen vor der Konferenz ausverkauft.
+---
+show_on_homepage: no
 ---
 body:
 
@@ -44,10 +44,3 @@ Fotos: [PyCon DE & PyData Berlin 2024 Fotos](https://bit.ly/pyconde-pydata-24-fo
 ---
 
 *Dieser Beitrag ist ein Entwurf und wird noch ergänzt.*
----
-tags: pycon-de, pydata, konferenz, berlin, 2024
----
-_discoverable: yes
----
-pub_date: 2024-04-24
----

@@ -1,14 +1,14 @@
 title: Entwurf: Geförderte Projekte 2022
 ---
-author: Python Software Verband
----
-show_on_homepage: no
+pub_date: 2022-12-31
 ---
 teaser_image:
 ---
 teaser_text:
 
 Überblick über die vom PySV im Jahr 2022 geförderten Projekte und Veranstaltungen.
+---
+show_on_homepage: no
 ---
 body:
 
@@ -51,9 +51,3 @@ Wir haben außerdem administrativ und/oder finanziell unterstützt:
 ---
 
 *Dieser Beitrag ist ein Entwurf und wird noch ergänzt. Quelle: Jahresbericht 2022/2023.*
----
-tags: förderprogramm, community, 2022
----
-_discoverable: yes
----
-pub_date: 2022-12-31

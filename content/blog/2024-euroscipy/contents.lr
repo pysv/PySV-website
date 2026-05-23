@@ -1,14 +1,14 @@
 title: Entwurf: EuroSciPy 2024
 ---
-author: Python Software Verband
----
-show_on_homepage: no
+pub_date: 2024-08-30
 ---
 teaser_image:
 ---
 teaser_text:
 
 Die EuroSciPy 2024 fand erstmals in Stettin, Polen, statt — mit einem besonderen Fokus auf Maintainer wissenschaftlicher Python-Bibliotheken.
+---
+show_on_homepage: no
 ---
 body:
 
@@ -39,10 +39,3 @@ Im Rahmen des Diversity-Programms konnten **7 Teilnehmende** mit Reisekosten und
 ---
 
 *Dieser Beitrag ist ein Entwurf und wird noch ergänzt.*
----
-tags: euroscipy, konferenz, stettin, polen, wissenschaft, 2024
----
-_discoverable: yes
----
-pub_date: 2024-08-30
----
