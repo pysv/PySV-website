@@ -4,7 +4,11 @@
             "name": "Dr.-Ing. Mike Müller",
             "role": "1. Vorsitzender",
             "image": "2020_mike.jpg",
-            "socials": {}
+            "socials": {
+                "website": "https://www.python-academy.de/",
+                "linkedin": "https://www.linkedin.com/in/mike-m%C3%BCller-1937695/",
+                "github": "https://github.com/pya"
+            }
         },
         {
             "name": "Alexander Hendorf",
@@ -18,54 +22,57 @@
             }
         },
         {
-            "name": "Dr. Klaus Bremer",
-            "role": "Vorstandsmitglied",
-            "image": "2020_klaus.jpg",
-            "socials": {}
-        },
-        {
             "name": "Jessica Greene",
-            "role": "Vorstandsmitglied",
+            "role": "1. stellvertretende Vorsitzende",
             "image": "jessica.jpeg",
             "socials": {
                 "linkedin": "https://www.linkedin.com/in/jessica0greene/"
+            }
+        },
+        {
+            "name": "Dr. Klaus Bremer",
+            "role": "2. stellvertretender Vorsitzender",
+            "image": "2020_klaus.jpg",
+            "socials": {
+                "linkedin": "https://www.linkedin.com/in/klaus-bremer-366206307/",
+                "website": "https://bremer-media.com/"
             }
         }
     ],
     "former_members": [
         {
             "name": "Dr. Tereza Iofciu",
-            "role": "1. Stellvertretender Vorsitzende",
+            "role": "",
             "image": "tereza.png",
             "socials": {}
         },
         {
             "name": "Prof. Dr. Martin Christen",
-            "role": "2. Stellvertretender Vorsitzender",
+            "role": "",
             "image": "Martin_Christen.jpg",
             "socials": {}
         },
         {
             "name": "Paloma Oliveira",
-            "role": "Vorstandsmitglied",
+            "role": "",
             "image": "paloma.jpeg",
             "socials": {}
         },
         {
             "name": "Yu Yan Cheung",
-            "role": "Vorstandsmitglied",
+            "role": "",
             "image": "yenny.jpg",
             "socials": {}
         },
         {
             "name": "Christian Theune",
-            "role": "Vorstandsmitglied",
+            "role": "",
             "image": "1638170933871.jpeg",
             "socials": {}
         },
         {
             "name": "Katharine Jarmul",
-            "role": "Beraterin",
+            "role": "",
             "image": "1517716762908.jpeg",
             "socials": {}
         }
