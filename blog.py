@@ -7,29 +7,25 @@ from pathlib import Path
 
 CONTENT_DIR = Path(__file__).parent / "content" / "blog"
 
+# Canonical field order matches models/blog-post.ini with `body` moved to
+# the end. Only fields declared in the model are emitted here — keeping the
+# scaffold aligned with the rest of content/blog/.
 TEMPLATE_DE = """\
 title: {title}
 ---
 pub_date: {pub_date}
 ---
-author: {author}
----
-tags:
+teaser_image: preview.jpg
 ---
 teaser_text:
 
 Kurze Zusammenfassung des Beitrags (1-2 Sätze). Wird in der Blog-Übersicht angezeigt.
-
----
-teaser_image: preview.jpg
 ---
 cta: Weiterlesen
 ---
 show_on_homepage: False
 ---
 highlighted: False
----
-_discoverable: yes
 ---
 body:
 
@@ -47,24 +43,17 @@ title: {title}
 ---
 pub_date: {pub_date}
 ---
-author: {author}
----
-tags:
+teaser_image: preview.jpg
 ---
 teaser_text:
 
 Short summary of the post (1-2 sentences). Shown in the blog overview.
-
----
-teaser_image: preview.jpg
 ---
 cta: Read more
 ---
 show_on_homepage: False
 ---
 highlighted: False
----
-_discoverable: yes
 ---
 body:
 
@@ -110,15 +99,12 @@ def add() -> None:
         print(f"Error: '{pub_date}' is not a valid date (expected YYYY-MM-DD).")
         sys.exit(1)
 
-    author = prompt("Author name", default="PySV")
-
     slug = f"{year}-{slugify(title)}"
     post_dir = CONTENT_DIR / slug
 
     print(f"\n── Summary ──")
     print(f"  Title:    {title}")
     print(f"  Date:     {pub_date}")
-    print(f"  Author:   {author}")
     print(f"  Directory: content/blog/{slug}/")
     print(f"  Files:     contents.lr (DE), contents+en.lr (EN)\n")
 
@@ -129,7 +115,7 @@ def add() -> None:
 
     post_dir.mkdir(parents=True, exist_ok=False)
 
-    fields = {"title": title, "pub_date": pub_date, "author": author}
+    fields = {"title": title, "pub_date": pub_date}
     (post_dir / "contents.lr").write_text(TEMPLATE_DE.format(**fields))
     (post_dir / "contents+en.lr").write_text(TEMPLATE_EN.format(**fields))
 

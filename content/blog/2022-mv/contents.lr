@@ -2,19 +2,14 @@ title: Mitgliederversammlung 2022
 ---
 pub_date: 2022-10-19
 ---
-author: Python Software Verband
+teaser_image: preview.png
 ---
-avatar: custom_name.jpg
----
-tags: verein, members
----
-teaser_text: Unsere diesjährige Mitgliederversammlung findet am 12. November 2021 online statt.
+teaser_text:
+
+Unsere diesjährige Mitgliederversammlung findet am 12. November 2021 online statt.
 Der Vorstand wird den Geschäftsbericht 2021 vorstellen und einen Ausblick auf 2022 geben.
 Vorstands-Wahlen stehen dieses Jahr keine an, da seit 2021 der Vorstand nun auf 2 Jahr gewählt wird.
 Die Rechnungsprüfer müssen neu bzw. wieder gewählt werden.
-
----
-teaser_image: preview.png
 ---
 show_on_homepage: True
 ---

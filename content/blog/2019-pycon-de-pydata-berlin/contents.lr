@@ -1,14 +1,14 @@
 title: Entwurf: PyCon DE & PyData Berlin 2019
 ---
-author: Python Software Verband
----
-show_on_homepage: no
+pub_date: 2019-10-11
 ---
 teaser_image:
 ---
 teaser_text:
 
 Die PyCon DE & PyData Berlin 2019 war ein voller Erfolg: 1.111 Teilnehmende, ausverkauft zwei Monate im Voraus, mit 800 weiteren auf der Warteliste.
+---
+show_on_homepage: no
 ---
 body:
 
@@ -41,9 +41,3 @@ Die Konferenz wurde vom **Python Software Verband e.V.** in Zusammenarbeit mit *
 ---
 
 *Dieser Beitrag ist ein Entwurf und wird noch ergänzt.*
----
-tags: pycon-de, pydata, konferenz, berlin, 2019
----
-_discoverable: yes
----
-pub_date: 2019-10-11

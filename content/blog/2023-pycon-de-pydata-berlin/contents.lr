@@ -1,14 +1,14 @@
 title: Entwurf: PyCon DE & PyData Berlin 2023
 ---
-author: Python Software Verband
----
-show_on_homepage: no
+pub_date: 2023-04-19
 ---
 teaser_image:
 ---
 teaser_text:
 
 Mit 1.841 Teilnehmenden war die PyCon DE & PyData Berlin 2023 die größte Python-Konferenz Europas — ein neuer Rekord.
+---
+show_on_homepage: no
 ---
 body:
 
@@ -43,9 +43,3 @@ Im selben Jahr war der PySV auch Träger von PythonCamp Rügen, PyCamp Leipzig u
 ---
 
 *Dieser Beitrag ist ein Entwurf und wird noch ergänzt.*
----
-tags: pycon-de, pydata, konferenz, berlin, 2023
----
-_discoverable: yes
----
-pub_date: 2023-04-19

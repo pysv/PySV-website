@@ -1,16 +1,8 @@
 title: Beethoven Sprint
 ---
-author: Python Software Verband
----
-avatar: custom_name.jpg
----
-tags: community, sprint, plone
----
-teaser: The Beethoven Sprint 2023 took place from May 15 to 19 at the offices of kitconcept GmbH in Bonn. The focus was on working on Plone 6.1 and the long-term prospect of Plone 7.
----
-_discoverable: yes
----
 pub_date: 2023-06-01
+---
+teaser_text: The Beethoven Sprint 2023 took place from May 15 to 19 at the offices of kitconcept GmbH in Bonn. The focus was on working on Plone 6.1 and the long-term prospect of Plone 7.
 ---
 body:
 
@@ -40,5 +32,3 @@ A detailed report on the event can be
 found [here](https://plone.org/news-and-events/news/2023/fifth-beethoven-sprint-progress-plone-6-1-foundations-plone-7).
 
 Translated with www.DeepL.com/Translator (free version)
-
-
