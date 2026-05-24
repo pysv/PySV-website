@@ -1,6 +1,16 @@
 {
     "members": [
         {
+            "name": "Technische Universität München",
+            "logo": "14_tum.png",
+            "url": "https://www.tum.de"
+        },
+        {
+            "name": "Haufe-Lexware GmbH & Co. KG",
+            "logo": "11_591e6251f13786217f2e2062_16132_LO_Haufe_Group_RGB_pos_en.svg",
+            "url": "https://www.haufegroup.com/en/home"
+        },
+ {
             "name": "Python Academy",
             "logo": "1_logo_pythonacademy.gif",
             "url": "https://www.python-academy.com"
@@ -8,7 +18,8 @@
         {
             "name": "gocept gmbh & co. kg",
             "logo": "2_gocept_logo_outline_neg.png",
-            "url": "https://gocept.com"
+            "url": "https://gocept.com",
+            "dark_bg": true
         },
         {
             "name": "Zetwork",
@@ -46,11 +57,6 @@
             "url": "https://www.prontonet.eu"
         },
         {
-            "name": "Haufe-Lexware GmbH & Co. KG",
-            "logo": "11_591e6251f13786217f2e2062_16132_LO_Haufe_Group_RGB_pos_en.svg",
-            "url": "https://www.haufegroup.com/en/home"
-        },
-        {
             "name": "Novareto GmbH",
             "logo": "12_logo-novareto.png",
             "url": "http://novareto.de"
@@ -59,11 +65,6 @@
             "name": "Werkbank Multimedia GmbH",
             "logo": "13_werkbank.png",
             "url": "https://werkbank.de"
-        },
-        {
-            "name": "Technische Universität München",
-            "logo": "14_tum.png",
-            "url": "https://www.tum.de"
         },
         {
             "name": "4teamwork",
@@ -88,7 +89,8 @@
         {
             "name": "operun GmbH",
             "logo": "19_logo_w_noborder.svg",
-            "url": "https://www.operun.de"
+            "url": "https://www.operun.de",
+            "dark_bg": true
         },
         {
             "name": "Lugensa GmbH",
@@ -103,7 +105,8 @@
         {
             "name": "kitconcept GmbH",
             "logo": "22_logo-white.svg",
-            "url": "https://kitconcept.com"
+            "url": "https://kitconcept.com",
+            "dark_bg": true
         },
         {
             "name": "agitator Weblösungen",
@@ -113,7 +116,8 @@
         {
             "name": "cloud19 web solutions & services",
             "logo": "24_c19-logo-white.svg",
-            "url": "https://www.cloud19.at"
+            "url": "https://www.cloud19.at",
+            "dark_bg": true
         },
         {
             "name": "Bluedynamics Alliance",
@@ -123,7 +127,8 @@
         {
             "name": "nexiles GmbH",
             "logo": "26_logo-4.png",
-            "url": "https://www.nexiles.com"
+            "url": "https://www.nexiles.com",
+            "dark_bg": true
         },
         {
             "name": "TOHATEC web solutions",
