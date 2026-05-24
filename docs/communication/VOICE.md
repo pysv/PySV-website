@@ -53,6 +53,7 @@ Die Voice variiert situativ, bleibt aber erkennbar dieselbe Stimme.
 | Förder-News | konkret, anerkennend, transparent | "Wir fördern X mit Y Euro, weil…" |
 | Positionspapier | sachlich, mit Nachdruck, politisch | "Der PySV hält fest: …" |
 | Sonstige News | nüchtern, einordnend | "Was bedeutet das für die Community?" |
+| Mitgliederversammlung | professionell, prägnant, motivierend ohne Zuckerguss | "Auf der Mitgliederversammlung am … hat der PySV …" |
 | Social Media | gleicher Ton, kürzer, ein Gedanke pro Post | siehe unten |
 
 ---
@@ -115,6 +116,42 @@ Kein Marketing-Sprech ("revolutionär", "bahnbrechend", "DAS Event des Jahres", 
 > Warum wir das fördern: Python ist die Sprache, mit der heute viele Menschen in Schule, Studium und Beruf zum ersten Mal programmieren. Eine vollständige deutschsprachige Dokumentation senkt die Einstiegshürde dort, wo Englisch nicht selbstverständlich ist.
 >
 > Förderanträge sind ganzjährig möglich; die Kriterien stehen unter [Link].
+
+### Mitgliederversammlung — Was rein, was raus
+
+Die Mitgliederversammlung ist ein wiederkehrender Pflichttermin und neigt im Bericht zur Aufzählungsdramaturgie. Der öffentliche Blogbeitrag soll informieren, ohne zu ermüden — und ohne intern gehörende Zahlen nach außen zu tragen.
+
+**Was im Beitrag steht:**
+
+- Wahlen — wer kandidiert, wer wurde gewählt, wer wurde im Amt bestätigt
+- Ausscheidende Vorstandsmitglieder mit **konkretem Dank** (für welche Leistung, nicht nur "für langjähriges Engagement")
+- Vorstandsmitglieder, die nicht erneut kandidieren, und der Grund, soweit öffentlich teilbar
+- Ergebnis der Rechnungsprüfer:innen — ob Entlastung erteilt wurde, nicht die geprüften Zahlen
+- Förderbericht — geförderte Projekte mit Beträgen, da Fördersummen ohnehin Teil der öffentlichen Kommunikation des PySV sind
+- Satzungsänderungen, strukturelle Beschlüsse
+
+**Was nicht im Beitrag steht:**
+
+- **Gewinn- und Verlustzahlen** aus dem Jahresabschluss
+- **Vereinsergebnis, Kassenbestand, Ergebnisvortrag** — keine Bilanzkennzahlen
+- Detail-Einnahmen und -Ausgaben im wirtschaftlichen oder ideellen Geschäftsbetrieb
+- Interne finanzielle Streitpunkte oder offene Diskussionen
+
+Diese Zahlen gehören in den Jahresbericht und in die interne Berichterstattung an die Mitglieder — nicht in den öffentlichen Beitrag. Verlinkt wird der Jahresbericht für Interessierte, der Beitrag selbst bleibt frei von Bilanzkennzahlen.
+
+**Ton:**
+
+Prägnant. Eher zwei knappe Absätze als sechs ausführliche. Motivierend, aber ohne Marketing-Glasur — statt "wir blicken zurück auf ein außergewöhnlich erfolgreiches Jahr" lieber "2026 hat der PySV X Projekte gefördert und Y Veranstaltungen getragen". Der Dank an ausscheidende Vorstände wird konkret formuliert, nicht floskelhaft. Wer eine Versammlung verpasst hat, soll den Beitrag in zwei Minuten lesen und das Wesentliche mitnehmen.
+
+> **Mitgliederversammlung 2027 — Ergebnisse**
+>
+> Auf der Mitgliederversammlung am 7. November 2027 hat der PySV einen neuen Vorstand gewählt. [Name] wurde im Amt bestätigt, [Name] und [Name] sind neu hinzugekommen. [Name] trat nach [X] Jahren nicht erneut an — der PySV dankt [Name] für [konkrete Leistung, z. B. den Aufbau des PyLadies Fund / die Modernisierung der Buchhaltung / die Vertretung des Verbands gegenüber Politik und Medien].
+>
+> Die Rechnungsprüfer:innen [Namen] haben den Jahresabschluss geprüft. Dem Vorstand wurde Entlastung erteilt. Den vollständigen Jahresbericht finden Mitglieder und Interessierte unter [Link].
+>
+> Im Förderbereich hat der PySV 2026 X Projekte mit insgesamt Y Euro unterstützt — von DjangoGirls-Workshops in [Stadt] über PyLadies-Meetups und Stipendien zur PyCon DE bis zur Übersetzung der Python-Dokumentation. Eine vollständige Übersicht steht unter [Link].
+>
+> Für 2027 setzt der Vorstand drei Schwerpunkte: die Modernisierung der Förderprozesse, eine stärkere Vertretung der Community gegenüber Politik und Medien, und den Ausbau des Mentoring-Programms. Wer mitarbeiten möchte — als Mitglied, als Sponsorin oder ehrenamtlich in einer Arbeitsgruppe — findet die Wege unter [Link].
 
 ### Positionspapier — Vorwort
 
