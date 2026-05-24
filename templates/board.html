@@ -12,7 +12,16 @@
     <h2>Vorstand</h2>
     <ol class="content-list board-members">
         {% for member in bag('board')['current_members'] %}
-        {{ render_board_member(member) }}
+        {{ render_board_member(member, this.alt) }}
+        {% endfor %}
+    </ol>
+</div>
+
+<div class="current-auditors">
+    <h2>{% if this.alt == 'en' %}Auditors{% else %}Rechnungsprüfer{% endif %}</h2>
+    <ol class="content-list board-members">
+        {% for member in bag('board')['current_auditors'] %}
+        {{ render_board_member(member, this.alt) }}
         {% endfor %}
     </ol>
 </div>
@@ -21,7 +30,7 @@
     <h2>Ehemalige Vorstandsmitglieder</h2>
     <ol class="content-list board-members">
         {% for member in bag('board')['former_members'] %}
-        {{ render_board_member(member) }}
+        {{ render_board_member(member, this.alt) }}
         {% endfor %}
     </ol>
 </div>
