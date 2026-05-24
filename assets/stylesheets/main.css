@@ -670,7 +670,7 @@ ol.content-list {
 }
 
 /* Members whose logo is designed for a dark background ("negative"/white
-   artwork) opt in via "dark_bg": true in databags/membership.json. */
+   artwork) opt in via "dark_bg: true" in databags/membership.yaml. */
 .company-member .image--dark {
     background: #1f2937;
     border-color: #1f2937;
