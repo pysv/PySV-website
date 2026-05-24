@@ -1,0 +1,22 @@
+pages:
+- name: Blog
+  path: blog
+- name: Community
+  path: community
+- name: Events
+  path: events
+- name: Grants
+  path: grants
+- name: About
+  path: about
+  subpages:
+  - name: Board
+    path: /board
+  - name: Dokumente
+    path: /documents
+  - name: Mitgliedschaft
+    path: /membership
+  - name: Nachhaltigkeit
+    path: /sustainability
+  - name: Reimbursements
+    path: /reimbursements
