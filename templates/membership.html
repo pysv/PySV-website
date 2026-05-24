@@ -11,11 +11,15 @@
     {% for member in bag('membership')['members'] %}
     <li class="company-member">
         <a href="{{ member.url }}">
-            <div class="image">
-                {% if member.logo %}
+            {% if member.logo %}
+            <div class="image{% if member.dark_bg %} image--dark{% endif %}">
                 <img src="{{ ('/membership/' ~ member.logo)|url }}" alt="{{member.name}}">
-                {% endif %}
             </div>
+            {% else %}
+            <div class="image image--placeholder" aria-hidden="true">
+                <span>{{ member.name[0]|upper }}</span>
+            </div>
+            {% endif %}
             <div class="details">
                 <div class="name">{{ member.name }}</div>
                 <div class="website">{{ member.url }}</div>
