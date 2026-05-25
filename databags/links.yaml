@@ -1,0 +1,24 @@
+pages:
+#- name: Blog
+#  path: blog
+- name: Python
+  path: python
+- name: Community
+  path: community
+#- name: Events
+#  path: events
+- name: Förderung
+  path: grants
+- name: Über
+  path: about
+  subpages:
+  - name: Vorstand
+    path: /board
+  - name: Dokumente
+    path: /documents
+  - name: Mitgliedschaft
+    path: /membership
+  - name: Nachhaltigkeit
+    path: /sustainability
+  - name: Erstattungen
+    path: /reimbursements

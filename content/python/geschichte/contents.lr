@@ -1,0 +1,49 @@
+_model: python-post
+---
+title: Die Geschichte des Python Software Verbandes
+---
+order: 50
+---
+teaser:
+
+Der PySV vertritt die deutschsprachige Python-Community seit über zwei Jahrzehnten. Seine Wurzeln reichen in die frühe Open-Source-Szene der 2000er-Jahre zurück — und seine Gegenwart in die größten Python-Konferenzen Europas.
+---
+body:
+
+## Die Wurzeln: DZUG
+
+Die Geschichte des PySV beginnt nicht 2011 mit der Umbenennung, sondern Jahre vorher mit der *Deutschen Zope User Group* (DZUG). Diese Anwendergemeinschaft hatte sich seit dem Anfang der 2000er-Jahre um das damals führende Python-basierte Web-Framework *Zope* und das Content-Management-System *Plone* gebildet, war 2004 als eingetragener Verein konstituiert worden und zog regelmäßige Tagungen — die *DZUG-Tagungen* — in deutsche Universitätsstädte.
+
+Was als Anwendergruppe für eine konkrete Technologie begann, entwickelte sich über die Jahre zu einem breiteren Verbund für freie Software in der Python-Welt. Inhaltlich wurde der Zope-Fokus zunehmend schmal für eine Community, die längst auf der gesamten Bandbreite des Python-Ökosystems unterwegs war — von Web-Entwicklung über Wissenschaft bis zu Werkzeugen für die Datenanalyse.
+
+## Die Umbenennung: PyCon DE 2011
+
+Vom 4. bis 9. Oktober 2011 fand in Leipzig die erste *PyCon DE* statt — die erste deutsche Python-Konferenz mit rund 200 Teilnehmenden, drei Keynotes und 55 Vorträgen, ausgerichtet im Leipziger Kubus des Helmholtz-Zentrums für Umweltforschung. Auf der Mitgliederversammlung dieser Konferenz beschloss die DZUG einstimmig die Öffnung und die Umbenennung zu *Python Software Verband*. Die organisatorische Übergangsphase erstreckte sich über die Folgejahre.
+
+Damit war ein Verband entstanden, der dem Vorbild der internationalen Python Software Foundation folgte — gemeinnützig, mitgliedergetragen, der Verbreitung freier Software verpflichtet. Mit dem Unterschied, dass der PySV den deutschsprachigen Raum adressiert und seine Aktivitäten in Deutschland, Österreich und der deutschsprachigen Schweiz verankert.
+
+## Was sich seither aufgebaut hat
+
+In den über zwanzig Jahren seit der Vereinsgründung hat sich eine Struktur etabliert, die heute auf vier Säulen ruht.
+
+*Konferenzen.* Die PyCon DE & PyData ist mit über 1.500 Teilnehmenden die größte Python-Konferenz im deutschsprachigen Raum und steht in der Tradition einer Veranstaltungsreihe, die mit der DZUG-Tagung begann und mit der PyCon DE 2011 ihren neuen Anfang nahm. Daneben unterstützt der PySV als Trägerverband die EuroSciPy, ergänzt durch kleinere Formate wie das PythonCamp, das Beethoven Sprint oder die Python Pizza.
+
+*Förderung.* Über das Förderprogramm unterstützt der PySV jährlich Veranstaltungen und Entwicklungsvorhaben aus der Community. Gefördert wurden in den vergangenen Jahren unter anderem DjangoGirls-Workshops, der GeoPython-Kongress, Initiativen für junge Menschen wie *Jugend hackt* und Entwicklungssprints im Plone-Umfeld.
+
+*Verbandsarbeit.* Der PySV vertritt die Community gegenüber Politik, Medien und anderen Verbänden. Die Satzung verpflichtet den Verband auf Gemeinnützigkeit, auf die Förderung von Wissenschaft, Forschung, Bildung und Kultur durch freie Software und auf die Unterstützung von Mitgliedern und Nichtmitgliedern gleichermaßen.
+
+*Infrastruktur.* Der Verband stellt Anwendergruppen und Initiativen organisatorische und technische Infrastruktur zur Verfügung — vom Versicherungsschutz für Veranstaltungen bis zur Abrechnungshilfe für ehrenamtlich Aktive.
+
+## Warum Geschichte zählt
+
+Die Verbandsarbeit ist nicht spektakulär. Sie besteht aus Vorstandssitzungen, Förderentscheidungen, Steuererklärungen, Buchhaltung, Verträgen mit Veranstaltungsorten, Korrespondenz mit Behörden. Aus jenem Teil der Community-Arbeit, der unsichtbar wird, wenn er funktioniert.
+
+Dass es ihn gibt — und seit über zwei Jahrzehnten ohne Unterbrechung gibt — ist die Voraussetzung dafür, dass freiwillige Beiträge dauerhaft tragen können. Eine ehrenamtlich organisierte Community-Konferenz mit 1.500 Teilnehmenden lässt sich nicht aus dem Stand stemmen. Sie braucht einen Verband im Hintergrund, der Verträge unterschreibt, Haftung übernimmt und über Jahre Strukturen pflegt.
+
+Genau das leistet der PySV. Wer mit dem Verband zu tun hat — als Mitglied, als Antragstellerin, als Partnerorganisation, als Behörde — kann sich auf eine etablierte Struktur verlassen, deren Wurzeln in den frühen Tagen der deutschen Open-Source-Szene liegen.
+
+## Quellen
+
+- Linux-Magazin, *Aus DZUG wird Python Software Verband*, [linux-magazin.de](https://www.linux-magazin.de/news/aus-dzug-wird-python-software-verband/)
+- Communardo, *Rückblick auf die PyCon DE 2011*, [communardo.de](https://www.communardo.de/techblog/rueckblick-auf-die-pycon-de-2011-1-deutsche-python-konferenz/)
+- Python Software Verband, *Python verbindet — Der PySV in 20 Minuten*, PyCon DE 2013, [pyvideo.org](https://pyvideo.org/pycon-de-2013/python-verbindet-der-python-software-verband-e.html)

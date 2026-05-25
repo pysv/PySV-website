@@ -97,6 +97,13 @@ h4,
     font-style: normal;
 }
 
+h1,
+h2,
+h3,
+h4 {
+    line-height: 1.2;
+}
+
 .main-navigation a,
 .dropdown--button {
     font-size: 1.2em;
@@ -525,11 +532,29 @@ p {
     color: var(--toggled-color);
 }
 
+.usp {
+    position: relative;
+}
+
 .usp a {
     /* padding: var(--rythm-unit); */
     text-decoration: none;
     display: block;
     color: var(--primary-color);
+}
+
+/* Stretched-link pattern: ensures the whole card is clickable in Firefox,
+   where nested block elements inside <a> can otherwise leave dead zones. */
+.usp > a::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+}
+
+.usp > a > * {
+    position: relative;
+    z-index: 2;
 }
 
 .usp .cta {
@@ -639,18 +664,195 @@ ol.content-list {
     padding: calc(var(--rythm-unit)/2) 0;
 }
 
-/* Fix white-on-white logos: dark background for member logo container */
+/* ===== Member logos =====
+   Default to a clean white card. Per-logo overrides switch in a dark
+   background for the handful of logos that were designed as "negative"
+   (white/light) artwork and would otherwise disappear on white. */
 .company-member .image {
-    background: #2b2b2b;
-    border-radius: 6px;
+    background: #ffffff;
+    border: 1px solid #e6e6e6;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0.5rem;
+    padding: 14px 18px;
+    min-height: 120px;
+    transition: box-shadow 0.25s ease, transform 0.25s ease;
 }
 
 .company-member .image img {
     max-width: 100%;
-    max-height: 80px;
+    max-height: 88px;
+    width: auto;
+    height: auto;
     object-fit: contain;
+}
+
+.company-member:hover .image {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);
+    transform: translateY(-1px);
+}
+
+/* Members whose logo is designed for a dark background ("negative"/white
+   artwork) opt in via "dark_bg: true" in databags/membership.yaml. */
+.company-member .image--dark {
+    background: #1f2937;
+    border-color: #1f2937;
+}
+
+/* Placeholder card for members without a logo: show their initial. */
+.company-member .image--placeholder {
+    background: #f3f4f6;
+    border-color: #e6e6e6;
+    color: #9ca3af;
+    font-family: var(--font-headings, inherit);
+    font-weight: 700;
+    font-size: 2.4em;
+    letter-spacing: 0;
+}
+
+/* Tidy up the details column next to the logo. */
+.company-member .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.company-member .details .name {
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.company-member .details .website {
+    font-size: 0.85em;
+    opacity: 0.75;
+    word-break: break-all;
+}
+
+/* On wide screens give logos a bit more breathing room and equal heights. */
+@media (min-width: 800px) {
+    .company-members {
+        gap: calc(var(--rythm-unit) * 1.2);
+    }
+}
+
+/* ===== Homepage v2 — stiftungs-/verbandsklassik ===== */
+
+/* Hero text rhythm */
+.hero h1 {
+    margin-bottom: calc(var(--rythm-unit) / 2);
+}
+
+.hero p {
+    line-height: 1.7em;
+}
+
+/* Conferences & barcamps */
+.conferences-block > h2,
+.grants-section > h2,
+.ecosystem-section > h2,
+.culture-section > h2,
+.cta-section > h2,
+.volunteers-accent > h2 {
+    margin-bottom: calc(var(--rythm-unit) / 2);
+}
+
+.conf-block {
+    border-top: 1px solid var(--primary-color);
+    padding: var(--rythm-unit) 0;
+}
+
+.conf-block:last-child {
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.conf-block h3 {
+    font-size: 1.25em;
+    margin-bottom: calc(var(--rythm-unit) / 2);
+}
+
+.conf-block p {
+    line-height: 1.65em;
+}
+
+/* Volunteers accent — single editorial pull-quote block (kept by request) */
+.volunteers-accent {
+    background-color: var(--primary-color);
+    color: var(--toggled-color);
+    padding: calc(var(--rythm-unit) * 1.5) var(--rythm-unit);
+    margin: var(--rythm-unit) 0;
+}
+
+.volunteers-accent h2 {
+    color: var(--toggled-color);
+}
+
+.volunteers-statement .big-quote {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 1.25em;
+    line-height: 1.4;
+    margin-bottom: var(--rythm-unit);
+    color: var(--toggled-color);
+}
+
+.volunteers-statement p {
+    color: var(--toggled-color);
+    line-height: 1.7em;
+}
+
+.volunteers-accent a {
+    color: var(--highlight-color);
+}
+
+/* Grants / ecosystem / culture — plain prose sections, no grids */
+.grants-section p,
+.ecosystem-section p,
+.culture-section p {
+    line-height: 1.7em;
+}
+
+/* CTA — single button, anchored at the end */
+.cta {
+    display: inline-block;
+    padding: 0.55em 1.2em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-size: 0.95em;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color) !important;
+    background-color: transparent;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.cta--primary {
+    background-color: var(--primary-color);
+    color: var(--toggled-color) !important;
+    border-color: var(--primary-color);
+}
+
+.cta--primary:hover {
+    background-color: var(--highlight-color);
+    border-color: var(--highlight-color);
+}
+
+.single-cta {
+    margin-top: var(--rythm-unit);
+}
+
+.cta-section p {
+    line-height: 1.7em;
+}
+
+/* Spacing between top-level sections on the homepage */
+.content > section {
+    margin-bottom: calc(var(--rythm-unit) * 2);
+}
+
+.content > section:last-child {
+    margin-bottom: 0;
 }

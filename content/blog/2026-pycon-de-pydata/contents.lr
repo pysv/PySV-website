@@ -1,48 +1,71 @@
-title: Entwurf: PyCon DE & PyData 2026 — Ankündigung
+title: PyCon DE & PyData 2026 — Anmeldung geöffnet
 ---
-pub_date: 2026-03-07
+pub_date: 2026-02-15
 ---
-teaser_image:
+teaser_image: darmstadtium-2026.jpg
 ---
 teaser_text:
 
-Die PyCon DE & PyData 2026 findet vom 14. bis 17. April im darmstadtium in Darmstadt statt — Deutschlands größte Python-, Data- und AI-Konferenz.
----
-show_on_homepage: no
+Vom 13. bis 17. April 2026 trifft sich die deutschsprachige Python-Community im darmstadtium in Darmstadt. Drei Konferenztage, ein Sprint- und Community-Tag, ein Masterclass-Tag — über 130 Programmpunkte zu Python, Data, KI und Open Source.
+
 ---
 body:
 
-## PyCon DE & PyData 2026
+## PyCon DE & PyData 2026 — Anmeldung geöffnet
 
-Die **PyCon DE & PyData 2026** kehrt ins **darmstadtium** nach Darmstadt zurück!
+Vom **13. bis 17. April 2026** kommt die deutschsprachige Python-Community im **darmstadtium** in Darmstadt zusammen. Die PyCon DE & PyData ist die größte Python- und KI-Konferenz im deutschsprachigen Raum — getragen vom **Python Software Verband e.V.**, organisiert von Freiwilligen, finanziert über Tickets und Sponsoring.
 
-### Termin & Ort
+### Termin im Überblick
 
-- **13. April 2026**: Sprints & Community Day
-- **14. bis 16. April 2026**: Hauptkonferenz
-- **17. April 2026**: Masterclasses
-- **Ort**: darmstadtium — Wissenschafts- und Kongresszentrum, Schlossgraben 1, 64283 Darmstadt
+- **13. April 2026** — Sprints & Community Day
+- **14. bis 16. April 2026** — Konferenz mit Talks, Tutorials, Lightning Talks und Panels
+- **17. April 2026** — Masterclasses
+- **Ort:** darmstadtium, Schlossgraben 1, 64283 Darmstadt
 
-### Was erwartet Euch?
+Nach dem Rekordjahr 2025 mit über 2.000 Teilnehmenden bleibt die Konferenz in Darmstadt. Erwartet werden erneut **2.000+ Teilnehmende** und über **130 Sessions** auf mehreren Tracks.
 
-Nach dem Rekordjahr 2025 (2.079 Teilnehmende) wird die PyCon DE & PyData 2026 erneut als Kombi-Konferenz zusammen mit **NumFOCUS** durchgeführt. Es erwarten Euch:
+### Keynotes 2026
 
-- Talks, Tutorials und Workshops
-- Dedicated Tracks für Python, Data Science und AI
-- Sprints für Open-Source-Projekte
-- DjangoGirls und Feminist AI Veranstaltungen
-- Vor-Ort- und Remote-Teilnahme
+Vier Keynotes ziehen den thematischen Bogen der Konferenz:
+
+- **Sebastian Raschka** (Lightning AI, Autor von *Build a Large Language Model (From Scratch)*) — *From Scratch to Scale: How Far Python Takes You in Building LLMs*
+- **Hilde Kühne** (Tübingen AI Center) — *The Multimodal Era of Machine Learning (and How Python Made It Possible)*
+- **Gabriela Bogk** (25+ Jahre IT, 20+ Jahre Informationssicherheit) — Keynote zu Sicherheit und Resilienz in der digitalen Transformation
+- **Aaron A. Glenn** — *What Digital Sovereignty Actually Means When You Understand What the Cloud Is Made Of*
+
+### Programm
+
+Die Konferenz verbindet die Tradition der PyCon DE mit dem PyData-Track für Data Science und KI. Themen 2026 unter anderem: LLMs in der Produktion, Agentic AI, MLOps, wissenschaftliches Python, Web- und Backend-Entwicklung, DevOps, Security, Open-Source-Maintenance und digitale Souveränität.
+
+Parallel zur Konferenz läuft der **Feminist AI Hackerspace** — drei Tage offener Hackerspace, kein Ticket notwendig.
+
+### Masterclasses am 17. April
+
+Ganztägige Workshops mit erfahrenen Trainer:innen, unter anderem:
+
+- *AI-Assisted Coding with Claude Code* — agentische Workflows für Code-Änderungen
+- *Introduction to Agentic AI* — ReAct- und Plan-and-Execute-Muster mit Tools, Memory und MCP
+- *Securing Your LLM Usage* mit Katharine Jarmul — System-Architektur, Red Teaming, Guardrails
+- *Pytest Tips and Tricks* mit Freya Bruhin
+- *Fast Python Development with uv*
+- *Reproducible Dependency Management with Pixi*
+
+Die vollständige Liste steht unter [2026.pycon.de/masterclasses](https://2026.pycon.de/masterclasses/).
+
+### Sprints, PyLadies, DjangoGirls
+
+Am **13. April** öffnet der Sprint- und Community-Tag: gemeinsames Arbeiten an Open-Source-Projekten, PyLadies-Programm, DjangoGirls-Workshop. Wer Python lernt, findet hier einen niederschwelligen Einstieg.
+
+### Financial Aid
+
+Das Diversity-Programm fördert Reisekosten und Tickets für Teilnehmende, die sonst nicht kommen könnten. Die Förderung wird vom Python Software Verband zusammen mit Partnerorganisationen finanziert. Anträge laufen über [2026.pycon.de/financial-aid](https://2026.pycon.de/financial-aid/).
 
 ### Tickets
 
-Tickets sind bereits verfügbar unter: [2026.pycon.de](https://2026.pycon.de)
+Die PyCon DE & PyData ist in den letzten Jahren regelmäßig im Vorfeld ausverkauft. Wer dabei sein will, sollte früh buchen.
 
-### Mitmachen
-
-Die Konferenz wird von Freiwilligen der Community organisiert. Alle Gewinne fließen zurück in die Community zur Unterstützung von Open Source und Diversity-Programmen.
-
-Organisiert vom **Python Software Verband e.V.** in Zusammenarbeit mit **NumFOCUS**.
+Tickets, Programm und Stipendien: [2026.pycon.de](https://2026.pycon.de/)
 
 ---
 
-*Dieser Beitrag ist ein Entwurf und wird noch ergänzt.*
+*Die PyCon DE & PyData wird vom Python Software Verband e.V. veranstaltet, in Zusammenarbeit mit NumFOCUS. Alle Überschüsse fließen in die Community zurück — in Diversity-Förderung, Open-Source-Sprints und die Arbeit des PySV.*

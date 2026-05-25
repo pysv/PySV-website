@@ -2,13 +2,11 @@
 <h2>{{ post.title }}</h2>
 <h3>{{ post.pub_date|dateformat('d.MM.YYYY')}}</h3>
 
+{% if post.teaser_image %}
 <div class="image">
-    {% if post.teaser_image %}
     <img src="{{ (post.path ~ '/' ~ post.teaser_image)|url }}" alt="{{ post.title }}">
-    {% else %}
-    <img src="{{ '/images/python.jpg'|url }}" alt="{{post.title}}">
-    {% endif %}
 </div>
+{% endif %}
 
 <p>{{ post.body }}</p>
 {% endmacro %}
@@ -17,8 +15,6 @@
 
 {% if post.teaser_image %}
 <img src="{{ (post.path ~ '/' ~ post.teaser_image)|url }}" alt="{{ post.title }}">
-{% else %}
-<img src="{{ '/images/python.jpg'|url }}" alt="{{ post.title }}">
 {% endif %}
 
 <div class="usp-text">

@@ -1,0 +1,44 @@
+_model: python-post
+---
+title: Warum Python heute die wichtigste Lehrsprache ist
+---
+order: 20
+---
+teaser:
+
+Wer heute zum ersten Mal programmiert, lernt mit hoher Wahrscheinlichkeit Python — an Hochschulen, an Schulen, in der beruflichen Weiterbildung. Was das bedeutet und warum es alle angeht, die mit digitalen Werkzeugen arbeiten oder über sie entscheiden.
+---
+body:
+
+## Die Ausgangslage
+
+Python ist die meistgenutzte Programmiersprache der Welt. Der TIOBE-Index, der das relative Suchaufkommen zu Programmiersprachen misst, führt Python seit mehreren Jahren mit deutlichem Abstand an — im Juli 2025 mit einem Anteil von rund 27 Prozent und einem Vorsprung von mehr als zehn Prozentpunkten gegenüber dem nächsten Konkurrenten. Auch IEEE Spectrum, der Verband der Elektro- und Informationstechnik-Ingenieurinnen und Ingenieure, weist Python im Ranking 2025 sowohl in der allgemeinen Bewertung als auch im Jobs-Ranking auf Platz eins aus.
+
+Diese Zahlen beschreiben die Gegenwart. Wer wissen will, wie die nächsten zehn Jahre aussehen, schaut auf die Lehre.
+
+## Python in Hochschule und Schule
+
+Eine Untersuchung der Association for Computing Machinery — der weltweit größten wissenschaftlichen Vereinigung im Bereich Informatik — hat festgestellt, dass an acht der zehn führenden US-Informatikfakultäten und an 27 von 39 stark platzierten Departments Python die erste Programmiersprache der Einführungsveranstaltung ist. Das gilt für Häuser wie das Massachusetts Institute of Technology, die University of California, Berkeley, und die Princeton University. Auch Harvards CS50, einer der weltweit meistgesehenen Einführungskurse, vermittelt Python als zentrale Sprache.
+
+In der deutschsprachigen Hochschullehre ist das Bild ähnlich. Python ist die Standardsprache in Datenanalyse, Statistik, Wirtschaftsinformatik und Computational Science. In zunehmendem Maß ist sie auch die erste Sprache, die Lehrende für die Grundlagenausbildung wählen. In den Schulen kommt Python über Informatikkurse, über Initiativen wie *Jugend hackt* und über niedrigschwellige Plattformen wie den Calliope Mini oder den Raspberry Pi in den Unterricht.
+
+## Was diese Sprache anders macht
+
+Python wurde Anfang der 1990er-Jahre vom niederländischen Informatiker Guido van Rossum mit der Maxime entworfen, dass Code lesbar sein muss. Die Sprache verzichtet auf geschweifte Klammern und Semikolons, sie strukturiert Programme durch Einrückung. Wer Python liest, liest beinahe Englisch in formalisierter Form.
+
+Diese Lesbarkeit hat praktische Folgen für die Lehre. Studierende sehen die erste Stunde nicht Syntax, sondern Logik. Werkzeuge wie *Jupyter Notebooks* erlauben es, Code, Text und Ergebnis in einem Dokument zu verbinden — was naturwissenschaftliches Denken methodisch direkt unterstützt. Die offene Standardbibliothek deckt alles ab, was eine Einführungsveranstaltung braucht, ohne dass Lehrende zwischen kommerziellen Werkzeugen wechseln müssen.
+
+## Warum das alle angeht
+
+Die Wahl der ersten Programmiersprache prägt eine Berufskohorte über Jahrzehnte. Wer heute mit Python die Hochschule verlässt, baut damit über die kommenden Karrierejahre Datenpipelines, Forschungssoftware, Verwaltungsanwendungen, Lernsysteme. Wenn eine Sprache die Lehre dominiert, dominiert sie eine Generation später die Praxis.
+
+Für den Standort Deutschland folgt daraus zweierlei. Erstens: Eine Bildungslandschaft, die Python ernsthaft verankert, sichert digitale Anschlussfähigkeit über Branchen hinweg — nicht nur in der Informatik. Zweitens: Eine Förderung freier Software in der Bildung ist keine Liebhaberei, sondern eine Investition in Souveränität. Schulen und Hochschulen, die mit Python arbeiten, sind nicht an einzelne Anbieter gebunden.
+
+Der PySV unterstützt aus diesem Grund Projekte, die Python in Bildungskontexte tragen — von der Übersetzung der offiziellen Dokumentation ins Deutsche über Sprachstipendien für die PyCon DE & PyData bis zur Förderung von Initiativen wie *Jugend hackt* und *DjangoGirls*.
+
+## Quellen
+
+- TIOBE Index, [tiobe.com/tiobe-index](https://www.tiobe.com/tiobe-index/)
+- IEEE Spectrum, Top Programming Languages 2025, [spectrum.ieee.org/top-programming-languages-2025](https://spectrum.ieee.org/top-programming-languages-2025)
+- Communications of the ACM, *Python Is Now the Most Popular Introductory Teaching Language at Top U.S. Universities*, [cacm.acm.org](https://cacm.acm.org/blogcacm/python-is-now-the-most-popular-introductory-teaching-language-at-top-u-s-universities/)
+- MIT OpenCourseWare, *Introduction to Computer Science and Programming in Python*, [ocw.mit.edu](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/)

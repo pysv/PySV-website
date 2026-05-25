@@ -1,0 +1,46 @@
+title: barcamps.eu bleibt — der PySV übernimmt das Barcamp-Tool Camper
+---
+pub_date: 2026-01-15
+---
+teaser_image: camper.png
+---
+show_on_homepage: yes
+---
+teaser_text:
+
+Das Barcamp-Tool barcamps.eu wird seit Januar 2026 vom Python Software Verband betrieben. Der bisherige Träger, der Deutsche Bundesjugendring, konnte die finanzielle Unterstützung nicht fortsetzen. Der PySV übernimmt Hosting und Pflege — und stellt die Plattform weiterhin kostenfrei zur Verfügung, damit auch kleine Initiativen ihre Barcamps darüber organisieren können.
+
+---
+body:
+
+## barcamps.eu bleibt — der PySV übernimmt das Barcamp-Tool Camper
+
+Im Januar 2026 hat der **Python Software Verband e. V.** das Barcamp-Tool [barcamps.eu](https://barcamps.eu) übernommen. Der vorherige Träger, der Deutsche Bundesjugendring, konnte die finanzielle Unterstützung nicht fortsetzen. Damit die Plattform nicht abgeschaltet werden muss, übernimmt der PySV Hosting, technische Pflege und den weiteren Betrieb.
+
+### Was ist ein Barcamp?
+
+Ein Barcamp ist eine Tagung ohne vorab festgelegtes Programm. Vorträge, Workshops und Diskussionen werden von den Teilnehmenden zu Beginn der Veranstaltung gemeinsam geplant und im Laufe der Tage gehalten. Es gibt keine Sprecher:innen, die monatelang vorher eingeladen wurden, und keine kuratierte Agenda — jede:r, die etwas beitragen möchte, kann eine Session anbieten.
+
+Das Format eignet sich besonders gut für kleinere Gruppen und für Themen, bei denen der Austausch wichtiger ist als die Präsentation. Es senkt die Einstiegshürde für alle, die zum ersten Mal vor einer Gruppe sprechen, und es funktioniert auch dann, wenn nicht von vornherein klar ist, welche Themen die Teilnehmenden mitbringen. In der deutschsprachigen Python-Community werden seit Jahren regelmäßig Barcamps in Leipzig, Karlsruhe, Köln, auf Rügen und an weiteren Orten ausgerichtet.
+
+### Was ist Camper — und warum brauchen wir es?
+
+[Camper](https://github.com/CampZulu/camper) ist die Open-Source-Software, die hinter barcamps.eu läuft. Sie bildet ab, was ein Barcamp organisatorisch braucht: Anmeldung, Sessionplanung, Programmbrett, Kommunikation mit den Teilnehmenden. Wer schon einmal versucht hat, all das mit Tabellenkalkulationen, E-Mail-Verteilern und einer ad-hoc gebauten Website abzubilden, weiß, wie viel ehrenamtliche Arbeit damit verbunden ist.
+
+Camper nimmt diese Arbeit ab — und macht damit Barcamps für kleine, ehrenamtlich getragene Initiativen überhaupt erst leistbar. Genau das ist der Grund, warum die Plattform erhalten bleiben soll: Sie ist Infrastruktur für eine Veranstaltungsform, die ohne sie deutlich schwerer zu organisieren wäre.
+
+### Was sich ändert — und was nicht
+
+Der Betrieb läuft unter dem PySV weiter wie bisher. Das Tool bleibt für die deutschsprachige Python-Community verfügbar und steht darüber hinaus **auch anderen Communities offen**, die Barcamps ausrichten möchten — Bildungsinitiativen, Vereine, lokale Tech-Gruppen, ehrenamtliche Projekte.
+
+Die Nutzung ist **kostenfrei**. Wer Camper für ein eigenes Barcamp einsetzen möchte und keine Mittel für Hosting-Beiträge hat, wird nicht ausgeschlossen — Förderung der Community ist Vereinszweck, nicht Geschäftsmodell.
+
+Veranstalter, denen ein Beitrag zu Wartung und Hosting möglich ist, freuen wir uns über Unterstützung. Kontakt: **barcamp@pysv.org**
+
+### Mittelfristig
+
+Camper basiert in Teilen noch auf älteren Python-Versionen. Die Migration auf eine aktuelle Python-Version steht an; der PySV wird die Open-Source-Community in den Prozess einbinden. Wer sich an der Weiterentwicklung beteiligen möchte, findet das Projekt auf [GitHub](https://github.com/CampZulu/camper).
+
+---
+
+*Anfragen zu Barcamps und zur Nutzung der Plattform: barcamp@pysv.org*
