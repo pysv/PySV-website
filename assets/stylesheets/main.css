@@ -97,6 +97,13 @@ h4,
     font-style: normal;
 }
 
+h1,
+h2,
+h3,
+h4 {
+    line-height: 1.2;
+}
+
 .main-navigation a,
 .dropdown--button {
     font-size: 1.2em;
