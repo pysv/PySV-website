@@ -9,9 +9,7 @@ teaser_text:
 Die Mitgliederversammlung des PySV fand am 26. November 2023 statt. Der Vorstand gab den Mitgliedern ein
 umfangreiches Update über die Community Aktivitäten des Vereins und den Plänen für die Zukunft.
 ---
-show_on_homepage: True
----
-highlighted: True
+highlighted: yes
 ---
 body:
 

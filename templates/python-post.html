@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block title %}{{ this.title }}{% endblock %}
+
+{% block body %}
+
+<h1>{{ this.title }}</h1>
+{{ this.body }}
+
+<p><a href="{{ this.parent|url }}">&larr; Zurück zur Übersicht</a></p>
+
+{% endblock %}

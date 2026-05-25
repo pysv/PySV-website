@@ -1,0 +1,52 @@
+_model: python-post
+---
+title: Unsere Position zu Open Source
+---
+order: 40
+---
+teaser:
+
+Freie Software ist kein technisches Detail, sondern die Grundlage moderner digitaler Wertschöpfung. Der Python Software Verband versteht sich als Teil der Free-Software-Familie — und positioniert sich entsprechend gegenüber Politik, Verwaltung und Wirtschaft.
+---
+body:
+
+## Unser Ausgangspunkt
+
+Der PySV ist nicht zufällig ein Verband für eine freie Programmiersprache. Unsere Satzung formuliert in §2 die Förderung freier Software, freier Bildung und freier Forschung als Vereinszweck. §10 regelt, dass im Auflösungsfall das Restvermögen an die *Free Software Foundation Europe* (FSFE) zu übertragen ist. Das ist eine bewusste Festlegung: Der PySV gehört in die europäische Free-Software-Familie, nicht in die unspezifische Kategorie eines beliebigen Tech-Verbands.
+
+Aus dieser Verortung folgt unsere Position zu Open Source — und zu der politischen, wirtschaftlichen und gesellschaftlichen Debatte, die zunehmend um sie geführt wird.
+
+## Open Source ist Infrastruktur
+
+In nahezu jedem Wirtschaftszweig läuft heute Software, deren tragende Komponenten Open Source sind. Webserver, Betriebssysteme, Datenbanken, Programmiersprachen, Werkzeuge für Datenanalyse und Maschinelles Lernen: Die offene, frei zugängliche Variante ist in der Regel die produktiv eingesetzte. Das gilt für Konzerne, für Mittelständler, für Universitäten, für Behörden.
+
+Diese Beobachtung wird selten ausgesprochen, weil Open Source funktioniert, ohne sichtbar zu sein. Sie wird sichtbar, wenn etwas nicht funktioniert — wenn eine zentrale Bibliothek eine Sicherheitslücke aufweist, wenn ein Maintainer aus Erschöpfung aussteigt, wenn eine ehrenamtlich gepflegte Infrastruktur ausfällt. Wer Open Source als Infrastruktur ernst nimmt, muss sie wie Infrastruktur behandeln: planen, finanzieren, pflegen.
+
+## Digitale Souveränität braucht freie Software
+
+Die Bundesregierung und die Europäische Kommission haben in den vergangenen Jahren mehrfach den Begriff der *digitalen Souveränität* zum Leitmotiv ihrer Digitalpolitik erklärt. Wer den Begriff ernst nimmt, kommt an freier Software nicht vorbei: Souveränität heißt zu wissen, wie eine Software funktioniert, die eigenen Anpassungen vornehmen zu können und nicht in die Abhängigkeit eines einzelnen Anbieters zu geraten. Diese drei Anforderungen erfüllt im strengen Sinn nur freie Software.
+
+Die Bundesregierung hat aus dieser Einsicht die *Sovereign Tech Agency* — vormals als *Sovereign Tech Fund* gestartet — institutionell verankert. Die Agentur fördert Open-Source-Basistechnologien mit dem Argument, dass es sich um öffentliche Güter handelt, die einen öffentlichen Beitrag verdienen. Bislang sind in diesem Rahmen rund 60 Projekte mit zusammen mehr als 23 Millionen Euro gefördert worden; ein weiterer Aufwuchs ist beschlossen.
+
+Auf europäischer Ebene verfolgt die FSFE mit der Initiative *Public Money? Public Code!* einen verwandten Ansatz: Wer mit öffentlichen Mitteln Software entwickeln lässt, soll diese Software auch öffentlich zugänglich machen. Der PySV teilt diese Position.
+
+## Der Cyber Resilience Act und die Maintainer
+
+Mit dem *Cyber Resilience Act* (CRA) hat die Europäische Union am 11. Dezember 2024 ein Gesetz in Kraft gesetzt, das die Cybersicherheit digitaler Produkte über deren Lebenszyklus regelt. Ab dem 11. September 2026 gelten Pflichten zur Meldung von Schwachstellen, ab dem 11. Dezember 2027 der volle Geltungsbereich.
+
+Für Open-Source-Software bringt der CRA neue Sorgfaltspflichten mit sich. Reine, nicht-kommerzielle Mitwirkung an freier Software bleibt ausgenommen. Sobald jedoch Spenden über die Kostendeckung hinaus angenommen, kommerzielle Dienstleistungen rund um ein Projekt angeboten oder personenbezogene Daten verarbeitet werden, greifen Anforderungen. Eine neue Rechtsfigur, der *Open Source Steward*, beschreibt Organisationen, die freie Software dauerhaft pflegen und absichern — sie unterliegen eigenen, weniger strengen Pflichten als kommerzielle Hersteller, aber gleichwohl Pflichten.
+
+Aus Sicht des PySV ist die Stoßrichtung des CRA grundsätzlich richtig — wer Software in Verkehr bringt, trägt Verantwortung für ihre Sicherheit. Entscheidend ist die Umsetzung. Wenn das Gesetz dazu führt, dass ehrenamtliche Maintainerinnen und Maintainer aus Sorge vor Haftungsrisiken aussteigen, hat Europa nicht gewonnen, sondern verloren. Notwendig sind klare Leitlinien, eine pragmatische Auslegung der Steward-Regelung und eine Förderlandschaft, die kritische Projekte planungssicher trägt.
+
+## Was wir konkret tun
+
+Der PySV positioniert sich in diesen Debatten mit Stellungnahmen, Beiträgen zu Anhörungen und in der direkten Zusammenarbeit mit Partnerorganisationen — von der FSFE über die Open Source Business Alliance bis zu europäischen Schwesterverbänden. Wir fördern aus eigenen Mitteln Python-Open-Source-Vorhaben über das jährliche Förderprogramm. Wir verbinden Community, Wirtschaft und Politik durch unsere Konferenzen.
+
+Unsere Haltung ist dabei nicht ideologisch, sondern praktisch begründet: Wo freie Software das tragende Element einer Infrastruktur ist, muss sie als solche behandelt werden — mit Mitteln, mit Planungssicherheit, mit Anerkennung der Menschen, die sie tragen.
+
+## Quellen
+
+- Europäische Kommission, *Cyber Resilience Act*, [digital-strategy.ec.europa.eu](https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act)
+- Sovereign Tech Agency, [sovereign.tech](https://www.sovereign.tech/)
+- Free Software Foundation Europe, *Public Money? Public Code!*, [fsfe.org](https://fsfe.org/)
+- Bundesministerium für Wirtschaft und Energie, *Wichtiger Schritt für nachhaltige Weiterentwicklung von Open-Source-Basistechnologien*, [bundeswirtschaftsministerium.de](https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Pressemitteilungen/2024/11/20241104-sovereign-tech-fund.html)

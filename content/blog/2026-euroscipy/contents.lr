@@ -1,49 +1,65 @@
-title: Entwurf: EuroSciPy 2026 — Ankündigung
+title: EuroSciPy 2026 — Krakau, 18. bis 23. Juli
 ---
-pub_date: 2026-03-07
+pub_date: 2025-11-11
 ---
-teaser_image:
+show_on_homepage: yes
+---
+teaser_image: ep26-teaser.png
+---
+show_on_homepage: yes
+---
+highlighted: yes
 ---
 teaser_text:
 
-Die EuroSciPy 2026 findet vom 18. bis 23. Juli an der AGH Universität in Krakau statt — die europäische Konferenz für wissenschaftliches Python.
----
-show_on_homepage: no
+Die EuroSciPy 2026 — die 18. europäische Konferenz für wissenschaftliches Python — findet vom 18. bis 23. Juli an der AGH-Universität Krakau statt. Sechs Tage, 40 Speaker:innen, 16 Workshops, 200 Teilnehmende.
+
 ---
 body:
 
-## EuroSciPy 2026 — Ankündigung
+## EuroSciPy 2026 — Krakau, 18. bis 23. Juli
 
-Die **EuroSciPy 2026** kehrt nach Krakau zurück!
+![Blick über das Zentrum von Krakau vom Krakus-Hügel](./krakow-2026.jpg)
+
+<small class="opacity-8">Krakau, Blick über das Stadtzentrum vom Krakus-Hügel. Foto: Zygmunt Put, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, via <a href="https://commons.wikimedia.org/wiki/File:Krak%C3%B3w_general_view_of_the_city_center_from_SE_(from_Krak_Mound),_Poland.jpg">Wikimedia Commons</a>.</small>
+
+Vom **18. bis 23. Juli 2026** trifft sich die europäische Community für wissenschaftliches Python an der **AGH University of Kraków**. Die EuroSciPy ist die fachübergreifende Konferenz für alle, die Python in Forschung und Lehre einsetzen — von Astrophysik bis Bioinformatik, von Machine Learning bis Reproducible Science.
+
+Es ist die **18. Ausgabe** der EuroSciPy. Die Konferenz kehrt nach Krakau zurück. Veranstalter ist der **Python Software Verband e.V.**
 
 ### Termin & Ort
 
-- **18. bis 23. Juli 2026**
-- **AGH University of Kraków**, Polen
+- **18. bis 19. Juli 2026** — Sprints (gemeinsam mit der EuroPython)
+- **20. bis 21. Juli 2026** — Talks und Poster Sessions
+- **22. bis 23. Juli 2026** — Tutorials
+- **Ort:** AGH University of Kraków, Polen
 
-### Was erwartet Euch?
+![Hauptgebäude der AGH University of Kraków](./agh-main-building.jpg)
 
-Die EuroSciPy ist eine interdisziplinäre Konferenz für den Einsatz und die Weiterentwicklung von Python in der wissenschaftlichen Forschung. Das bewährte Format umfasst:
+<small class="opacity-8">Hauptgebäude (A-0) der AGH University of Kraków, al. Mickiewicza 30. Foto: Maciej Talar / KSAF AGH, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, via <a href="https://commons.wikimedia.org/wiki/File:Gmach_g%C5%82%C3%B3wny_AGH.jpg">Wikimedia Commons</a>.</small>
 
-- **2 Tage Tutorials**: Einführungen und vertiefte Workshops zu wissenschaftlichen Python-Tools
-- **2 Tage Vorträge**: Wissenschaftliche Talks, Maintainer-Track, Poster Sessions
-- **Sprint-Tag(e)**: Gemeinsames Arbeiten an Open-Source-Projekten
+### Format
+
+Die EuroSciPy folgt einem bewährten Aufbau: zwei Tage Sprints, zwei Tage Talks und Poster, zwei Tage Tutorials. Erwartet werden rund **200 Teilnehmende**, **40 Speaker:innen** und **16 Workshops**.
+
+Der Sprint-Auftakt findet zum ersten Mal **gemeinsam mit der EuroPython** statt, die in derselben Woche in Krakau läuft. Wer an Open-Source-Projekten mitarbeiten will, kann beide Konferenzen mit einem Aufenthalt verbinden.
 
 ### Themen
 
-Präsentationen zu wissenschaftlichen Tools und Bibliotheken in Python, darunter:
-- NumPy, SciPy, pandas, scikit-learn und verwandte Bibliotheken
-- Datenvisualisierung und -analyse
-- Machine Learning und KI in der Forschung
-- Reproduzierbare Wissenschaft
-- Open-Source-Entwicklung
+Die EuroSciPy versammelt Beiträge zu den zentralen Werkzeugen des wissenschaftlichen Python-Stacks: NumPy, SciPy, pandas, scikit-learn, JAX, PyTorch, Dask, Xarray, Numba — und den darauf aufbauenden Domain-Bibliotheken in Astronomie, Klimaforschung, Biologie, Materialwissenschaft, Geowissenschaften und vielen weiteren Disziplinen. Schwerpunkte sind außerdem reproduzierbare Forschung, Performance, Visualisierung sowie Maintainer-Themen.
+
+### Call for Proposals
+
+Der Call for Proposals läuft. Talks, Tutorials und Poster werden über pretalx eingereicht: [pretalx.com/euroscipy-2026/cfp](https://pretalx.com/euroscipy-2026/cfp).
+
+Eingeladen sind Forschende, Lehrende, Maintainer:innen wissenschaftlicher Bibliotheken und Praktiker:innen aus Industrie und Verwaltung, die Python für wissenschaftliche Arbeit nutzen.
+
+### Tickets und Stipendien
+
+Tickets sowie Informationen zu Diversity-Stipendien stehen unter [euroscipy.org/tickets](https://euroscipy.org/tickets/). Die EuroSciPy ist eine Non-Profit-Konferenz; Überschüsse fließen über den Python Software Verband in die Förderung der wissenschaftlichen Python-Community zurück.
 
 ### Veranstalter
 
-Die EuroSciPy wird vom **Python Software Verband e.V.** veranstaltet. Es ist eine Non-Profit-Konferenz, organisiert von Freiwilligen.
+Die EuroSciPy wird vom **Python Software Verband e.V.** organisiert — ehrenamtlich getragen, gemeinnützig, seit über 20 Jahren als Trägerorganisation der deutschsprachigen Python-Community aktiv. Vor Ort arbeitet der PySV mit der AGH-Universität und Freiwilligen aus dem europäischen SciPy-Umfeld zusammen.
 
-Mehr Informationen: [euroscipy.org](https://euroscipy.org)
-
----
-
-*Dieser Beitrag ist ein Entwurf und wird noch ergänzt.*
+Mehr Informationen, Programm und Anmeldung: [euroscipy.org](https://euroscipy.org/)

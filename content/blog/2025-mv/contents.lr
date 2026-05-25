@@ -1,0 +1,140 @@
+title: Mitgliederversammlung 2025
+---
+pub_date: 2025-11-02
+---
+teaser_text:
+
+Die Mitgliederversammlung des PySV fand am 1. November 2025 online statt. Der Vorstand stellte den Geschäftsbericht 2024 vor,
+es wurde ein neuer – verkleinerter – Vorstand gewählt und die Verlegung des Vereinssitzes nach Heidelberg beschlossen.
+---
+body:
+
+### Geschäftsbericht 2024
+
+Der Vorstand stellte den [Jahresbericht 2025](../../../assets/documents/jahresbericht-2025.pdf) mit dem Jahresabschluss 2024 vor.
+Der vollständige Bericht steht Mitgliedern und Interessierten zum Download bereit.
+
+Die Kassenprüfer Reimar Bauer und Kristian Rother bestätigten die ordnungsgemäße Führung der Finanzen. Die Umstellung auf
+BuchhaltungsButler hat die Prüfung weiter vereinfacht; positiv hervorgehoben wurden der breite Effekt des CoC-Trainings und
+die Verteilung von Verantwortung auf viele Schultern. Die Mitgliederversammlung folgte der Empfehlung der Kassenprüfer und
+entlastete den Vorstand mit 20 Ja-Stimmen einstimmig.
+
+### Bericht und Ausblick 2025
+
+#### Konferenzen
+
+Im April 2025 haben wir die [PyCon DE & PyData](https://2025.pycon.de/) erstmals im darmstadtium in Darmstadt
+ausgerichtet – als Kombi-Konferenz zusammen mit NumFOCUS. Mit 2.079 Teilnehmenden (+9 % ggü. 2024) war sie wieder die
+größte Python-Konferenz Europas. Das 30-köpfige Orga-Team konnte die Last gut verteilen und sich gezielt auf Programm,
+Diversity und Attendee Experience konzentrieren, während das Backoffice Eventabwicklung und Sponsoring übernahm.
+[Fotos der Konferenz](https://www.picdrop.com/marvinfuchsfotografie/sKtkZ372Pt).
+
+Die [EuroSciPy](https://www.euroscipy.org/2025/) fand in Krakau, Polen statt; der PySV war erneut rechtlicher Träger.
+Mit über 130 Teilnehmenden, zwei Tagen Tutorials, zwei Tagen Vorträgen und einem Sprint-Tag brachte sie ein breites
+Spektrum aus Wissenschaft, Industrie und Open-Source-Maintainern zusammen – inklusive eines eigenen Maintainer-Tracks
+an beiden Vortragstagen.
+
+Die [Plone Tagung](https://ploneconf.org/) fand 2025 in Koblenz statt; als rechtlicher Träger haben wir diese wichtige
+Veranstaltung der deutschsprachigen Plone-Community unterstützt.
+
+#### BarCamps
+
+Die Zahl der von uns unterstützten BarCamps wuchs weiter, der PySV war Träger von Python BarCamp Karlsruhe (Februar),
+Python BarCamp Leipzig (Juni), PythonCamp Rügen (September) sowie des im November geplanten Python BarCamp Süd-Ost.
+Diese Community-getriebenen Veranstaltungen bieten eine niedrigschwellige Plattform für Wissensaustausch und tragen
+wesentlich zur Stärkung der regionalen Python-Communities bei.
+
+#### Camper
+
+Wir nutzen das Barcamp-Tool [Camper](https://github.com/CampZulu/camper) für alle unsere BarCamps. Da der Deutsche
+Bundesjugendring die Trägerschaft des kostenlosen Hostings nicht fortsetzen konnte, übernimmt der PySV ab Ende 2025
+Hosting und grundlegenden technischen Support zunächst für zwei Jahre. Nach dem letzten geplanten BarCamp 2025 ab dem
+4. Dezember erfolgt der technische Umzug auf vom PySV verwaltete Server; mittelfristig steht eine Migration von Python 2.7
+auf Python 3.x an, hier wird der PySV die Open-Source-Community einbinden.
+
+#### Förderprogramm & Diversity
+
+Insgesamt haben wir 2025 Menschen und Projekte in der Python-Community mit ca. **35.000 €** gefördert.
+Über das [Förderprogramm](../../grants) unterstützt wurden u. a.:
+
+- PyCon Web Konferenz, Berlin (1.600 €)
+- PyCon Austria (1.000 €)
+- Django Girls (Sticker, Räume und Catering auf der PyCon DE)
+- TaCoS – 34. studentische Tagung der Computerlinguistik (1.000 €, weitere 1.000 € für 2026 bewilligt)
+- Sprints im Rahmen der PyCon DE (421 €)
+- PyBerlin Meetup (1.600 € für insgesamt vier Meetups)
+- Beethoven Sprint (1.000 €)
+- Düsseldorf Python User Group / PyDDF (200 €)
+
+Neu im PySV-Meetup-Pro-Netzwerk: Django User Group Berlin und Munich NLP – wir tragen die Meetup-Pro-Kosten der Organizer.
+
+Über die Diversity Programme der Konferenzen wurden zusammen mit PSF, EPS, DSF, Blue Yonder und Privatspendern 49
+Teilnehmende auf der PyCon DE (24.440 €) und sieben Teilnehmende auf der EuroSciPy (2.980 €) mit Reisekosten und Tickets
+gefördert.
+
+#### PyLadies Fund
+
+Der [PyLadies Fund](https://github.com/orgs/pyladies-de/projects/2) lief 2025 mit 5.000 € Jahresbudget weiter und
+unterstützte u. a. Reisekosten für Speaker, Erfrischungen und Sticker für Meetups, ein Canva-Abo, Bücher, Swag für
+den Swiss Python Summit sowie Hosting-Support über den Pioneers Hub. Chapters außerhalb Deutschlands (u. a. Zürich)
+wurden mitbetreut.
+
+#### Verwaltung
+
+Die Verwaltung läuft reibungslos, der PySV kann gut als Plattform für die Community agieren. Wir haben das
+Konferenz-Ticketsystem auf [Pretix](https://pretix.eu/) (Open Source Business) umgestellt – mit einer signifikanten
+Kostenersparnis bei den Transaktionsgebühren. Buchhaltungsseitig sind wir auf BuchhaltungsButler umgestiegen, intern
+auf Google Workspace für E-Mail und Zusammenarbeit, was insbesondere das Onboarding zahlreicher ehrenamtlicher
+Helfer:innen rund um die Konferenzen erheblich vereinfacht.
+
+#### Mitgliederentwicklung
+
+Zum Jahresende 2024 hatten wir 104 Mitglieder, zum Stand der Versammlung sind es 106.
+
+### Vorstandswahlen
+
+Der Vorstand wurde satzungsgemäß neu gewählt. Auf Vorschlag wurde zunächst die **Größe des Vorstands auf 4 Personen**
+festgelegt (20 Ja / 0 Nein / 0 Enthaltungen) – damit ist der Vorstand wieder schlanker aufgestellt als in den
+vergangenen beiden Jahren.
+
+Wir bedanken uns sehr herzlich bei Prof. Dr. Martin Christen, Dr. Tereza Iofciu und Paloma Olivera, die dem neuen
+Vorstand nicht mehr angehören, für ihr langjähriges Engagement im Vorstand und für die Community.
+
+Der neue [Vorstand](../../board) setzt sich wie folgt zusammen:
+
+&#8291;1. Vorsitzender: Dr.-Ing. Mike Müller
+&#8291;2. Vorsitzender: Alexander Hendorf
+&#8291;1. stellvertretende Vorsitzende: Jessica Greene
+&#8291;2. stellvertretender Vorsitzender: Dr. Klaus Bremer
+
+Alle Gewählten haben die Wahl angenommen.
+
+### Satzungsänderung: Sitzverlegung nach Heidelberg
+
+Die Mitgliederversammlung beschloss einstimmig (20 Ja / 0 Nein / 0 Enthaltungen) die Verlegung des Vereinssitzes nach
+**Heidelberg** (Satzungsänderung zu §1). Hintergrund ist die Verlagerung der Geschäftsstelle zur gemeinnützigen
+Pioneers Hub gGmbH mit Sitz in Heidelberg.
+Die aktualisierte [Satzung](../../../assets/documents/satzung-20251101.pdf) ist auf unserer Website verfügbar.
+
+### Wahl der Rechnungsprüfer
+
+Reimar Bauer trat nach mehreren Amtszeiten nicht erneut an – herzlichen Dank für die langjährige und sorgfältige Arbeit!
+Als Rechnungsprüfer wurden gewählt:
+
+- Kristian Rother (19 Ja / 0 Nein / 1 Enthaltung)
+- Daniel Szoska (20 Ja / 0 Nein / 0 Enthaltungen)
+
+Beide nehmen die Wahl an.
+
+### Ausblick 2026
+
+- [PyCon DE & PyData 2026](https://2026.pycon.de): 14. – 17. April 2026 im darmstadtium, Darmstadt – erneut als
+  Kombi-Konferenz mit NumFOCUS. Sprints, DjangoGirls und Feminist-AI-Events vorab in Vorbereitung. Launch am 19. November.
+- [EuroSciPy 2026](https://euroscipy.org): 17. – 21. August 2026, erneut in Krakau.
+- Trägerschaften in Vorbereitung: EuroSciPy, PythonCamp Rügen, PyCamp Leipzig, PyCon DE & PyData, PythonCamp Karlsruhe,
+  Plone Tagung (tbc.)
+
+Für 2026 planen wir zudem die Einrichtung von Arbeitsgruppen mit eigenem Budget und Entscheidungsräumen, eine transparente
+Reisekosten-Policy für PySV-Tätigkeiten sowie die Fertigstellung der neuen PySV-Website mit Community-Einbindung für Inhalte.
+
+** Wir bedanken uns bei allen Mitgliedern für die Teilnahme an der Mitgliederversammlung und freuen uns auf ein weiteres Jahr mit euch! 🤗 **

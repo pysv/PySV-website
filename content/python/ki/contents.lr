@@ -1,0 +1,53 @@
+_model: python-post
+---
+title: Python ist die Sprache der Künstlichen Intelligenz
+---
+order: 10
+---
+teaser:
+
+Ohne Python wäre die KI-Entwicklung der vergangenen zehn Jahre in dieser Form nicht möglich gewesen. Eine offene Programmiersprache und ein über Jahrzehnte gewachsenes Ökosystem freier Bibliotheken bilden die Grundlage, auf der heute praktisch jedes große KI-Modell entsteht.
+---
+body:
+
+## Eine offene Sprache als Voraussetzung
+
+Wer in den vergangenen drei Jahren öffentlich über Künstliche Intelligenz gesprochen hat, hat in der Regel über die Anwendungen gesprochen — über ChatGPT, über Bildgeneratoren, über Sprachassistenten. Selten wurde gefragt, womit diese Systeme eigentlich gebaut werden. Die Antwort ist in fast allen Fällen dieselbe: mit Python.
+
+Das ist keine technische Marginalie, sondern eine strukturelle Aussage. Die heutige KI-Welle wäre ohne eine offene, frei zugängliche Programmiersprache und ein gewachsenes Ökosystem freier Bibliotheken in dieser Form nicht denkbar.
+
+## Wie Python zur KI-Sprache wurde
+
+Drei Bausteine erklären die Position, die Python heute einnimmt.
+
+Erstens: *NumPy*. Die Bibliothek für numerische Berechnungen wurde 2006 von Travis Oliphant veröffentlicht und stellt die mathematische Grundlage bereit, ohne die wissenschaftliches Rechnen in Python nicht funktionieren würde. Auf NumPy bauen die Werkzeuge der statistischen Auswertung, der Datenanalyse und letztlich des maschinellen Lernens auf.
+
+Zweitens: die Frameworks für maschinelles Lernen. *TensorFlow* wurde 2015 von Google als Open Source freigegeben. *PyTorch* folgte 2016 als Veröffentlichung von Meta — heute das in der Forschung dominante Framework, das 2022 in die Linux Foundation überführt wurde und damit aus der Verfügungsgewalt eines einzelnen Konzerns in eine breit getragene Stiftungsstruktur überging. Mehr als 80 Prozent der wissenschaftlichen Beiträge auf den großen KI-Konferenzen — NeurIPS, ICML — entstehen heute mit PyTorch.
+
+Drittens: *Hugging Face* mit der Bibliothek *Transformers*, dem De-facto-Standard für den Umgang mit Sprachmodellen. Über Hugging Face sind tausende offene Modelle frei verfügbar — von kleinen Spezialmodellen bis zu Modellen mit hunderten Milliarden Parametern. Auch diese Infrastruktur ist in Python geschrieben.
+
+## Warum gerade Python
+
+Python ist nicht die schnellste Sprache. Die rechenintensive Arbeit erledigen in der Regel hochoptimierte Bibliotheken in C, C++ oder CUDA. Was Python liefert, ist die Schicht, auf der Forschende, Entwicklerinnen und Anwender arbeiten — lesbar, schnell zu prototypisieren, flexibel kombinierbar.
+
+Drei Eigenschaften haben Python für KI durchgesetzt. Die Sprache ist offen und frei: Niemand zahlt Lizenzen, niemand braucht Genehmigungen. Sie ist interaktiv: In einer Notebook-Umgebung lassen sich Hypothesen, Daten und Modelle Schritt für Schritt prüfen. Und sie ist universal: Dieselbe Sprache trägt Vorverarbeitung, Training, Auswertung und Auslieferung — Brüche zwischen Werkzeugketten entfallen.
+
+Das Ergebnis ist ein Netzwerkeffekt: Wer in KI publiziert, publiziert in Python. Wer KI lernt, lernt Python. Wer KI einsetzen will, findet Python-Werkzeuge. Diese Selbstverstärkung ist nicht künstlich erzeugt, sondern Folge einer offenen Architektur, die kollektive Beiträge zulässt.
+
+## Was das für Deutschland bedeutet
+
+Die KI-Debatte wird häufig als Wettlauf zwischen Konzernen oder Staaten geführt. Übersehen wird dabei, dass die Grundlage dieser Entwicklung in einem offenen, gemeinschaftlich gepflegten Ökosystem liegt. Wer hierzulande Souveränität in der KI sucht, kann sie nicht abseits dieses Ökosystems aufbauen — sondern nur, indem er es mitträgt: durch eigene Beiträge, durch Förderung von Maintainerinnen und Maintainern, durch belastbare Infrastruktur.
+
+Der PySV begleitet diese Entwicklung in zwei Richtungen. Wir fördern Python-Projekte und -Veranstaltungen, die Forschung und Lehre stärken, und wir tragen mit der PyCon DE & PyData die größte Konferenz im deutschsprachigen Raum, auf der sich die Python-, Daten- und KI-Community Jahr für Jahr trifft.
+
+## Der Dokumentarfilm
+
+Im August 2025 ist mit *[Python: The Documentary](https://youtu.be/GfH4QL4VqJ0)* (CultRepo) ein Langfilm erschienen, der die Geschichte der Sprache von ihren Anfängen in den 1990er-Jahren bis zu ihrer heutigen Rolle als Grundlage der KI nachzeichnet. Zu Wort kommen unter anderem der Python-Erfinder Guido van Rossum, der NumPy-Schöpfer Travis Oliphant und langjährige Maintainerinnen und Maintainer des Projekts. Der Film bietet einen verständlichen Einstieg in die Frage, warum eine Programmiersprache zur Infrastruktur einer technologischen Umwälzung werden konnte.
+
+## Quellen
+
+- *Python: The Documentary*, CultRepo, August 2025, [youtu.be/GfH4QL4VqJ0](https://youtu.be/GfH4QL4VqJ0)
+- PyTorch Foundation, [pytorch.org/foundation](https://pytorch.org/foundation/)
+- Linux Foundation, *Meta Transitions PyTorch to the Linux Foundation*, [linuxfoundation.org](https://www.linuxfoundation.org/press/press-release/meta-transitions-pytorch-to-the-linux-foundation)
+- Hugging Face, [huggingface.co](https://huggingface.co/)
+- IEEE Spectrum, Top Programming Languages 2025, [spectrum.ieee.org](https://spectrum.ieee.org/top-programming-languages-2025)
