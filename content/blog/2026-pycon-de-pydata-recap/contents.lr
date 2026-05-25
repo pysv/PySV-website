@@ -1,0 +1,68 @@
+title: PyCon DE & PyData 2026 — Rückblick aus Darmstadt
+---
+pub_date: 2026-04-30
+---
+teaser_image: pyconde26-recap.jpg
+---
+show_on_homepage: yes
+---
+teaser_text:
+
+Vier Tage darmstadtium, über 2.000 Teilnehmende, mehr als 130 Sessions. Die PyCon DE & PyData 2026 stand unter dem Motto „We get things done" — und hat den Bogen weiter gespannt als jede Ausgabe zuvor: von agentischer KI über Brücken zur Startup-Szene bis zu der Frage, was wir jetzt eigentlich noch lernen müssen.
+
+---
+body:
+
+## PyCon DE & PyData 2026 — Rückblick aus Darmstadt
+
+Vom **13. bis 17. April 2026** lief die PyCon DE & PyData zum zweiten Mal im **darmstadtium** in Darmstadt: ein Sprint- und Community-Tag, drei Konferenztage, ein Masterclass-Tag. **Über 2.000 Teilnehmende** vor Ort und remote, **156 Speaker:innen aus 26 Ländern**, **rund 150 Vorträge** auf mehreren Tracks neben Panels, Lightning Talks und Keynotes. Die Konferenz wird vom **Python Software Verband** in Kooperation mit **NumFOCUS** ausgerichtet, organisiert von rund 30 Freiwilligen, finanziert über Tickets und Sponsoring.
+
+Das Motto 2026 — **„We get things done"** — war kein Marketing-Spruch. Es war eine Beschreibung dessen, was in einer Phase passiert, in der sich Werkzeuge, Workflows und ganze Berufsbilder schneller verändern als die Konferenzplanung. Vier Beobachtungen nehmen wir mit.
+
+### Erstens: Das Programm war ehrlich über KI
+
+LLMs, Agents, MCP, RAG, Evals — die Themen waren überall, aber der Ton war ein anderer als vor zwei Jahren. Statt Showreels gab es Erfahrungsberichte: was in Produktion bricht, was sich nicht messen lässt, welche Architekturentscheidungen sich rächen, und wo kleine Modelle reichen. **Sebastian Raschka** spannte in seiner Keynote den Bogen *From Scratch to Scale* und zeigte, wie weit Python in der Praxis trägt. **Hilde Kühne** (Tübingen AI Center) verortete die Multimodal-Welle historisch — und schloss mit der Bitte, Open-Source-Forschung weiter zu unterstützen, denn die wichtigsten Sprünge entstehen nicht in den großen Laboren, sondern in kleinen Gruppen mit guten Ideen. Vorträge zu Evals, zu Sicherheit von LLM-Anwendungen, zum Anteil tatsächlicher Halluzinationen in Pipelines und zu praktischen Grenzen von Agent-Architekturen waren so präsent wie klassische Engineering-Themen.
+
+### Zweitens: Souveränität ist eine Hardware-Frage
+
+**Aaron Glenn** hat in seiner Keynote *A View of Sovereignty from The Cloud* etwas getan, was die Community-Debatte um digitale Souveränität bisher selten geleistet hat: er hat den Begriff geerdet. Souveränität ist die Fähigkeit, unabhängig zu handeln — und „die Cloud" ist am Ende ein konkretes Gebäude, mit konkreten Transformatoren von wenigen Herstellern weltweit, mit konkreten Wartezeiten auf Stromanschlüsse, mit konkreten Chips aus konkreten Fabriken. 83 Prozent der Cloud-Software-Ausgaben europäischer Unternehmen fließen an US-Anbieter; das entspricht rund 1,5 Prozent des europäischen BIP. Jede Technologieentscheidung, so Glenn, ist eine politische Entscheidung. Diese Klarheit nehmen wir mit — und mit ihr die Aufgabe, die Aaron in der Closing Session nochmal gespiegelt hat: die Geschichte über Open Source besser zu erzählen, weniger als Nerd-Folklore, mehr als Infrastruktur.
+
+### Drittens: Wir bauen Brücken zur Startup-Szene
+
+2026 war das Jahr, in dem die PyCon DE explizit nach außen gegangen ist. Gemeinsam mit **hessian.AI** und **appliedAI** haben wir den **Startup Lounge**, eine offene und unaufgezeichnete Austauschfläche, und das Panel **Start-Ups & Investors** ins Programm aufgenommen. Auf dem Panel saßen **Ina Schlie** (Encourage Ventures, früher SAP), **Sara Jourdan** (Genio AI), **Jovana Walter** (Futury Capital) und **Carlina Bennison** (hessian.AI / AI Startup Rising). Drei Befunde sind hängen geblieben. In Deutschland werden pro Jahr rund 7 Milliarden Euro in Startups investiert — gegenüber rund 9.000 Milliarden in Lebensversicherungen und Bankeinlagen. Diverse-led Startups erhalten 12 Prozent des Kapitals, rein weibliche Teams 1 Prozent. Und mehrere der spannendsten europäischen Deep-Tech-Companies — Helsing, Black Forest Labs, zuletzt das Münchener Tubulis — gehen in US-Hände, weil das Series-B-Kapital hier fehlt. Das ist kein Thema, das die Community lösen wird. Aber es ist eines, über das die Community reden sollte — weil viele Open-Source-Projekte und viele KI-Startups vom selben Maintainer-Pool leben.
+
+### Viertens: Wir wissen, was wir lernen müssen — und was nicht
+
+Die Initiative **Future of Learning** zog sich durch alle drei Tage: ein Panel zum Auftakt, ein interaktiver Workshop am zweiten Tag, eine Closing Discussion am Donnerstag. **Silvia Hänig** moderierte mit **Sebastian Unterreitmeier** (Mercer) und **Dr. Kristian Rother** das Abschlusspanel. Ein paar der präzisesten Sätze: KI ist ein *Verstärker* — sie macht den Senior produktiver und entzieht dem Junior das Tal der Erfahrung, durch das man als Senior gegangen ist. Wer keine Junioren mehr ausbildet, hat in zehn Jahren ein demografisches Problem. Die Kernkompetenzen, die bleiben: Bash, Git, Docker, Algorithmen, Datenmodellierung — und, weniger offensichtlich, **Epistemologie**, also die Fähigkeit zu beurteilen, wann man einem Ergebnis trauen kann. „AI is lowering the floor and heightening the ceiling": der Einstieg wird leichter, die Spitze schwerer.
+
+### Community-Tag, DjangoGirls, PyLadies, Feminist AI
+
+Am 13. April lief der **Sprint- und Community-Tag** mit gemeinsamer Arbeit an Open-Source-Projekten, dem **DjangoGirls-Workshop** — der allererste DjangoGirls-Workshop fand 2014 auf dieser Konferenz statt, das war vor zwölf Jahren — sowie der **PyLadies Welcome Tour**. Parallel zur Hauptkonferenz lief drei Tage lang der **Feminist AI Hackerspace** als offener Raum: kein Ticket, kein vorgegebenes Programm, eigene Sessions, Unconference. Diese Satelliten sind kein Beiprogramm. Sie sind ein eigenständiger Einstieg in die Community, vor allem für Menschen, die zum ersten Mal kommen.
+
+### Financial Aid
+
+Das **Diversity-Programm** hat 186 Bewerbungen erhalten und 28 Vor-Ort-Teilnehmende mit Reisekosten und Tickets unterstützt; dazu kamen 40 geförderte Online-Tickets und kostenfreie Remote-Tickets für Studierende. Die geförderten Teilnehmenden kamen aus 24 verschiedenen Nationalitäten und 12 Wohnsitzländern; 65 Prozent identifizierten sich als nicht-männlich. Finanziert wurde das Programm aus Sponsoring-Beiträgen und Spenden, getragen von **Python Software Verband**, **Pioneers Hub** und **EuroPython Society**.
+
+Erwähnenswert: Die **Python Software Foundation** konnte 2026 wegen Kürzungen bei US-Bundesmitteln nicht wie sonst zur Diversity-Förderung beitragen. Den entstandenen Lücke hat der PySV aus dem Konferenz-Überschuss vollständig geschlossen. Genau dafür ist der Verband da.
+
+### Zahlen & Fakten
+
+- **2.000+ Teilnehmende** vor Ort und remote
+- **Rund 150 Vorträge** plus Panels, Lightning Talks und Keynotes; **156 Speaker:innen aus 26 Ländern**, **45 Prozent** zum ersten Mal auf dieser Bühne
+- **538 Vortragseinreichungen**, ausgewählt von **74 ehrenamtlichen Reviewer:innen** in **1.502 Reviews** — Annahmequote rund 28 Prozent
+- **25 Prozent** der Speaker:innen identifizieren sich als nicht-männlich; rund ein Viertel kommt aus unterrepräsentierten Gruppen
+- **4 Keynotes**: Sebastian Raschka, Hilde Kühne, Gabriela Bogk, Aaron A. Glenn
+- **Code of Conduct**: eine Meldung während der Konferenz, bearbeitet nach festgelegtem Verfahren
+- **Veranstalter:** Python Software Verband e.V. in Kooperation mit NumFOCUS, getragen von rund 30 Freiwilligen
+
+### Danke
+
+Danke an das Orga-Team, an die Speaker:innen, an alle Sponsor:innen — allen voran unseren Keystone-Sponsor **Merck** und unsere Platinum-Partner **QuantCo**, **Rosenxt**, **Tower**, **GAMS**, **Mobility House**, **Gurobi**, **Meta**, **Snowflake** und **Prior Labs**. Danke an die Diversity-Sponsoren, an unsere Community-Partner — von **DjangoGirls** über die **PyLadies**-Chapter Berlin, Hamburg und Südwest bis **Women in AI**, **spaCy** und **Probably Private** — und an **PHONT**, das die Live-Transkription möglich gemacht hat.
+
+Und vor allem: Danke an die 2.000 Teilnehmenden, die diese Konferenz zu dem machen, was sie ist — eine Veranstaltung, die aus der Community kommt und in die Community zurückwirkt.
+
+### Save the Date
+
+Die PyCon DE & PyData 2027 ist in Planung. Termin und Ort folgen auf [pycon.de](https://pycon.de/).
+
+Fotos folgen in Kürze.

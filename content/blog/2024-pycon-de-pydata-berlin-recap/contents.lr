@@ -1,0 +1,59 @@
+title: PyCon DE & PyData Berlin 2024 — Rückblick
+---
+pub_date: 2024-04-29
+---
+teaser_image: djangogirls-2024.jpg
+---
+teaser_text:
+
+Drei Tage bcc Berlin, 1.869 Teilnehmende, sechs Wochen vor der Konferenz ausverkauft. Die PyCon DE & PyData Berlin 2024 fiel zusammen mit dem 20-jährigen Bestehen des Python Software Verbands.
+---
+body:
+
+## PyCon DE & PyData Berlin 2024 — Rückblick
+
+Vom **22. bis 24. April 2024** lief die PyCon DE & PyData zum letzten Mal im **bcc Berlin Congress Center** am Alexanderplatz. **1.869 Teilnehmende** insgesamt — **1.530 vor Ort, 339 remote** — sechs Wochen vor der Konferenz waren alle Vor-Ort-Tickets vergriffen. Es war zugleich das Jahr, in dem der **Python Software Verband 20 wurde**. Drei Beobachtungen.
+
+### Erstens: Sechs Wochen vorher ausverkauft
+
+Die Konferenz war Anfang März ausverkauft — das früheste Datum in ihrer Geschichte. Was uns daran interessiert, ist nicht der Rekord, sondern was er bedeutet: Die PyCon DE & PyData ist als jährlicher Treffpunkt im Kalender der deutschsprachigen Python-Community fest verankert. Die Konferenz wächst, der Veranstaltungsort wuchs nicht mit — was eine der Vorbereitungen für den Umzug nach Darmstadt im Folgejahr war.
+
+### Zweitens: Vier Keynotes, vier Communities
+
+Die Keynotes zogen den Bogen, der die PyCon DE & PyData seit Jahren auszeichnet: vom wissenschaftlichen Python bis zur Open-Source-Politik, von der Tool-Ebene bis zur Frage, wie Communities lange halten.
+
+- **Leah Silen** (NumFOCUS) sprach über die Außenperspektive auf Open-Source Scientific Computing
+- **Hannes Mühleisen** (DuckDB) über die Bedingungen, unter denen Forschungs-Software in der Akademie überleben kann
+- **Ricardo Baeza-Yates** legte zehn Fragen vor, die jedes Unternehmen mit KI-Einsatz beantworten können sollte
+- **Inessa Pawson** (NumPy) über die "Kunst und Wissenschaft", Open-Source-Communities zu pflegen
+
+### Drittens: DjangoGirls und PyLadies haben das Vorprogramm getragen
+
+Am 21. April lief der **DjangoGirls-Workshop** zum zehnjährigen Jubiläum — kostenfrei, ausgebucht, mit Coaches aus der Berliner Community. Daneben **Humble Data** als Lernraum für Einsteiger:innen in Data Science und das **PyLadies-Programm** mit Welcome Tour und Panel. Diese Tage gehören zur Konferenz, nicht daneben.
+
+### Zahlen & Fakten
+
+- **1.869 Teilnehmende** insgesamt (1.530 vor Ort, 339 remote)
+- **Sechs Wochen vor der Konferenz ausverkauft**
+- **130+ Sessions** auf mehreren Tracks
+- **Vier Keynotes**, Lightning Talks, Panels
+- **bcc Berlin Congress Center**, Alexanderplatz — die letzte Berliner Ausgabe vor dem Umzug nach Darmstadt
+- **~30 Freiwillige** im Orga-Team, getragen vom Python Software Verband, in Kooperation mit NumFOCUS
+
+### 20 Jahre Python Software Verband
+
+Am 12. November 2004 als DZUG e.V. in Düsseldorf gegründet, am 7. Oktober 2011 in Python Software Verband e.V. umbenannt — der Verband begeht 2024 sein 20-jähriges Bestehen. Zwei Jahrzehnte, in denen die deutschsprachige Python-Community aus ein paar Freiwilligen rund um Konferenzen zu einem Verband mit Förderprogrammen, Mentoring und institutioneller Mitwirkung gewachsen ist.
+
+### Financial Aid
+
+Im Rahmen des Diversity-Programms wurden zusammen mit Python Software Foundation, EuroPython Society, Django Software Foundation, Blue Yonder und privaten Spender:innen Reisekosten und Tickets für **49 Teilnehmende** in Höhe von **25.735 Euro** gefördert.
+
+### Danke
+
+Danke an das Orga-Team, an die Speaker:innen, an alle Sponsor:innen — und an die Teilnehmenden, die diese Konferenz zu dem machen, was sie ist.
+
+Fotos: [PyCon DE & PyData Berlin 2024 — Fotos](https://bit.ly/pyconde-pydata-24-fotos)
+
+### Save the Date
+
+Die PyCon DE & PyData 2025 findet vom **23. bis 25. April 2025** im darmstadtium in Darmstadt statt — erstmals außerhalb Berlins. Mehr unter [2025.pycon.de](https://2025.pycon.de/).
