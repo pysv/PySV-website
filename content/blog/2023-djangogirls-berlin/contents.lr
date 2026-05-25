@@ -4,7 +4,7 @@ pub_date: 2023-11-01
 ---
 teaser_text: Discover the transformative journey of Django Girls Berlin 2023, where 75 women transformed from coding novices to empowered web developers, celebrating diversity, mentorship, and the breaking of barriers in the tech world.
 ---
-show_on_homepage: False
+show_on_homepage: no
 ---
 body:
 

@@ -1,0 +1,116 @@
+title: Mitgliederversammlung 2024
+---
+pub_date: 2024-12-01
+---
+teaser_image: preview.png
+---
+teaser_text:
+
+Die Mitgliederversammlung des PySV fand am 30. November 2024 online statt. Der Vorstand gab den Mitgliedern ein
+umfangreiches Update über die Aktivitäten des Vereins im Jubiläumsjahr – 20 Jahre PySV – und einen Ausblick auf 2025.
+---
+highlighted: yes
+---
+body:
+
+### Geschäftsbericht 2023
+
+Der Vorstand stellte den [Jahresbericht 2024](../../../assets/documents/jahresbericht-2024.pdf) mit dem Jahresabschluss 2023 vor.
+Der vollständige Bericht steht Mitgliedern und Interessierten zum Download bereit.
+
+Die Kassenprüfer Reimar Bauer und Kristian Rother bestätigten die ordnungsgemäße Führung der Finanzen.
+Die Umstellung auf DATEV hat die Prüfung deutlich vereinfacht und die Transparenz erhöht.
+Die Mitgliederversammlung folgte der Empfehlung der Kassenprüfer und entlastete den Vorstand einstimmig.
+
+### Bericht und Ausblick 2024
+
+#### 🎂 20 Jahre PySV
+
+2024 war ein besonderes Jahr für uns: Der Verein wurde am 12. November 2004 als DZUG e.V. gegründet, am 7. Oktober 2011 erfolgte die
+Umbenennung in Python Software Verband e. V. – wir feierten also unser 20-jähriges Jubiläum.
+
+#### Konferenzen
+
+Im April 2024 haben wir die [PyCon DE & PyData Berlin](https://2024.pycon.de/) erneut im bcc ausgerichtet – mit 1.869 Teilnehmenden
+(1.530 vor Ort, 339 remote) war sie wieder die größte Python-Konferenz Europas. Das neue Orga-Konzept mit klar verteilten
+Verantwortungsbereichen zwischen einem 30-köpfigen Freiwilligen-Team und dem Backoffice hat sich erneut bewährt.
+[Fotos der Konferenz](https://bit.ly/pyconde-pydata-24-fotos).
+
+Die [EuroSciPy](https://www.euroscipy.org/2024/) fand Ende August erstmals in Stettin, Polen statt; der PySV war erneut rechtlicher
+Träger. Die lokale Organisation übernahm das OpenEDG Python Institute. Über 200 Teilnehmende kamen zusammen, der Anteil
+an Maintainer:innen weit verbreiteter wissenschaftlicher Python-Bibliotheken war besonders hoch – es gab einen eigenen
+Maintainer-Track an beiden Vortragstagen.
+
+#### PyLadies Fund
+
+Im Oktober 2023 haben wir die Einrichtung des [PyLadies Fund](https://github.com/orgs/pyladies-de/projects/2) beschlossen, 2024 wurde
+er mit einem Jahresbudget von 5.000 € und klaren Prozessen umgesetzt – inklusive Dokumentation auf GitHub und Beiträgen von
+Vertreter:innen aus jedem Chapter. Unterstützt wurden u. a. Unterkunft während der PyCon DE 2024, Reisekosten für Speaker,
+Magazin, Erfrischungen und Sticker für Meetups sowie Hosting-Unterstützung über den Pioneers Hub.
+
+#### Förderprogramm
+
+Unser [Förderprogramm](../../grants) lief 2024 unverändert weiter (kleine Veranstaltungen 20 €/Teilnehmer bis 400 €,
+größere Veranstaltungen ab 50 Personen Pauschale 1.000 €, Sprints bis 800 €). Gefördert wurden unter anderem:
+
+- GeoPython, Basel (1.000 €)
+- ctrlreturn.de Music LiveCoding Event (1.000 €)
+- PyCologne Hosting (12 €/Monat)
+- PyMunich Streamyard Professional-Paket ($468)
+- Python Berlin Meetup (1.600 €, für insgesamt vier Meetups)
+
+#### Trägerschaften
+
+Der PySV war 2024 Träger für:
+
+- [EuroSciPy](https://www.euroscipy.org/2024/), Stettin
+- Plone Tagung, Gießen
+- [PyCon DE & PyData Berlin](https://2024.pycon.de/)
+- PythonCamp Rügen
+- PyCamp Leipzig
+- PythonCamp Karlsruhe
+
+#### Verwaltung
+
+Wie auf der letzten Mitgliederversammlung angekündigt, ist die Geschäftsstelle seit dem 01.01.2024 bei der gemeinnützigen
+Pioneers Hub gGmbH (Heidelberg) angesiedelt, der Alexander Hendorf vorsteht. Die Zusammenarbeit mit Königsweg wurde zum
+Jahresende 2023 beendet. Die Administration verlief reibungslos – trotz des erheblich höheren Aufkommens durch die Konferenzen.
+Im Vorstand setzen wir auf Slack, Google Workspace und Trello. Bei der internen Verwaltung haben wir den Datenschutz durch
+zentralisierte Organisations-Admins gestärkt.
+
+#### Mitgliederentwicklung
+
+Zum Jahresende 2023 hatten wir 102 Mitglieder, zum Stand der Versammlung sind es 108.
+
+### Ausblick 2025
+
+#### Konferenzen
+
+- [PyCon DE & PyData 2025](https://2025.pycon.de/): 23. – 25. April 2025 im darmstadtium, Darmstadt – wir betreiben PyCon DE und
+  PyData erstmals als Kombi-Konferenz zusammen mit NumFOCUS. Vorgelagert sind am 21./22. April Sprints, DjangoGirls und ein
+  Feminist-AI-Event geplant. Der Call for Proposals ist offen.
+- EuroSciPy 2025 – voraussichtlich erneut in Polen.
+
+#### Trägerschaften (Stand der Versammlung)
+
+- EuroSciPy
+- Plone Tagung, Koblenz
+- PythonCamp Rügen
+- PyCamp Leipzig
+- PyCon DE & PyData
+- PythonCamp Karlsruhe
+
+### Wahl der Rechnungsprüfer
+
+Eine Vorstandswahl stand 2024 nicht an. Die Rechnungsprüfer wurden satzungsgemäß neu gewählt:
+Kristian Rother (15 Ja / 0 Nein / 0 Enthaltungen) und Reimar Bauer (15/0/0) wurden einstimmig wiedergewählt und nehmen die
+Wahl an.
+
+### Diskussion
+
+Die Mitglieder diskutierten unter anderem über einen deutschsprachigen Vortrags-Track auf der PyCon DE, weitere Möglichkeiten
+der Öffentlichkeitsarbeit (z. B. eine Präsenz auf der FrOSCon) sowie eine Darstellung der Vereinsgeschichte zum 20-jährigen
+Jubiläum auf der PySV-Website. Die anwesenden Organisator:innen der Python BarCamps in Karlsruhe, Leipzig und auf Rügen
+stellten ihre Veranstaltungen kurz vor.
+
+** Wir bedanken uns bei allen Mitgliedern für die Teilnahme an der Mitgliederversammlung und freuen uns auf ein weiteres Jahr mit euch! 🤗 **

@@ -1,32 +1,120 @@
-title: Python Software Verband e.V
+title: Python Software Verband
 ---
 hero:
 
-Der Python Software Verband unterstützt und fördert die Python-Community im deutschsprachigen Raum.
+Der Python Software Verband e.V. stärkt die Programmiersprache Python und ihre Community im deutschsprachigen Raum. Als gemeinnütziger
+Verein veranstalten wir die PyCon DE, die zentrale Konferenz für angewandte KI mit Open Source, und sind Mit-Träger der europäischen
+Wissenschaftskonferenz EuroSciPy sowie von Camper, die Barcamp-Planungs-Software.
 
-Der Verband versteht sich als ein Zusammenschluss von Unternehmen, Selbständigen und Privatpersonen, die Python und Open-Source-Software
-gewerblich oder privat einsetzen und Ihre Wertschätzung der Open Source Community durch ein Engagement für diese Community ausdrücken
-möchten. Der Python-Software-Verband bündelt durch die Beiträge der Mitglieder Resourcen und koordiniert damit Fördermaßnahmen, die den
-Mitgliedern des Verbandes einzeln nicht, oder nur mit erheblichem Aufwand möglich wäre.
-
-Beispiele für Förderungen sind Konferenz-Veranstaltungen, ausbildungsorientierte Aktionen sowie Entwicklungsunterstützung. Details zu den
-möglichen Förderformen sind im Förderprogramm beschrieben.
+Mit unserem Förderprogramm unterstützen wir Diversity-Initiativen, Barcamps, lokale Usergruppen und Bildungsprojekte.
 
 ---
-details:
+ecosystem_section:
 
-## Python Software Verband
+## Python - ein Ökosystem, das Forschung, Industrie und Verwaltung verbindet
 
-Der Python Software Verband e.V. ist ein eingetragener Verein mit Sitz in Halle, der die Python-Community im
-deutschsprachigen und auch europäischen Raum fördert und unterstützt.
+Python ist eine der meistgenutzten Programmiersprachen der Welt und die gemeinsame Sprache von
+Forschungsinstituten, Konzernen, Mittelstand, Behörden und Bildungseinrichtungen. Über Jahre ist um Python herum ein Ökosystem aus
+Hunderttausenden Open-Source-Bibliotheken gewachsen: NumPy, pandas, polars, duckdb und scikit-learn, PyTorch, FastAPI, Django und Jupyter —
+die Werkzeuge hinter moderner Datenanalyse, wissenschaftlichem Rechnen, Webdiensten und KI-Anwendungen. In datenintensiver Forschung,
+Analytik und KI ist Python längst der De-facto-Standard.
 
-### Unsere Aufgaben
+Darin liegt die Stärke unserer Community: Eine Klimaforscherin, eine Quant-Analystin und eine Backend-Entwicklerin arbeiten mit denselben
+Werkzeugen. Der Wissenstransfer zwischen den Domänen ist kein Nebeneffekt — er ist der Grund, warum sich Methoden, Lösungen und Best
+Practices so schnell über Fachgrenzen hinweg verbreiten.
 
-Wir organisieren und unterstützen Konferenzen, Barcamps und Meetups. 
+---
+conferences_section:
 
-Durch unser Förderprogramm ermöglichen wir Community-Events und Open-Source-Projekte.
+## Konferenzen und Barcamps
 
-### Mitglied werden
+Wir bringen die Python-Community in drei Formaten zusammen — vom Großevent mit mehreren tausend Teilnehmenden bis zum Wochenend-Barcamp mit
+50 Personen. Alle drei Formate werden ehrenamtlich getragen, vom Verband finanziert oder mitfinanziert und stehen der gesamten Community
+offen.
 
-Als Mitglied unterstützen Sie die Python-Community aktiv. 
-Informieren Sie sich über die [Mitgliedschaft](/membership) und treten Sie bei.
+<div class="conf-block conf-pycon">
+<h3>PyCon DE</h3>
+
+<p>Die PyCon DE ist seit über 15 Jahren ein zentraler internationaler Treffpunkt für die Python-, Software-Engineering-, Daten- und KI-Community.</p>
+
+<p>Über 150 Fachvorträge, Panels, Hands-on-Sessions und Keynotes zeigen echte Use Cases statt Buzzwords — von Software Engineering über
+Data Science und MLOps bis zur angewandten KI. Im Fokus stehen neueste Trends, solide eingeordnet.</p>
+
+<p>Künstliche Intelligenz ist für uns nichts grundlegend Neues, sondern Teil einer Entwicklung, die wir seit Jahren mit technischem
+Tiefgang begleiten und mitgestalten. Diese Tiefe lebt vom direkten Austausch zwischen Menschen aus ganz Europa und darüber hinaus: aus
+Industrie, Forschung, Verwaltung, Startups und Open Source. Genau dieser Mix macht die Konferenz zum Katalysator zwischen Forschung,
+praktischer Anwendung und neuen Ideen.</p>
+
+</div>
+
+
+<div class="conf-block conf-euroscipy">
+<h3>EuroSciPy</h3>
+
+<p>Die <strong>EuroSciPy</strong> ist die jährliche europäische Konferenz für Python in Forschung und Wissenschaft.
+Wo immer in Europa wissenschaftliche Daten mit Python verarbeitet werden — Klimamodelle, Astrophysik, Biomedizin, Geowissenschaften,
+numerische Simulation —, ist die EuroSciPy der Treffpunkt. Der Python Software Verband ist aktuell Träger der seit 2008 bestehenden
+Konferenzreihs.</p>
+</div>
+
+<div class="conf-block conf-barcamps">
+<h3>Barcamps und PythonCamps</h3>
+
+<p>Neben den großen Konferenzen leben wir das <strong>Barcamp-Format</strong>: kleinere, regionale Wochenend-Veranstaltungen,
+deren Programm von den Teilnehmenden selbst gestaltet wird — von Rügen bis zu den Alpen. Diese Veranstaltungen werden vollständig
+von Ehrenamtlichen organisiert.</p>
+</div>
+
+---
+volunteers_section:
+
+## Von Ehrenamt und Community getragen
+
+<div class="volunteers-statement">
+<p class="big-quote">Die PyCon DE, die EuroSciPy, die Barcamps, die lokalen User-Gruppen und unser Förderprogramm entstehen
+aus einer Community, die sich einbringt.</p>
+
+<p>Dutzende Ehrenamtliche geben unseren Veranstaltungen ihr Gesicht: in Programmkomitees, bei der Auswahl der Vorträge,
+in Tracks und Formaten, bei Awareness, Diversity & Inclusion, im Austausch mit den Speaker:innen — und überall dort, wo aus einzelnen Programmpunkten eine Konferenz wird, die Menschen zusammenbringt und weiterbringt.</p>
+
+<p>Dieses Engagement macht den Unterschied. Es hält unsere Veranstaltungen fachlich relevant, offen und nah an der Community
+— und schafft Räume, in denen Junior-Entwickler:innen, Maintainer:innen, Forschende und CTOs miteinander ins Gespräch kommen.</p>
+</div>
+
+---
+grants_section:
+
+## Förderprogramm
+
+Mit den Beiträgen unserer Mitglieder und den Erträgen unserer Konferenzen unterstützen wir die Python-Community im deutschsprachigen Raum —
+finanziell und organisatorisch. Wir fördern User-Gruppen, Barcamps und Community-Events ebenso wie konkrete
+Open-Source-Entwicklung, Bildungs- und Nachwuchsinitiativen. Zuletzt unter anderem: PyLadies, PyCon Austria, Django Girls Berlin,
+PyData Südwest, GeoPython Basel, Jugend Hackt und das Munich NLP Meetup.
+
+Details zu Förderhöhen und Bedingungen sind unter [Förderprogramm](/grants) zu finden.
+
+---
+culture_section:
+
+## Mehr als eine Programmiersprache, eine Kultur
+
+„I came for the language, but I stayed for the community" — der Satz von Brett Cannon (PyCon US 2014) ist bis heute Programm. Pythons Kultur
+der Hilfsbereitschaft ist über Jahrzehnte gewachsen: Wer neu ist, wird in der Mittagspause an den Tisch geholt; wer eine Bibliothek pflegt,
+bekommt Antworten von den Maintainer:innen selbst. Das ist keine Folklore, sondern Arbeit — ein gelebter Code of Conduct, Initiativen wie
+Django Girls und Diversity-Tickets, getragen von einem eingetragenen Verein und mehreren hundert Ehrenamtlichen. Eine breitere Community ist
+eine bessere — auch fachlich.
+
+---
+cta_section:
+
+## Mitmachen
+
+Als Mitglied unterstützen Sie die Python-Community direkt — ab 60 € im Jahr für Privatpersonen, ab 600 € für Unternehmen. Mitglieder
+erhalten Stimmrecht in der Mitgliederversammlung, Sichtbarkeit auf unserer Webseite und gestalten unsere Arbeit aktiv mit.
+
+Unternehmen, die die PyCon DE sponsern möchten, erreichen uns
+unter [info@pysv.org](mailto:info@pysv.org?subject=PyCon%20DE%20Sponsoring). Förderanträge stellen Sie formlos
+an [grants@python-verband.org](mailto:grants@python-verband.org). Verbände, Institutionen sowie politische und administrative Akteure
+erreichen den Vorstand unter [info@pysv.org](mailto:info@pysv.org).
+
+<p class="single-cta"><a class="cta cta--primary" href="/membership">Mitglied werden</a></p>

@@ -6,8 +6,6 @@ teaser_image: beethoven-sprint-850x532.jpg
 ---
 teaser_text: Der Beethoven Sprint 2023 fand vom 15. bis 19. Mai in den Büros der kitconcept GmbH in Bonn statt. Dabei stand die Arbeit an Plone 6.1 im Vordergrund sowie langfristig die Aussicht auf Plone 7.
 ---
-show_on_homepage: True
----
 body:
 
 <small class="opacity-8">Die Teilnehmer des fünften Beethoven-Sprints in Bonn (© kitconcept GmbH)</small>

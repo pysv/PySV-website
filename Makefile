@@ -1,4 +1,4 @@
 build:
-	lektor build -O tmp
+	lektor build -O site
 run:
-	lektor server -O tmp -p 5001
+	lektor server -O site -p 5001

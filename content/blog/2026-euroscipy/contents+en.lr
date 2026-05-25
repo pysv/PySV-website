@@ -1,0 +1,61 @@
+title: EuroSciPy 2026 — Kraków, 18 to 23 July
+---
+pub_date: 2026-03-07
+---
+show_on_homepage: yes
+---
+teaser_image: krakow-2026.jpg
+---
+teaser_text:
+
+EuroSciPy 2026 — the 18th European Conference on Python in Science — takes place from 18 to 23 July at AGH University of Kraków. Six days, 40 speakers, 16 workshops, 200 participants.
+
+---
+body:
+
+## EuroSciPy 2026 — Kraków, 18 to 23 July
+
+![General view of Kraków's city centre from Krakus Mound](./krakow-2026.jpg)
+
+<small class="opacity-8">Kraków, general view of the city centre from Krakus Mound. Photo: Zygmunt Put, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, via <a href="https://commons.wikimedia.org/wiki/File:Krak%C3%B3w_general_view_of_the_city_center_from_SE_(from_Krak_Mound),_Poland.jpg">Wikimedia Commons</a>.</small>
+
+From **18 to 23 July 2026**, the European community for scientific Python gathers at **AGH University of Kraków**. EuroSciPy is the cross-disciplinary conference for everyone who uses Python in research and teaching — from astrophysics to bioinformatics, from machine learning to reproducible science.
+
+This is the **18th edition** of EuroSciPy. The conference returns to Kraków. It is organised by the **Python Software Verband e.V.**
+
+### Dates and venue
+
+- **18 to 19 July 2026** — Sprints (joint with EuroPython)
+- **20 to 21 July 2026** — Talks and poster sessions
+- **22 to 23 July 2026** — Tutorials
+- **Venue:** AGH University of Kraków, Poland
+
+![Main building of AGH University of Kraków](./agh-main-building.jpg)
+
+<small class="opacity-8">Main building (A-0) of AGH University of Kraków, al. Mickiewicza 30. Photo: Maciej Talar / KSAF AGH, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, via <a href="https://commons.wikimedia.org/wiki/File:Gmach_g%C5%82%C3%B3wny_AGH.jpg">Wikimedia Commons</a>.</small>
+
+### Format
+
+EuroSciPy follows a well-established structure: two days of sprints, two days of talks and posters, two days of tutorials. We expect around **200 participants**, **40 speakers** and **16 workshops**.
+
+For the first time, the sprint days are held **jointly with EuroPython**, which runs the same week in Kraków. If you want to contribute to open-source projects, you can combine both conferences in a single trip.
+
+### Topics
+
+EuroSciPy covers the core tools of the scientific Python stack — NumPy, SciPy, pandas, scikit-learn, JAX, PyTorch, Dask, Xarray, Numba — and the domain libraries built on top of them in astronomy, climate science, biology, materials science, geosciences and many other fields. Cross-cutting themes include reproducible research, performance, visualisation, and maintainer topics.
+
+### Call for Proposals
+
+The Call for Proposals is open. Talks, tutorials and posters are submitted through pretalx: [pretalx.com/euroscipy-2026/cfp](https://pretalx.com/euroscipy-2026/cfp).
+
+We invite researchers, educators, maintainers of scientific libraries, and practitioners from industry and the public sector who use Python for scientific work.
+
+### Tickets and grants
+
+Tickets and information on diversity grants are at [euroscipy.org/tickets](https://euroscipy.org/tickets/). EuroSciPy is a non-profit conference; any surplus flows through the Python Software Verband back into support for the scientific Python community.
+
+### Organiser
+
+EuroSciPy is run by the **Python Software Verband e.V.** — volunteer-driven, non-profit, the umbrella organisation of the German-speaking Python community for more than 20 years. On site, the PySV works with AGH University and volunteers from across the European SciPy community.
+
+More information, programme and registration: [euroscipy.org](https://euroscipy.org/)

@@ -9,9 +9,7 @@ teaser_text:
 Unsere diesjährige Mitgliederversammlung findet am 13. November 2021 statt. Die Versammlung findet online statt.
 Neben dem Geschäftsbericht steht auch die Wahl zum Vorstand an.
 ---
-show_on_homepage: True
----
-highlighted: True
+highlighted: yes
 ---
 body:
 

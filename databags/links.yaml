@@ -1,16 +1,18 @@
 pages:
-- name: Blog
-  path: blog
+#- name: Blog
+#  path: blog
+- name: Python
+  path: python
 - name: Community
   path: community
-- name: Events
-  path: events
-- name: Grants
+#- name: Events
+#  path: events
+- name: Förderung
   path: grants
-- name: About
+- name: Über
   path: about
   subpages:
-  - name: Board
+  - name: Vorstand
     path: /board
   - name: Dokumente
     path: /documents
@@ -18,5 +20,5 @@ pages:
     path: /membership
   - name: Nachhaltigkeit
     path: /sustainability
-  - name: Reimbursements
+  - name: Erstattungen
     path: /reimbursements

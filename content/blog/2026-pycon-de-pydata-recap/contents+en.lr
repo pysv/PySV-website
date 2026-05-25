@@ -1,0 +1,68 @@
+title: PyCon DE & PyData 2026 — notes from Darmstadt
+---
+pub_date: 2026-04-30
+---
+teaser_image: pyconde26-recap.jpg
+---
+show_on_homepage: yes
+---
+teaser_text:
+
+Four days at the darmstadtium, more than 2,000 attendees, over 130 sessions. PyCon DE & PyData 2026 ran under the motto "We get things done" — and stretched the arc further than any previous edition: from agentic AI to bridges into the startup scene, and the question of what we still need to learn.
+
+---
+body:
+
+## PyCon DE & PyData 2026 — notes from Darmstadt
+
+From **13 to 17 April 2026**, PyCon DE & PyData returned to the **darmstadtium** in Darmstadt for the second year: a sprint and community day, three conference days, and a masterclass day. **More than 2,000 attendees** on-site and remote, **156 speakers from 26 countries**, **around 150 talks** across multiple tracks, alongside panels, lightning talks and keynotes. The conference is run by the **Python Software Verband** in cooperation with **NumFOCUS**, organised by around 30 volunteers, funded through tickets and sponsoring.
+
+The motto for 2026 — **"We get things done"** — was not marketing. It described what happens when tools, workflows and whole job profiles change faster than the conference planning cycle. Four observations to take away.
+
+### One: the programme was honest about AI
+
+LLMs, agents, MCP, RAG, evals — the topics were everywhere, but the tone had shifted from two years ago. Less showreel, more field report: what breaks in production, what cannot be measured, which architectural decisions hurt later, where small models are enough. **Sebastian Raschka** drew the arc in his keynote *From Scratch to Scale*, showing how far Python carries you in practice. **Hilde Kühne** (Tübingen AI Center) placed the multimodal wave in historical context — and closed with a request to keep supporting open-source research, because the biggest jumps still come from small groups with good ideas, not from the largest labs. Talks on evals, on securing LLM applications, on actual hallucination rates in pipelines, and on the practical limits of agent architectures were as present as classical engineering tracks.
+
+### Two: sovereignty is a hardware question
+
+**Aaron Glenn**'s keynote *A View of Sovereignty from The Cloud* did something the community debate on digital sovereignty has rarely managed: it grounded the term. Sovereignty is the capacity to act independently — and "the cloud" is, in the end, a physical building, with large power transformers from a handful of manufacturers worldwide, with multi-year waits for grid connections, with chips from specific fabs. 83 percent of EU enterprise cloud spending goes to US providers; that is roughly 1.5 percent of European GDP. Every technology choice, Glenn said, is a political one. We take that clarity with us — and with it the task Aaron flagged again in the closing session: tell the story of open source better, less as nerd folklore, more as infrastructure.
+
+### Three: building bridges to the startup scene
+
+2026 was the year PyCon DE explicitly reached outwards. Together with **hessian.AI** and **appliedAI** we added the **Startup Lounge**, an open, unrecorded space for honest conversation, and the panel **Start-Ups & Investors** to the programme. The panel brought together **Ina Schlie** (Encourage Ventures, formerly SAP), **Sara Jourdan** (Genio AI), **Jovana Walter** (Futury Capital) and **Carlina Bennison** (hessian.AI / AI Startup Rising). Three findings stayed with us. Germany invests roughly EUR 7 billion per year into startups — against around EUR 9,000 billion sitting in life insurance and bank deposits. Diverse-led startups receive 12 percent of venture capital; all-female teams receive 1 percent. And several of Europe's most interesting deep-tech companies — Helsing, Black Forest Labs, most recently Munich-based Tubulis — are ending up in US hands because the Series B capital is missing here. None of this is something the community can solve. But it is something the community should talk about, because many open-source projects and many AI startups draw from the same pool of maintainers.
+
+### Four: we know what we need to learn — and what we don't
+
+The **Future of Learning** initiative ran through all three days: a panel on day one, an interactive workshop on day two, a closing discussion on Thursday. **Silvia Hänig** moderated the closing panel with **Sebastian Unterreitmeier** (Mercer) and **Dr. Kristian Rother**. A few of the sharpest observations: AI is an *amplifier* — it makes seniors more productive and removes from juniors the valley of experience that produced today's seniors. Organisations that stop training juniors will face a demographic problem in ten years. The core skills that stay: bash, Git, Docker, algorithms, data modelling — and, less obviously, **epistemology**, the ability to judge when a result can be trusted. "AI is lowering the floor and heightening the ceiling": the entry gets easier, the top gets harder.
+
+### Community day, DjangoGirls, PyLadies, Feminist AI
+
+On 13 April: the **sprint and community day** with collaborative open-source work, the **DjangoGirls workshop** — the very first DjangoGirls workshop ran at this conference in 2014, twelve years ago — and the **PyLadies welcome tour**. Running alongside the main conference for three days: the **Feminist AI Hackerspace**, an open space with no ticket, no fixed programme, own sessions, unconference. These are not side events. They are a community entry point in their own right, especially for first-timers.
+
+### Financial Aid
+
+The **diversity programme** received 186 applications and supported 28 on-site attendees with travel and tickets; another 40 online tickets were funded, and remote tickets were free for students. The supported participants came from 24 nationalities and 12 countries of residence; 65 percent identified as non-male. The programme is funded from sponsor contributions and donations, carried by the **Python Software Verband**, **Pioneers Hub** and the **EuroPython Society**.
+
+Worth noting: the **Python Software Foundation**, which normally contributes to the diversity programme, could not do so in 2026 due to cuts in US federal funding. PySV closed the gap in full from the conference surplus. That is exactly what the Verband is here for.
+
+### Numbers
+
+- **2,000+ attendees** on-site and remote
+- **Around 150 talks** plus panels, lightning talks and keynotes; **156 speakers from 26 countries**, **45 percent** first-time speakers
+- **538 submissions**, selected by **74 volunteer reviewers** in **1,502 reviews** — acceptance rate around 28 percent
+- **25 percent** of speakers identify as non-male; around one quarter come from underrepresented groups
+- **4 keynotes**: Sebastian Raschka, Hilde Kühne, Gabriela Bogk, Aaron A. Glenn
+- **Code of Conduct**: one report during the conference, handled per defined procedure
+- **Organisers:** Python Software Verband e.V. in cooperation with NumFOCUS, carried by around 30 volunteers
+
+### Thanks
+
+Thank you to the organising team, the speakers, and all sponsors — first to our keystone sponsor **Merck** and our platinum partners **QuantCo**, **Rosenxt**, **Tower**, **GAMS**, **Mobility House**, **Gurobi**, **Meta**, **Snowflake** and **Prior Labs**. Thank you to the diversity sponsors, to our community partners — from **DjangoGirls** to the **PyLadies** chapters in Berlin, Hamburg and Südwest, to **Women in AI**, **spaCy** and **Probably Private** — and to **PHONT**, who made live transcription possible.
+
+Above all: thank you to the 2,000 attendees who make this conference what it is — an event that comes out of the community and gives back to it.
+
+### Save the date
+
+PyCon DE & PyData 2027 is in planning. Date and venue will be announced at [pycon.de](https://pycon.de/).
+
+Photos to follow.

@@ -6,12 +6,20 @@
 {% block body %}
 
 
-<div class="hero">
+<section class="hero">
     <h1>{{ this.title }}</h1>
     {{ this.hero }}
-</div>
+</section>
 
-<div class="usps">
+
+{% if this.ecosystem_section %}
+<section class="ecosystem-section">
+    {{ this.ecosystem_section }}
+</section>
+{% endif %}
+
+
+<section class="usps">
     <ol class="usps--highlighted">
         {% for post in site.query('/blog').filter(F.show_on_homepage == True)
         .filter(F.highlighted == True).order_by('-pub_date') %}
@@ -29,7 +37,39 @@
 
         {% endfor %}
     </ol>
-</div>
+</section>
 
-<div class="psv-details">{{ this.details }}</div>
+{% if this.conferences_section %}
+<section class="conferences-block">
+    {{ this.conferences_section }}
+</section>
+{% endif %}
+
+{% if this.volunteers_section %}
+<section class="volunteers-accent">
+    {{ this.volunteers_section }}
+</section>
+{% endif %}
+
+{% if this.grants_section %}
+<section class="grants-section">
+    {{ this.grants_section }}
+</section>
+{% endif %}
+
+{% if this.culture_section %}
+<section class="culture-section">
+    {{ this.culture_section }}
+</section>
+{% endif %}
+
+{% if this.cta_section %}
+<section class="cta-section">
+    {{ this.cta_section }}
+</section>
+{% endif %}
+
+{% if this.details %}
+<section class="psv-details">{{ this.details }}</section>
+{% endif %}
 {% endblock %}
