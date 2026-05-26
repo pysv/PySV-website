@@ -1,0 +1,53 @@
+_model: python-post
+---
+title: The culture of the Python community — and why it holds
+---
+order: 30
+---
+teaser:
+
+Python is not just a programming language, it is a community with its own, deliberately cultivated culture. That culture is not an accessory; it is one of the conditions under which the ecosystem has held together over decades — economically, technically, socially.
+---
+body:
+
+## A community that names itself
+
+Since the 1990s, the Python world has used the word *Pythonista* for its members. It is a self-description, not a label imposed from outside — and it is used without irony, in the General Assembly as well as on the conference stage. Anyone first approached at a PyCon will, as a rule, be greeted on a first-name basis and met with an open question: what do you work with, what have you built, what's on your mind right now?
+
+This tone did not arise by chance and does not maintain itself. It is the result of decades of deliberate work on a community culture that sets out to invite new people in rather than fence them off.
+
+## Values that are written down
+
+The *Code of Conduct* of the Python Software Foundation has been the central reference point for years. It states that the Python community is open, considerate and respectful — and names concretely what is not acceptable: harassing, demeaning or exclusionary behaviour in any form. PySV has adopted its own Code of Conduct, which applies to all events and activities of the association and is handled in any incident by a dedicated working group.
+
+A code on paper offers no protection. It works only when it is lived and enforced. That is exactly why the *CoC team* exists: a contact point for observations and complaints, reachable in confidence, with defined procedures. This structure is one of the most important investments a community can make, because it delivers on the quiet promise a code of conduct makes.
+
+## Initiatives that carry diversity
+
+Without active structures, a community typically becomes more homogeneous, not more diverse. The Python world recognised this early and built structures that remain formative today.
+
+*PyLadies* was founded in 2011 in Los Angeles by seven women — as a network, a contact point and an event structure for women and non-binary people in the Python world. By 2018, 249 chapters were active in 64 countries worldwide. There are PyLadies groups in the German-speaking region too, including in Hamburg, Berlin and Munich.
+
+*DjangoGirls* started during EuroPython 2014 in Berlin as a one-day workshop for 45 women from fifteen countries. What was conceived as a one-off has grown into one of the most effective initiatives for getting started in web development with Python, with workshops in dozens of countries. PySV regularly funds DjangoGirls workshops in the German-speaking region through its own grants programme.
+
+*PyCon DE & PyData* runs its own support structure for attendees through the *Financial Aid programme* — for those who could not otherwise afford the trip or the ticket. Students, people on low incomes, parents, contributors to open-source projects and people from underrepresented groups are all considered. The funds come from sponsoring and donations, and from the conference budget itself.
+
+## Why this culture holds
+
+There is an economic reason this culture matters beyond the topic itself. Open-source software is typically developed by people who do it voluntarily — alongside their job, alongside their studies, alongside their personal life. For people to keep contributing voluntarily over years, the spaces they do it in have to be welcoming. A rough, exclusionary or demeaning culture produces not only human harm; it produces technical weakness: projects lose contributors, knowledge is lost, critical components lose their maintainers.
+
+For that reason, community care is not a side activity, but infrastructure maintenance. Anyone investing in Python — as a company, as a research institution, as a public body — is always also investing in the people who keep this language and its ecosystem alive over decades.
+
+## What PySV does about it
+
+PySV carries this culture into its own structures: through its own Code of Conduct and CoC team, through support for initiatives like PyLadies and DjangoGirls, through the Financial Aid programme of PyCon DE & PyData, through a volunteer organisational structure that stays approachable for its members.
+
+This work rarely becomes the subject of public attention. It is nonetheless one of the decisive pillars on which Python's position in science, business and public administration rests.
+
+## Sources
+
+- Python Software Foundation, *Community Code of Conduct*, [python.org/psf/conduct](https://www.python.org/psf/conduct/)
+- PyLadies, [pyladies.com](https://pyladies.com/)
+- Django Girls, [djangogirls.org](https://djangogirls.org/)
+- PyCon DE & PyData, *Financial Aid Programme*, [2025.pycon.de/financial-aid](https://2025.pycon.de/financial-aid/)
+- PyData, *Diversity & Inclusion*, [pydata.org/diversity-inclusion](https://pydata.org/diversity-inclusion/)

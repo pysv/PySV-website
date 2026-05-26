@@ -1,0 +1,53 @@
+_model: python-post
+---
+title: Python is the language of artificial intelligence
+---
+order: 10
+---
+teaser:
+
+Without Python, AI development over the past ten years would not have been possible in this form. An open programming language and an ecosystem of free libraries built up over decades form the foundation on which practically every major AI model is now created.
+---
+body:
+
+## An open language as a precondition
+
+Anyone who has talked publicly about artificial intelligence in the past three years has, as a rule, talked about the applications — about ChatGPT, about image generators, about voice assistants. Less often does anyone ask what these systems are actually built with. In nearly every case the answer is the same: with Python.
+
+This is not a technical footnote, but a structural statement. Today's AI wave would not be conceivable in this form without an open, freely available programming language and a mature ecosystem of free libraries.
+
+## How Python became the AI language
+
+Three building blocks explain the position Python holds today.
+
+First: *NumPy*. The library for numerical computing was released in 2006 by Travis Oliphant and provides the mathematical foundation without which scientific computing in Python would not work. The tools for statistical analysis, data analysis and, ultimately, machine learning are built on NumPy.
+
+Second: the frameworks for machine learning. *TensorFlow* was released as open source by Google in 2015. *PyTorch* followed in 2016 as a release from Meta — today the dominant framework in research, transferred in 2022 to the Linux Foundation, moving it out of the control of a single company and into a broadly supported foundation structure. More than 80 percent of scientific contributions at the major AI conferences — NeurIPS, ICML — are now produced with PyTorch.
+
+Third: *Hugging Face* with the library *Transformers*, the de-facto standard for working with language models. Thousands of open models are freely available through Hugging Face — from small specialist models to models with hundreds of billions of parameters. This infrastructure too is written in Python.
+
+## Why Python in particular
+
+Python is not the fastest language. The compute-heavy work is usually done by highly optimised libraries in C, C++ or CUDA. What Python delivers is the layer researchers, developers and users work on — readable, fast to prototype, flexibly composable.
+
+Three properties pushed Python to the front for AI. The language is open and free: nobody pays licence fees, nobody needs approvals. It is interactive: in a notebook environment, hypotheses, data and models can be examined step by step. And it is universal: the same language carries pre-processing, training, evaluation and deployment — breaks between toolchains fall away.
+
+The result is a network effect: anyone publishing in AI publishes in Python. Anyone learning AI learns Python. Anyone wanting to apply AI finds Python tools. This self-reinforcement is not manufactured; it follows from an open architecture that admits collective contributions.
+
+## What this means for Germany
+
+The AI debate is often framed as a race between corporations or between states. What gets overlooked is that the foundation of this development sits in an open, collaboratively maintained ecosystem. Anyone seeking AI sovereignty in this country cannot build it apart from that ecosystem — only by helping to carry it: through their own contributions, through support for maintainers, through reliable infrastructure.
+
+PySV accompanies this development in two directions. We fund Python projects and events that strengthen research and teaching, and through PyCon DE & PyData we run the largest conference in the German-speaking region, where the Python, data and AI community meets year after year.
+
+## The documentary
+
+In August 2025, *[Python: The Documentary](https://youtu.be/GfH4QL4VqJ0)* (CultRepo) was released — a feature-length film that traces the history of the language from its beginnings in the 1990s to its current role as the foundation of AI. Speakers include the language's creator Guido van Rossum, NumPy's creator Travis Oliphant, and long-time maintainers of the project. The film offers an accessible way into the question of how a programming language could become the infrastructure of a technological upheaval.
+
+## Sources
+
+- *Python: The Documentary*, CultRepo, August 2025, [youtu.be/GfH4QL4VqJ0](https://youtu.be/GfH4QL4VqJ0)
+- PyTorch Foundation, [pytorch.org/foundation](https://pytorch.org/foundation/)
+- Linux Foundation, *Meta Transitions PyTorch to the Linux Foundation*, [linuxfoundation.org](https://www.linuxfoundation.org/press/press-release/meta-transitions-pytorch-to-the-linux-foundation)
+- Hugging Face, [huggingface.co](https://huggingface.co/)
+- IEEE Spectrum, Top Programming Languages 2025, [spectrum.ieee.org](https://spectrum.ieee.org/top-programming-languages-2025)
