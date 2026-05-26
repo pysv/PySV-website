@@ -2,80 +2,86 @@ title: Python Software Verband
 ---
 hero:
 
-The Python Software Verband e.V. supports Python and open source in the German-speaking region. As a non-profit association based in Heidelberg, we host **PyCon DE & PyData** — the leading conference on applied AI with open source — and co-organise the European scientific Python conference **EuroSciPy**. Through our grant program we support barcamps, meetups, educational initiatives and open-source development.
+The Python Software Verband e.V. strengthens the Python programming language and its community in the German-speaking region. As a non-profit association we run PyCon DE, the leading conference on applied AI with open source, and we co-host the European scientific conference EuroSciPy as well as Camper, the barcamp planning software.
+
+Through our grants programme we support diversity initiatives, barcamps, local user groups and educational projects.
+
+---
+ecosystem_section:
+
+## Python — an ecosystem that connects research, industry and public administration
+
+Python is one of the most widely used programming languages in the world and the shared language of research institutes, large corporations, the mid-market, public authorities and educational institutions. Over the years, an ecosystem of hundreds of thousands of open-source libraries has grown up around Python: NumPy, pandas, polars, duckdb and scikit-learn, PyTorch, FastAPI, Django and Jupyter — the tools behind modern data analysis, scientific computing, web services and AI applications. In data-intensive research, analytics and AI, Python has long been the de-facto standard.
+
+That is where the strength of our community lies: a climate researcher, a quant analyst and a backend developer all reach for the same tools. Knowledge transfer between domains is not a side effect — it is the reason methods, solutions and best practices spread so quickly across disciplinary lines.
 
 ---
 conferences_section:
 
 ## Conferences and barcamps
 
-We bring the Python community together in three formats — from a large-scale event with several thousand attendees down to a weekend barcamp with 25 people. All three formats are run by volunteers, funded or co-funded by the association, and open to the entire community.
+We bring the Python community together in three formats — from a large-scale event with several thousand attendees to a weekend barcamp with 50 people. All three formats are run by volunteers, funded or co-funded by the association, and open to the entire community.
 
 <div class="conf-block conf-pycon">
-<h3>PyCon DE &amp; PyData</h3>
+<h3>PyCon DE</h3>
 
-<p><strong>PyCon DE &amp; PyData</strong> is the leading conference on applied AI with open source in the German-speaking region. Three conference days, a sprint and community day, a masterclass day. This is where the people gather who don't just talk about AI — they build it: across industries, from enterprise IT through mid-market and public administration to academic research. The next edition takes place in Heidelberg from 19 to 24 April 2027.</p>
+<p>For more than 15 years, PyCon DE has been a central international meeting point for the Python, software-engineering, data and AI community.</p>
+
+<p>More than 150 talks, panels, hands-on sessions and keynotes show real use cases instead of buzzwords — from software engineering through data science and MLOps to applied AI. The focus is on the latest trends, properly placed in context.</p>
+
+<p>Artificial intelligence is nothing fundamentally new for us, but part of a development we have been accompanying and shaping with technical depth for years. That depth lives off direct exchange between people from across Europe and beyond: from industry, research, public administration, startups and open source. It is exactly this mix that turns the conference into a catalyst between research, practical application and new ideas.</p>
+
 </div>
+
 
 <div class="conf-block conf-euroscipy">
 <h3>EuroSciPy</h3>
 
-<p><strong>EuroSciPy</strong> is the annual European conference for Python in research and science. Wherever scientific data is processed with Python in Europe — climate models, astrophysics, biomedicine, geosciences, numerical simulation — EuroSciPy is the meeting point. The Python Software Verband is co-organiser of the conference series and part of the program committee. The next edition takes place in Kraków from 18 to 23 July 2026.</p>
+<p><strong>EuroSciPy</strong> is the annual European conference for Python in research and science. Wherever scientific data is processed with Python in Europe — climate models, astrophysics, biomedicine, geosciences, numerical simulation — EuroSciPy is the meeting point. The Python Software Verband is currently the host organisation for the conference series, which has been running since 2008.</p>
 </div>
 
 <div class="conf-block conf-barcamps">
 <h3>Barcamps and PythonCamps</h3>
 
-<p>Alongside the large conferences we live the <strong>barcamp format</strong>: smaller, regional weekend events whose program is shaped by the attendees themselves — PythonCamp Cologne, PythonCamp on Rügen, Python BarCamp Karlsruhe, PyCamp Leipzig. These events are organised entirely by volunteers. The association co-funds them and provides insurance coverage and visible sponsorship; editorial control stays with the local organisers.</p>
+<p>Alongside the large conferences, we live the <strong>barcamp format</strong>: smaller, regional weekend events whose programme is shaped by the attendees themselves — from Rügen to the Alps. These events are organised entirely by volunteers.</p>
 </div>
 
 ---
 volunteers_section:
 
-## All run by volunteers
+## Carried by volunteers and the community
 
 <div class="volunteers-statement">
-<p class="big-quote">PyCon DE &amp; PyData, EuroSciPy, the barcamps, the grant program, the board — all of it is volunteer work.</p>
+<p class="big-quote">PyCon DE, EuroSciPy, the barcamps, the local user groups and our grants programme all come out of a community that gets involved.</p>
 
-<p>Several hundred people organise, curate, review talks, carry hardware, staff helpdesks and answer emails — unpaid. Sponsorship and member fees go into events, grants and infrastructure, not into salaries.</p>
+<p>Dozens of volunteers are the face of our events: on programme committees, in the selection of talks, in tracks and formats, in awareness, diversity & inclusion, in liaison with the speakers — and everywhere that individual programme items come together into a conference that brings people together and moves them forward.</p>
 
-<p>This isn't a footnote. It's the reason PyCon DE is meaningfully cheaper than comparable commercial AI conferences, why funding decisions arrive in weeks rather than months, and why on a PyCon DE junior developers and CTOs end up at the same table.</p>
+<p>That commitment makes the difference. It keeps our events professionally relevant, open and close to the community — and creates spaces in which junior developers, maintainers, researchers and CTOs end up in conversation with each other.</p>
 </div>
 
 ---
 grants_section:
 
-## Grant program
+## Grants programme
 
-With member contributions and conference proceeds we support the Python community in the German-speaking region — financially, organisationally and visibly. We fund conferences, barcamps and community events as well as concrete open-source development, education and new-talent initiatives. Recently funded, among others: Django Girls Berlin, PyData BBQ Heidelberg, GeoPython Basel, Jugend Hackt, the Zope sprint and PythonCamp on Rügen.
+With our members' contributions and the proceeds from our conferences, we support the Python community in the German-speaking region — financially and organisationally. We fund user groups, barcamps and community events, as well as concrete open-source development and education and new-talent initiatives. Recently funded, among others: PyLadies, PyCon Austria, Django Girls Berlin, PyData Südwest, GeoPython Basel, Jugend Hackt and the Munich NLP Meetup.
 
-Applications are accepted informally by email at [grants@python-verband.org](mailto:grants@python-verband.org). Details on funding levels and conditions are in our [grant program](/grants).
-
----
-ecosystem_section:
-
-## An ecosystem that connects research, industry and public administration
-
-Python is the world's most used programming language — and in the German-speaking region it's the shared language of research institutes, large corporations, mid-market companies, public administrations and educational institutions. Around Python lives an ecosystem of hundreds of thousands of open source libraries: NumPy, pandas, scikit-learn, PyTorch, FastAPI, Django, Jupyter — the tools behind modern data work, scientific computing, web services and AI applications.
-
-That's why our community works so well: a climate researcher, a quant analyst and a backend developer all reach for the same tools. Cross-pollination between domains isn't a side effect — it's the reason Python expertise spreads so quickly across fields.
+Details on funding amounts and conditions are in our [grants programme](/grants).
 
 ---
 culture_section:
 
-## The culture behind the association
+## More than a programming language — the *Pythonista* culture
 
-First-time attendees at PyCon DE get invited to a lunch table by strangers. Library maintainers answer mailing-list questions. This isn't folklore — it's a culture of helpfulness that has shaped our community for decades.
-
-We live a [Code of Conduct](/coc) that isn't decorative, and actively fund initiatives like Django Girls and diversity tickets. A broader community is a stronger one — including technically. Behind that openness lies the professional work of a registered non-profit: an elected board, an annual members' assembly, transparent finances. And several hundred volunteers running program committees, conference operations and barcamps.
+"I came for the language, but I stayed for the community" — Brett Cannon's line (PyCon US 2014) still describes the programme today. Python's culture of helpfulness has grown over decades: newcomers get pulled up to the lunch table; people who maintain a library get answers from the maintainers themselves. This is not folklore, but work — a lived Code of Conduct, initiatives like Django Girls and diversity tickets, carried by a registered non-profit and several hundred volunteers. A broader community is a better one — professionally, too.
 
 ---
 cta_section:
 
 ## Get involved
 
-As a member you support the Python community directly — from €60/year for individuals, from €600/year for companies. Members hold voting rights at the members' assembly, gain visibility on our website and actively shape our work.
+As a member, you support the Python community directly — from €60/year for individuals, from €600/year for companies. Members hold voting rights at the General Assembly, gain visibility on our website and actively shape our work.
 
-Companies looking to sponsor PyCon DE & PyData can reach us at [info@pysv.org](mailto:info@pysv.org?subject=PyCon%20DE%20Sponsoring). Grant applications go informally to [grants@python-verband.org](mailto:grants@python-verband.org). Associations, institutions and policy or public-administration contacts can reach the board at [info@pysv.org](mailto:info@pysv.org).
+Companies looking to sponsor PyCon DE can reach us at [info@pysv.org](mailto:info@pysv.org?subject=PyCon%20DE%20Sponsoring). Grant applications go informally to [grants@python-verband.org](mailto:grants@python-verband.org). Associations, institutions and policy or public-administration contacts can reach the board at [info@pysv.org](mailto:info@pysv.org).
 
 <p class="single-cta"><a class="cta cta--primary" href="/membership">Become a member</a></p>
