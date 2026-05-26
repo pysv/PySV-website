@@ -1,0 +1,52 @@
+_model: python-post
+---
+title: Our position on open source
+---
+order: 40
+---
+teaser:
+
+Free software is not a technical detail, but the foundation of modern digital value creation. The Python Software Verband sees itself as part of the free-software family — and takes its positions accordingly towards politics, public administration and business.
+---
+body:
+
+## Our starting point
+
+It is no accident that PySV is an association for a free programming language. §2 of our statutes names the promotion of free software, free education and free research as the association's purpose. §10 stipulates that, in the event of dissolution, the remaining assets are to be transferred to the *Free Software Foundation Europe* (FSFE). That is a deliberate commitment: PySV belongs in the European free-software family, not in the unspecific category of just another tech association.
+
+From that positioning follows our stance on open source — and on the political, economic and societal debate increasingly waged around it.
+
+## Open source is infrastructure
+
+In nearly every sector of the economy today, software is running whose load-bearing components are open source. Web servers, operating systems, databases, programming languages, tools for data analysis and machine learning: the open, freely available variant is, as a rule, the one in productive use. That holds for large corporations, for the mid-market, for universities, for public authorities.
+
+This observation is rarely voiced, because open source works without being visible. It becomes visible when something does not work — when a central library carries a security vulnerability, when a maintainer steps away in exhaustion, when a piece of volunteer-maintained infrastructure fails. Anyone who takes open source seriously as infrastructure has to treat it like infrastructure: plan it, fund it, maintain it.
+
+## Digital sovereignty needs free software
+
+In recent years, the German government and the European Commission have repeatedly made *digital sovereignty* the guiding theme of their digital policy. Anyone taking that term seriously cannot get past free software: sovereignty means knowing how a piece of software works, being able to make your own modifications to it, and not falling into dependence on a single vendor. In the strict sense, only free software meets all three of these requirements.
+
+The German government has drawn institutional consequences from this in the *Sovereign Tech Agency* — launched earlier as the *Sovereign Tech Fund*. The agency funds open-source base technologies on the reasoning that these are public goods, deserving of a public contribution. To date, around 60 projects have been funded in this framework with a combined total of more than 23 million euros; a further expansion has been decided.
+
+At the European level, FSFE pursues a related approach with its *Public Money? Public Code!* initiative: if software is developed with public funds, it should also be made publicly available. PySV shares that position.
+
+## The Cyber Resilience Act and the maintainers
+
+With the *Cyber Resilience Act* (CRA), the European Union put into force on 11 December 2024 a law that regulates the cybersecurity of digital products across their lifecycle. From 11 September 2026, obligations to report vulnerabilities apply; from 11 December 2027, the full scope takes effect.
+
+For open-source software, the CRA brings new duties of care. Purely non-commercial contributions to free software remain exempt. As soon, however, as donations beyond cost recovery are accepted, commercial services are offered around a project, or personal data is processed, requirements apply. A new legal figure, the *Open Source Steward*, describes organisations that maintain and secure free software on a sustained basis — they are subject to their own obligations, less strict than those of commercial vendors, but obligations nonetheless.
+
+In PySV's view, the thrust of the CRA is, in principle, correct — anyone placing software on the market bears responsibility for its security. What matters is the implementation. If the law ends up driving volunteer maintainers away out of concern about liability, Europe has not gained, but lost. What is needed is clear guidance, a pragmatic interpretation of the steward provisions, and a funding landscape that carries critical projects with planning certainty.
+
+## What we do concretely
+
+PySV takes positions in these debates through statements, contributions to hearings, and direct cooperation with partner organisations — from FSFE to the Open Source Business Alliance to European sister associations. We fund Python open-source projects from our own resources through the annual grants programme. We connect community, business and politics through our conferences.
+
+Our stance here is not ideological, but practically grounded: where free software is the load-bearing element of an infrastructure, it has to be treated as such — with resources, with planning certainty, with recognition for the people who carry it.
+
+## Sources
+
+- European Commission, *Cyber Resilience Act*, [digital-strategy.ec.europa.eu](https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act)
+- Sovereign Tech Agency, [sovereign.tech](https://www.sovereign.tech/)
+- Free Software Foundation Europe, *Public Money? Public Code!*, [fsfe.org](https://fsfe.org/)
+- Federal Ministry for Economic Affairs and Energy, *Wichtiger Schritt für nachhaltige Weiterentwicklung von Open-Source-Basistechnologien*, [bundeswirtschaftsministerium.de](https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Pressemitteilungen/2024/11/20241104-sovereign-tech-fund.html)

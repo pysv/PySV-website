@@ -1,0 +1,49 @@
+_model: python-post
+---
+title: A short history of the Python Software Verband
+---
+order: 50
+---
+teaser:
+
+PySV has represented the German-speaking Python community for more than two decades. Its roots reach back into the early open-source scene of the 2000s — and its present runs through the largest Python conferences in Europe.
+---
+body:
+
+## The roots: DZUG
+
+The history of PySV does not begin in 2011 with the rename, but years earlier with the *Deutsche Zope User Group* (DZUG). This user group had formed since the early 2000s around what was then the leading Python-based web framework, *Zope*, and the content management system *Plone*. It was constituted as a registered association in 2004 and ran regular conferences — the *DZUG-Tagungen* — in German university cities.
+
+What started as a user group for a specific technology grew, over the years, into a broader umbrella for free software in the Python world. The Zope-centred focus became increasingly narrow for a community that had long since worked across the entire breadth of the Python ecosystem — from web development to science to data analysis tooling.
+
+## The rename: PyCon DE 2011
+
+From 4 to 9 October 2011, the first *PyCon DE* was held in Leipzig — the first German Python conference, with around 200 attendees, three keynotes and 55 talks, hosted at the Leipziger Kubus of the Helmholtz Centre for Environmental Research. At that conference's General Assembly, DZUG unanimously decided to open up and to rename itself *Python Software Verband*. The organisational transition then stretched over the following years.
+
+What had emerged was an association modelled on the international Python Software Foundation — non-profit, member-driven, committed to the spread of free software. The difference: PySV addresses the German-speaking region and grounds its work in Germany, Austria and German-speaking Switzerland.
+
+## What has been built since
+
+In the more than twenty years since the association was founded, a structure has settled around four pillars.
+
+*Conferences.* PyCon DE & PyData, with more than 1,500 attendees, is the largest Python conference in the German-speaking region and stands in the tradition of an event series that began with the DZUG-Tagung and started over with PyCon DE 2011. Alongside this, PySV acts as the host organisation for EuroSciPy, complemented by smaller formats such as PythonCamp, the Beethoven Sprint and Python Pizza.
+
+*Grants.* Through its grants programme, PySV supports events and development projects from the community each year. Recipients in recent years have included DjangoGirls workshops, the GeoPython conference, initiatives for young people such as *Jugend hackt*, and development sprints in the Plone ecosystem.
+
+*Advocacy.* PySV represents the community towards politics, the media and other associations. The statutes commit the association to non-profit status, to the promotion of science, research, education and culture through free software, and to supporting members and non-members alike.
+
+*Infrastructure.* The association provides user groups and initiatives with organisational and technical infrastructure — from event insurance to bookkeeping support for volunteers.
+
+## Why history matters
+
+The association's work is not spectacular. It consists of board meetings, grant decisions, tax returns, accounting, venue contracts, correspondence with authorities. It is the kind of community work that becomes invisible when it functions.
+
+That it exists — and has existed without a break for more than two decades — is the precondition for voluntary contributions to be sustainable over time. A volunteer-organised community conference with 1,500 attendees cannot be pulled together from a standing start. It needs an association in the background that signs contracts, takes on liability, and maintains structures over years.
+
+This is exactly what PySV does. Anyone who deals with the association — as a member, as an applicant, as a partner organisation, as a public authority — can rely on an established structure with roots in the early days of the German open-source scene.
+
+## Sources
+
+- Linux-Magazin, *Aus DZUG wird Python Software Verband*, [linux-magazin.de](https://www.linux-magazin.de/news/aus-dzug-wird-python-software-verband/)
+- Communardo, *Rückblick auf die PyCon DE 2011*, [communardo.de](https://www.communardo.de/techblog/rueckblick-auf-die-pycon-de-2011-1-deutsche-python-konferenz/)
+- Python Software Verband, *Python verbindet — Der PySV in 20 Minuten*, PyCon DE 2013, [pyvideo.org](https://pyvideo.org/pycon-de-2013/python-verbindet-der-python-software-verband-e.html)
