@@ -104,6 +104,51 @@ h4 {
     line-height: 1.2;
 }
 
+/* Consistent vertical rhythm for headings.
+   Sizes are not changed here — only spacing. Margins are expressed in
+   the global --rythm-unit so headings always land on the same beat as
+   paragraphs (which have margin-bottom: var(--rythm-unit)). */
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: calc(var(--rythm-unit) / 2);
+}
+
+h2 {
+    margin-bottom: calc(var(--rythm-unit) * 0.66);
+}
+
+/* Give headings air above when they follow flowing content, so each
+   sub-section is visually distinct without changing type sizes. The
+   :not(:first-child) guard prevents an unwanted gap above the very
+   first heading inside a section/card. */
+h2:not(:first-child) {
+    margin-top: calc(var(--rythm-unit) * 1.25);
+}
+
+h3:not(:first-child) {
+    margin-top: calc(var(--rythm-unit) * 0.75);
+}
+
+h4:not(:first-child),
+h5:not(:first-child),
+h6:not(:first-child) {
+    margin-top: calc(var(--rythm-unit) * 0.5);
+}
+
+/* When a heading directly follows another heading (e.g. blog post title
+   immediately followed by a date sub-heading), don't double-stack the
+   margins — collapse the gap so they read as a pair. */
+h1 + h2, h1 + h3, h1 + h4, h1 + h5, h1 + h6,
+h2 + h3, h2 + h4, h2 + h5, h2 + h6,
+h3 + h4, h3 + h5, h3 + h6,
+h4 + h5, h4 + h6,
+h5 + h6 {
+    margin-top: 0;
+}
+
 .main-navigation a,
 .dropdown--button {
     font-size: 1.2em;
@@ -748,15 +793,9 @@ ol.content-list {
     line-height: 1.7em;
 }
 
-/* Conferences & barcamps */
-.conferences-block > h2,
-.grants-section > h2,
-.ecosystem-section > h2,
-.culture-section > h2,
-.cta-section > h2,
-.volunteers-accent > h2 {
-    margin-bottom: calc(var(--rythm-unit) / 2);
-}
+/* Conferences & barcamps
+   (h2 spacing is handled by the global heading rules above so all
+   sections share the same rhythm.) */
 
 .conf-block {
     border-top: 1px solid var(--primary-color);
@@ -767,9 +806,11 @@ ol.content-list {
     border-bottom: 1px solid var(--primary-color);
 }
 
+/* Within a conf-block card the h3 plays the role of a card title;
+   only the size is customised, the spacing comes from the global
+   heading rules. */
 .conf-block h3 {
     font-size: 1.25em;
-    margin-bottom: calc(var(--rythm-unit) / 2);
 }
 
 .conf-block p {
