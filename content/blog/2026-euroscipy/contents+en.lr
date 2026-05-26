@@ -1,10 +1,12 @@
 title: EuroSciPy 2026 — Kraków, 18 to 23 July
 ---
-pub_date: 2026-03-07
+pub_date: 2025-11-11
 ---
 show_on_homepage: yes
 ---
-teaser_image: krakow-2026.jpg
+teaser_image: ep26-teaser.png
+---
+highlighted: yes
 ---
 teaser_text:
 
@@ -15,9 +17,10 @@ body:
 
 ## EuroSciPy 2026 — Kraków, 18 to 23 July
 
-![General view of Kraków's city centre from Krakus Mound](./krakow-2026.jpg)
+![View across the centre of Kraków from Krakus Mound](./krakow-2026.jpg)
+Image by Maciej Talar / KSAF AGH, CC BY-SA 4.0, [wikimedia link](https://commons.wikimedia.org/w/index.php?curid=114466379)
 
-<small class="opacity-8">Kraków, general view of the city centre from Krakus Mound. Photo: Zygmunt Put, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, via <a href="https://commons.wikimedia.org/wiki/File:Krak%C3%B3w_general_view_of_the_city_center_from_SE_(from_Krak_Mound),_Poland.jpg">Wikimedia Commons</a>.</small>
+<small class="opacity-8">Kraków, view across the city centre from Krakus Mound. Photo: Zygmunt Put, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, via <a href="https://commons.wikimedia.org/wiki/File:Krak%C3%B3w_general_view_of_the_city_center_from_SE_(from_Krak_Mound),_Poland.jpg">Wikimedia Commons</a>.</small>
 
 From **18 to 23 July 2026**, the European community for scientific Python gathers at **AGH University of Kraków**. EuroSciPy is the cross-disciplinary conference for everyone who uses Python in research and teaching — from astrophysics to bioinformatics, from machine learning to reproducible science.
 
@@ -31,6 +34,7 @@ This is the **18th edition** of EuroSciPy. The conference returns to Kraków. It
 - **Venue:** AGH University of Kraków, Poland
 
 ![Main building of AGH University of Kraków](./agh-main-building.jpg)
+Image by Zygmunt Put, CC BY-SA 4.0, [wikimedia link](https://commons.wikimedia.org/w/index.php?curid=145679603)
 
 <small class="opacity-8">Main building (A-0) of AGH University of Kraków, al. Mickiewicza 30. Photo: Maciej Talar / KSAF AGH, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, via <a href="https://commons.wikimedia.org/wiki/File:Gmach_g%C5%82%C3%B3wny_AGH.jpg">Wikimedia Commons</a>.</small>
 
@@ -42,7 +46,7 @@ For the first time, the sprint days are held **jointly with EuroPython**, which 
 
 ### Topics
 
-EuroSciPy covers the core tools of the scientific Python stack — NumPy, SciPy, pandas, scikit-learn, JAX, PyTorch, Dask, Xarray, Numba — and the domain libraries built on top of them in astronomy, climate science, biology, materials science, geosciences and many other fields. Cross-cutting themes include reproducible research, performance, visualisation, and maintainer topics.
+EuroSciPy covers the core tools of the scientific Python stack — NumPy, SciPy, pandas, scikit-learn, JAX, PyTorch, Dask, Xarray, Numba — and the domain libraries built on top of them, in astronomy, climate science, biology, materials science, geosciences and many other fields. Cross-cutting themes include reproducible research, performance, visualisation, and maintainer topics.
 
 ### Call for Proposals
 

@@ -104,6 +104,35 @@ h4 {
     line-height: 1.2;
 }
 
+/* Heading rhythm inside body content (.content) — does not touch
+   headings in the nav, hero, USP cards or other chrome. Sizes are
+   unchanged; this only adds breathing room beneath each heading so
+   blog/event/page bodies don't read as a wall of text. Existing
+   section-scoped overrides (.conf-block h3, .ecosystem-section > h2,
+   …) still win because they're more specific. */
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+    margin-bottom: calc(var(--rythm-unit) / 2);
+}
+
+.content h2 {
+    margin-bottom: calc(var(--rythm-unit) * 0.66);
+}
+
+/* When a heading sits directly under another heading (e.g. blog post
+   <h2>title</h2><h3>date</h3>), don't double-stack the margin — they
+   should read as a paired metadata block. */
+.content h1 + h2, .content h1 + h3, .content h1 + h4, .content h1 + h5, .content h1 + h6,
+.content h2 + h3, .content h2 + h4, .content h2 + h5, .content h2 + h6,
+.content h3 + h4, .content h3 + h5, .content h3 + h6,
+.content h4 + h5, .content h4 + h6,
+.content h5 + h6 {
+    margin-top: 0;
+}
+
 .main-navigation a,
 .dropdown--button {
     font-size: 1.2em;
