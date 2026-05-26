@@ -110,6 +110,7 @@ h4 {
    blog/event/page bodies don't read as a wall of text. Existing
    section-scoped overrides (.conf-block h3, .ecosystem-section > h2,
    …) still win because they're more specific. */
+.content h1,
 .content h2,
 .content h3,
 .content h4,
@@ -118,6 +119,7 @@ h4 {
     margin-bottom: calc(var(--rythm-unit) / 2);
 }
 
+.content h1,
 .content h2 {
     margin-bottom: calc(var(--rythm-unit) * 0.66);
 }
@@ -609,6 +611,9 @@ p {
 .content ul,
 .content ol {
     margin-left: 1em;
+    /* Match the paragraph rhythm so a heading or paragraph that follows
+       a list isn't flush against it. */
+    margin-bottom: var(--rythm-unit);
 }
 
 .content ul {
@@ -623,6 +628,9 @@ p {
 ol.content-list {
     list-style-type: none;
     margin-left: 0;
+    /* The card grids (board, companies, blog index) provide their own
+       gap rules — don't add a list margin-bottom on top of that. */
+    margin-bottom: 0;
 }
 
 .board-member h3 {
@@ -633,6 +641,13 @@ ol.content-list {
 .company-members {
     display: grid;
     gap: var(--rythm-unit);
+}
+
+.current-members,
+.current-auditors,
+.former-members {
+    margin-top: calc(var(--rythm-unit) * 3);
+    margin-bottom: var(--rythm-unit);
 }
 
 .board-member,
