@@ -110,6 +110,7 @@ h4 {
    blog/event/page bodies don't read as a wall of text. Existing
    section-scoped overrides (.conf-block h3, .ecosystem-section > h2,
    …) still win because they're more specific. */
+.content h1,
 .content h2,
 .content h3,
 .content h4,
@@ -118,6 +119,7 @@ h4 {
     margin-bottom: calc(var(--rythm-unit) / 2);
 }
 
+.content h1,
 .content h2 {
     margin-bottom: calc(var(--rythm-unit) * 0.66);
 }
