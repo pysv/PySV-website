@@ -1,0 +1,72 @@
+title: Wir haben unsere Community gefragt: Wie KI die Arbeit von Entwickler:innen verändert
+---
+pub_date: 2026-07-21
+---
+teaser_image: social-card-de.png
+---
+show_on_homepage: yes
+---
+highlighted: yes
+---
+teaser_text: 
+
+KI ersetzt keine Jobs, sie verändert sie: 383 Fachleute aus der PyCon-DE-Community berichten, wie sich ihre Arbeit vom Schreiben zum Prüfen verschiebt. Neun von zehn haben neue Aufgaben, nur 11 % arbeiten mit klaren KI-Regeln
+
+---
+body:
+
+*Eine Umfrage des Python Software Verbands (PySV) in der PyCon-DE-Community zeigt: KI vernichtet keine Jobs. Sie verschiebt Aufgaben, Verantwortung und Anforderungen schneller, als viele Unternehmen ihre Prozesse anpassen.*
+
+![Balkendiagramm: Neun von zehn Befragte haben durch KI neue Aufgaben, an erster Stelle das Prüfen und Kuratieren von KI-Output (68 %).](02_neue_aufgaben.png)
+
+*Neun von zehn berichten von neuen Aufgaben. Am häufigsten nennen sie das Prüfen und Kuratieren von KI-Ergebnissen (68 %). Quelle: PySV, Erhebung in der PyCon-DE-Community, Juni 2026, n=340.*
+
+Die Debatte über KI in der Softwareentwicklung wird oft von Prognosen bestimmt. Ob Entwickler:innen bald ersetzt werden, diskutieren vor allem Menschen, die nicht selbst programmieren. Deshalb haben wir diejenigen gefragt, die täglich mit KI arbeiten.
+
+Im Juni 2026 befragte der Python Software Verband die PyCon-DE-Community. 383 Softwareentwickler:innen, Data Scientists und AI-Engineers nahmen teil. Das Ergebnis: Keine der befragten Personen sieht den eigenen Arbeitsplatz unmittelbar gefährdet. Die Arbeit verändert sich jedoch spürbar.
+
+## Warum wir gefragt haben
+
+Der Python Software Verband vertritt seit mehr als 20 Jahren die Python-Community im deutschsprachigen Raum. Als Interessenvertretung wollten wir die Debatte mit Daten aus der Praxis ergänzen statt mit weiteren Prognosen. Wer täglich mit KI arbeitet, kann ihren Einfluss am besten beurteilen.
+
+## Was die Praxis zeigt
+
+**Keine Jobs gehen verloren – die Aufgaben ändern sich.** Keine der befragten Personen sieht den eigenen Arbeitsplatz unmittelbar durch KI gefährdet. Neun von zehn übernehmen neue Aufgaben. KI gehört inzwischen zum Arbeitsalltag: 96 % nutzen entsprechende Werkzeuge mehrmals täglich. Fast jede zweite Person gibt an, dass KI mindestens 30 % der Routinearbeit übernimmt.
+
+**Offen statt ängstlich.** Die Befragten betrachten KI als Werkzeug. Zwei Drittel erleben ihre Rolle als aufgewertet oder unverändert. Bei 58 % ist das Vertrauen in KI-Ergebnisse in den vergangenen zwei Jahren gestiegen. Die Daten liefern keine Hinweise auf eine verbreitete Angst vor Arbeitsplatzverlust.
+
+**Weniger programmieren, mehr beurteilen.** 68 % nennen das Prüfen und Kuratieren von KI-Ergebnissen als neue Aufgabe. Entwickler:innen bewerten, ob generierter Code korrekt, sicher und wartbar ist. Architektur, Domänenwissen und Kommunikation gewinnen an Gewicht.
+
+![Gegenüberstellung: Tätigkeiten, die neu hinzukommen (KI-Output prüfen 68 %, Domänenwissen 60 %, Architektur 56 %), gegenüber Tätigkeiten, die die KI übernimmt (Code schreiben 76 %, Recherche 44 %, Refactoring 35 %).](03_skillshift_gegenueberstellung.png)
+
+*Was Entwickler:innen an KI abgeben – und welche Aufgaben wichtiger werden. Quelle: PySV, Erhebung in der PyCon-DE-Community, Juni 2026.*
+
+**Produktiver – aber stärker belastet.** 67 % berichten von einer höheren Arbeitsbelastung. KI erzeugt mehr Code und mehr Vorschläge, die geprüft werden müssen. 89 % kontrollieren KI-Ergebnisse manuell, 76 % zusätzlich mit Tests. Geschwindigkeit ersetzt keine Qualitätssicherung.
+
+> „Unsere Daten stützen die Schlagzeile ‚KI ersetzt Entwickler‘ nicht. Was wir sehen, ist keine Verdrängung, sondern eine Verschiebung der Aufgaben: Es wird anders gearbeitet: dichter und mit mehr Verantwortung. Der Beruf verliert nicht an Bedeutung, vielmehr verlagert sich der Schwerpunkt von der Code-Produktion zur Verantwortung für das Ergebnis.“
+> *Alexander C.S. Hendorf, Vorstand des Python Software Verbands*
+> 
+**Governance bleibt die Schwachstelle.** Nur 30 % arbeiten mit formalen Prüfprozessen für KI-Ergebnisse. Lediglich 11 % verfügen über dokumentierte Regeln für den KI-Einsatz. 71 % vermissen klare Vorgaben ihres Arbeitgebers. Viele Unternehmen haben KI schneller eingeführt als verbindliche Standards.
+
+
+## Die Ergebnisse auf einen Blick
+
+- **383** Teilnehmende aus der PyCon-DE-Community
+- **0** sehen ihren Arbeitsplatz unmittelbar durch KI gefährdet
+- **96 %** nutzen KI mehrmals täglich
+- **58 %** vertrauen KI stärker als noch vor zwei Jahren
+- **68 %** prüfen und kuratieren KI-Ergebnisse
+- **67 %** berichten von höherer Arbeitsbelastung
+- **11 %** verfügen über dokumentierte KI-Governance
+
+## Fazit
+
+Die Ergebnisse zeigen einen tiefgreifenden Wandel des Berufsbildes. KI ersetzt Entwickler:innen nicht. Sie verschiebt ihre Arbeit: weg vom Schreiben einzelner Codezeilen, hin zu Bewertung, Architektur, Qualitätssicherung und Verantwortung. Unternehmen müssen ihre Prozesse und ihre Governance an diese neue Arbeitsteilung anpassen.
+
+## Die Studie lesen
+
+Die vollständigen Ergebnisse der Umfrage: **https://insights.pysv.org/36afd25efc7788dbdf9ab5e35a9fe1955c22772dab43e509/**
+
+## In der Presse
+
+Das [Handelsblatt hat die Studie aufgegriffen](https://www.handelsblatt.com/karriere/karriere-ki-bedroht-viele-it-jobs-diese-halten-experten-fuer-zukunftssicher/100238210.html) (Paywall).

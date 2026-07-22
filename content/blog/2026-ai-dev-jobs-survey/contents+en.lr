@@ -1,0 +1,71 @@
+title: We Asked Our Community: How AI Is Changing the Work of Developers
+---
+pub_date: 2026-07-21
+---
+teaser_image: social-card-en.png
+---
+show_on_homepage: yes
+---
+highlighted: yes
+---
+teaser_text: 
+
+AI isn't cutting jobs: it's changing them. 383 professionals from the PyCon DE community describe how their work is shifting from writing to reviewing, with nine in ten taking on new tasks and just 11 % working with clear AI rules.
+
+---
+body:
+
+*A survey by the Python Software Verband (PySV) in the PyCon DE community shows: AI isn't cutting jobs. It shifts tasks, responsibility, and skill requirements faster than many companies adapt their processes.*
+
+![Bar chart: nine in ten respondents have new tasks through AI, the most common being reviewing and curating AI output (68%).](02_new_tasks.png)
+
+*Nine in ten report new tasks. The most common: reviewing and curating AI output (68%). Source: PySV survey in the PyCon-DE community, June 2026, n=340.*
+
+The debate about AI in software development is often driven by forecasts. Whether developers will soon be replaced is discussed mainly by people who don't write code themselves. So we asked the people who work with AI every day.
+
+In June 2026, the Python Software Verband surveyed the PyCon DE community. 383 software developers, data scientists, and AI engineers took part. The result: not one respondent sees their own job as immediately at risk. But the work is changing noticeably.
+
+## Why we ran the survey
+
+The Python Software Verband has represented the German-speaking Python community for more than 20 years. As their representative, we wanted to add data from practice to the debate instead of yet another forecast. The people who work with AI every day are best placed to judge its impact.
+
+## What practice shows
+
+**No jobs are lost – the tasks change.** Not one respondent sees their own job as immediately at risk from AI. Nine in ten take on new tasks. AI is now part of everyday work: 96% use such tools several times a day. Almost every second person says AI handles at least 30% of routine work.
+
+**Open, not anxious.** Respondents see AI as a tool. Two-thirds experience their role as upgraded or unchanged. For 58%, trust in AI output has grown over the past two years. The data show no sign of widespread fear of job loss.
+
+**Less coding, more judging.** 68% name reviewing and curating AI output as a new task. Developers assess whether generated code is correct, secure, and maintainable. Architecture, domain knowledge, and communication are gaining weight.
+
+![Comparison: tasks that are newly added (reviewing AI output 68%, domain knowledge 60%, architecture 56%) versus tasks AI takes over (writing code 76%, research 44%, refactoring 35%).](03_skill_shift.png)
+
+*What developers hand off to AI – and which tasks become more important. Source: PySV survey in the PyCon-DE community, June 2026.*
+
+**More productive – but under greater strain.** 67% report a higher workload. AI produces more code and more suggestions that have to be reviewed. 89% check AI output manually, 76% additionally with tests. Speed is no substitute for quality assurance.
+
+> “Our data does not support the headline ‘AI replaces developers.’ What we are seeing is not displacement, but a shift in tasks: the way work is done is changing—becoming more intensive and involving greater responsibility. The profession is not losing its significance; rather, the focus is shifting from code production to responsibility for the outcome.”
+> *Alexander C.S. Hendorf, board member of the Python Software Verband'
+
+**Governance remains the weak point.** Only 30% work with formal review processes for AI output. Just 11% have documented rules for AI use. 71% miss clear guidelines from their employer. Many companies have adopted AI faster than binding standards.
+
+## The results at a glance
+
+- **383** participants from the PyCon DE community
+- **0** see their job as immediately at risk from AI
+- **96%** use AI several times a day
+- **58%** trust AI more than they did two years ago
+- **68%** review and curate AI output
+- **67%** report a higher workload
+- **11%** have documented AI governance
+
+## Conclusion
+
+The findings show a profound shift in the profession. AI does not replace developers. It shifts their work: away from writing individual lines of code, toward assessment, architecture, quality assurance, and responsibility. Companies must adapt their processes and their governance to this new division of labor.
+
+## Read the study
+
+The full survey results are available at **https://insights.pysv.org/36afd25efc7788dbdf9ab5e35a9fe1955c22772dab43e509/**
+
+## Media Coverage
+
+The leading German business newspaper [Handelsblatt has covered the study](https://www.handelsblatt.com/karriere/karriere-ki-bedroht-viele-it-jobs-diese-halten-experten-fuer-zukunftssicher/100238210.html) (paywall).

@@ -4,7 +4,9 @@ pub_date: 2026-04-30
 ---
 teaser_image: pyconde26-recap.jpg
 ---
-show_on_homepage: yes
+show_on_homepage: no
+---
+highlighted: no
 ---
 teaser_text:
 
