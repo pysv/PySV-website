@@ -21,7 +21,7 @@
 
 <section class="usps">
     <ol class="usps--highlighted">
-        {% for post in site.query('/blog').filter(F.show_on_homepage == True)
+        {% for post in site.query('/blog', alt=this.alt).filter(F.show_on_homepage == True)
         .filter(F.highlighted == True).order_by('-pub_date') %}
 
         {{ render_blog_as_usp(post) }}
@@ -30,7 +30,7 @@
     </ol>
 
     <ol class="usps--others">
-        {% for post in site.query('/blog').filter(F.show_on_homepage == True)
+        {% for post in site.query('/blog', alt=this.alt).filter(F.show_on_homepage == True)
         .filter(F.highlighted == False).order_by('-pub_date') %}
 
         {{ render_blog_as_usp(post) }}
