@@ -8,17 +8,24 @@ pages:
 #- name: Events
 #  path: events
 - name: Förderung
+  name_en: Grants
   path: grants
 - name: Über
+  name_en: About
   path: about
   subpages:
   - name: Vorstand
+    name_en: Board
     path: /board
   - name: Dokumente
+    name_en: Documents
     path: /documents
   - name: Mitgliedschaft
+    name_en: Membership
     path: /membership
   - name: Nachhaltigkeit
+    name_en: Sustainability
     path: /sustainability
   - name: Erstattungen
+    name_en: Reimbursements
     path: /reimbursements

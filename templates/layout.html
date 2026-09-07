@@ -16,6 +16,9 @@
 <body class="page">
     <div class="main-content">
 
+        {% set is_en = this is defined and this.alt == 'en' %}
+        {% macro nav_label(item, en) %}{{ item.name_en if en and item.name_en else item.name }}{% endmacro %}
+
         <nav aria-label="Site Navigation" class="main-navigation">
 
             <ol class="intrapage-links">
@@ -27,18 +30,18 @@
                 {% if page.subpages %}
                 <li class="dropdown">
                     <button class="dropdown--button">
-                        {{ page.name }}
+                        {{ nav_label(page, is_en) }}
                     </button>
 
                     <div class="dropdown--content">
                         {% for subpage in page.subpages %}
-                        <a href="{{ subpage.path|url }}">{{ subpage.name }}</a>
+                        <a href="{{ subpage.path|url }}">{{ nav_label(subpage, is_en) }}</a>
                         {% endfor %}
                     </div>
                 </li>
                 {% else %}
                 <li class="navigation-link">
-                    <a href="{{ ('/' ~ page.path)|url }}">{{ page.name }}</a>
+                    <a href="{{ ('/' ~ page.path)|url }}">{{ nav_label(page, is_en) }}</a>
 
                 </li>
                 {% endif %}
@@ -61,10 +64,10 @@
                             {% for page in bag('links')['pages'] %}
                             {% if page.subpages %}
                             {% for subpage in page.subpages %}
-                            <li><a href="{{ subpage.path|url }}">{{ subpage.name }}</a></li>
+                            <li><a href="{{ subpage.path|url }}">{{ nav_label(subpage, is_en) }}</a></li>
                             {% endfor %}
                             {% else %}
-                            <li><a href="{{ ('/' ~ page.path)|url }}">{{ page.name }}</a></li>
+                            <li><a href="{{ ('/' ~ page.path)|url }}">{{ nav_label(page, is_en) }}</a></li>
                             {% endif %}
                             {% endfor %}
                         </ul>
